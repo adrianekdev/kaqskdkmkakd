@@ -7,7 +7,7 @@
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
 ]=]
 
--- Instances: 484 | Scripts: 132 | Modules: 0 | Tags: 0
+-- Instances: 489 | Scripts: 132 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- StarterGui.zerohubsigmayes
@@ -202,7 +202,6 @@ G2L["1c"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.f
 
 -- StarterGui.zerohubsigmayes.main
 G2L["1d"] = Instance.new("Frame", G2L["1"]);
-G2L["1d"]["Visible"] = false;
 G2L["1d"]["BorderSizePixel"] = 0;
 G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["1d"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
@@ -390,7 +389,6 @@ G2L["33"]["Name"] = [[Smooth GUI Dragging]];
 
 -- StarterGui.zerohubsigmayes.main.AiFrame
 G2L["34"] = Instance.new("Frame", G2L["1d"]);
-G2L["34"]["Visible"] = false;
 G2L["34"]["BorderSizePixel"] = 0;
 G2L["34"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["34"]["Size"] = UDim2.new(1, 0, 1, 0);
@@ -402,7 +400,7 @@ G2L["34"]["BackgroundTransparency"] = 1;
 -- StarterGui.zerohubsigmayes.main.AiFrame.input
 G2L["35"] = Instance.new("Frame", G2L["34"]);
 G2L["35"]["BorderSizePixel"] = 0;
-G2L["35"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["35"]["BackgroundColor3"] = Color3.fromRGB(2, 48, 73);
 G2L["35"]["Size"] = UDim2.new(0, 537, 0, 42);
 G2L["35"]["Position"] = UDim2.new(0.1088, 0, 0.85345, 0);
 G2L["35"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
@@ -421,3833 +419,3866 @@ G2L["37"]["Transparency"] = 0.5;
 G2L["37"]["Color"] = Color3.fromRGB(151, 151, 151);
 
 
+-- StarterGui.zerohubsigmayes.main.AiFrame.input.UIGradient
+G2L["38"] = Instance.new("UIGradient", G2L["35"]);
+G2L["38"]["Rotation"] = 90;
+G2L["38"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
+
+
 -- StarterGui.zerohubsigmayes.main.AiFrame.TextBox
-G2L["38"] = Instance.new("TextBox", G2L["34"]);
-G2L["38"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["38"]["BorderSizePixel"] = 0;
-G2L["38"]["TextWrapped"] = true;
-G2L["38"]["TextSize"] = 20;
-G2L["38"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["38"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["38"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["38"]["PlaceholderText"] = [[Ask AI anything]];
-G2L["38"]["Size"] = UDim2.new(0, 431, 0, -42);
-G2L["38"]["Position"] = UDim2.new(0.144, 0, 0.97414, 0);
-G2L["38"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["38"]["Text"] = [[]];
-G2L["38"]["BackgroundTransparency"] = 1;
+G2L["39"] = Instance.new("TextBox", G2L["34"]);
+G2L["39"]["CursorPosition"] = -1;
+G2L["39"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["39"]["BorderSizePixel"] = 0;
+G2L["39"]["TextWrapped"] = true;
+G2L["39"]["TextSize"] = 20;
+G2L["39"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["39"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["39"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["39"]["PlaceholderText"] = [[Ask AI anything]];
+G2L["39"]["Size"] = UDim2.new(0, 431, 0, -42);
+G2L["39"]["Position"] = UDim2.new(0.144, 0, 0.97414, 0);
+G2L["39"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["39"]["Text"] = [[]];
+G2L["39"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.zerohubsigmayes.main.AiFrame.ImageButton
-G2L["39"] = Instance.new("ImageButton", G2L["34"]);
-G2L["39"]["BorderSizePixel"] = 0;
-G2L["39"]["BackgroundTransparency"] = 1;
+G2L["3a"] = Instance.new("ImageButton", G2L["34"]);
+G2L["3a"]["BorderSizePixel"] = 0;
+G2L["3a"]["BackgroundTransparency"] = 1;
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["39"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["39"]["Image"] = [[rbxassetid://11295283960]];
-G2L["39"]["Size"] = UDim2.new(0, 25, 0, 24);
-G2L["39"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["39"]["Position"] = UDim2.new(0.91248, 0, 0.87476, 0);
+G2L["3a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3a"]["Image"] = [[rbxassetid://11295283960]];
+G2L["3a"]["Size"] = UDim2.new(0, 25, 0, 24);
+G2L["3a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3a"]["Position"] = UDim2.new(0.91248, 0, 0.87476, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.AiFrame.ImageButton.LocalScript
-G2L["3a"] = Instance.new("LocalScript", G2L["39"]);
+G2L["3b"] = Instance.new("LocalScript", G2L["3a"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.AiFrame.ScrollingFrame
-G2L["3b"] = Instance.new("ScrollingFrame", G2L["34"]);
-G2L["3b"]["Active"] = true;
-G2L["3b"]["BorderSizePixel"] = 0;
-G2L["3b"]["CanvasSize"] = UDim2.new(5, 0, 200, 0);
-G2L["3b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["3b"]["Size"] = UDim2.new(0, 539, 0, 240);
-G2L["3b"]["Position"] = UDim2.new(0.1088, 0, 0.1408, 0);
-G2L["3b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3b"]["ScrollBarThickness"] = 5;
-G2L["3b"]["BackgroundTransparency"] = 1;
+G2L["3c"] = Instance.new("ScrollingFrame", G2L["34"]);
+G2L["3c"]["Active"] = true;
+G2L["3c"]["BorderSizePixel"] = 0;
+G2L["3c"]["CanvasSize"] = UDim2.new(5, 0, 200, 0);
+G2L["3c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3c"]["Size"] = UDim2.new(0, 539, 0, 240);
+G2L["3c"]["Position"] = UDim2.new(0.1088, 0, 0.1408, 0);
+G2L["3c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3c"]["ScrollBarThickness"] = 5;
+G2L["3c"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.zerohubsigmayes.main.AiFrame.ScrollingFrame.ResponseLabel
-G2L["3c"] = Instance.new("TextLabel", G2L["3b"]);
-G2L["3c"]["TextWrapped"] = true;
-G2L["3c"]["BorderSizePixel"] = 0;
-G2L["3c"]["TextSize"] = 20;
-G2L["3c"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["3c"]["TextYAlignment"] = Enum.TextYAlignment.Top;
-G2L["3c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["3c"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["3c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["3c"]["BackgroundTransparency"] = 1;
-G2L["3c"]["RichText"] = true;
-G2L["3c"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["3c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3c"]["Text"] = [[print("This AI can generate scripts!")]];
-G2L["3c"]["Name"] = [[ResponseLabel]];
-
-
--- StarterGui.zerohubsigmayes.main.AiFrame.ScrollingFrame.ResponseLabel.Comments_
 G2L["3d"] = Instance.new("TextLabel", G2L["3c"]);
-G2L["3d"]["ZIndex"] = 5;
+G2L["3d"]["TextWrapped"] = true;
+G2L["3d"]["BorderSizePixel"] = 0;
 G2L["3d"]["TextSize"] = 20;
 G2L["3d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["3d"]["TextYAlignment"] = Enum.TextYAlignment.Top;
 G2L["3d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["3d"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["3d"]["TextColor3"] = Color3.fromRGB(60, 201, 60);
+G2L["3d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["3d"]["BackgroundTransparency"] = 1;
+G2L["3d"]["RichText"] = true;
 G2L["3d"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["3d"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
-G2L["3d"]["Text"] = [[]];
-G2L["3d"]["Name"] = [[Comments_]];
+G2L["3d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3d"]["Text"] = [[print("This AI can generate scripts!")]];
+G2L["3d"]["Name"] = [[ResponseLabel]];
 
 
--- StarterGui.zerohubsigmayes.main.AiFrame.ScrollingFrame.ResponseLabel.Globals_
-G2L["3e"] = Instance.new("TextLabel", G2L["3c"]);
+-- StarterGui.zerohubsigmayes.main.AiFrame.ScrollingFrame.ResponseLabel.Comments_
+G2L["3e"] = Instance.new("TextLabel", G2L["3d"]);
 G2L["3e"]["ZIndex"] = 5;
 G2L["3e"]["TextSize"] = 20;
 G2L["3e"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["3e"]["TextYAlignment"] = Enum.TextYAlignment.Top;
 G2L["3e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["3e"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["3e"]["TextColor3"] = Color3.fromRGB(133, 215, 248);
+G2L["3e"]["TextColor3"] = Color3.fromRGB(60, 201, 60);
 G2L["3e"]["BackgroundTransparency"] = 1;
 G2L["3e"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["3e"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
 G2L["3e"]["Text"] = [[]];
-G2L["3e"]["Name"] = [[Globals_]];
+G2L["3e"]["Name"] = [[Comments_]];
 
 
--- StarterGui.zerohubsigmayes.main.AiFrame.ScrollingFrame.ResponseLabel.Keywords_
-G2L["3f"] = Instance.new("TextLabel", G2L["3c"]);
+-- StarterGui.zerohubsigmayes.main.AiFrame.ScrollingFrame.ResponseLabel.Globals_
+G2L["3f"] = Instance.new("TextLabel", G2L["3d"]);
 G2L["3f"]["ZIndex"] = 5;
 G2L["3f"]["TextSize"] = 20;
 G2L["3f"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["3f"]["TextYAlignment"] = Enum.TextYAlignment.Top;
 G2L["3f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["3f"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["3f"]["TextColor3"] = Color3.fromRGB(249, 110, 125);
+G2L["3f"]["TextColor3"] = Color3.fromRGB(133, 215, 248);
 G2L["3f"]["BackgroundTransparency"] = 1;
 G2L["3f"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["3f"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
 G2L["3f"]["Text"] = [[]];
-G2L["3f"]["Name"] = [[Keywords_]];
+G2L["3f"]["Name"] = [[Globals_]];
 
 
--- StarterGui.zerohubsigmayes.main.AiFrame.ScrollingFrame.ResponseLabel.Numbers_
-G2L["40"] = Instance.new("TextLabel", G2L["3c"]);
-G2L["40"]["ZIndex"] = 4;
+-- StarterGui.zerohubsigmayes.main.AiFrame.ScrollingFrame.ResponseLabel.Keywords_
+G2L["40"] = Instance.new("TextLabel", G2L["3d"]);
+G2L["40"]["ZIndex"] = 5;
 G2L["40"]["TextSize"] = 20;
 G2L["40"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["40"]["TextYAlignment"] = Enum.TextYAlignment.Top;
 G2L["40"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["40"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["40"]["TextColor3"] = Color3.fromRGB(255, 199, 0);
+G2L["40"]["TextColor3"] = Color3.fromRGB(249, 110, 125);
 G2L["40"]["BackgroundTransparency"] = 1;
 G2L["40"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["40"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
 G2L["40"]["Text"] = [[]];
-G2L["40"]["Name"] = [[Numbers_]];
+G2L["40"]["Name"] = [[Keywords_]];
 
 
--- StarterGui.zerohubsigmayes.main.AiFrame.ScrollingFrame.ResponseLabel.RemoteHighlight_
-G2L["41"] = Instance.new("TextLabel", G2L["3c"]);
-G2L["41"]["ZIndex"] = 5;
+-- StarterGui.zerohubsigmayes.main.AiFrame.ScrollingFrame.ResponseLabel.Numbers_
+G2L["41"] = Instance.new("TextLabel", G2L["3d"]);
+G2L["41"]["ZIndex"] = 4;
 G2L["41"]["TextSize"] = 20;
 G2L["41"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["41"]["TextYAlignment"] = Enum.TextYAlignment.Top;
 G2L["41"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["41"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["41"]["TextColor3"] = Color3.fromRGB(0, 145, 255);
+G2L["41"]["TextColor3"] = Color3.fromRGB(255, 199, 0);
 G2L["41"]["BackgroundTransparency"] = 1;
 G2L["41"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["41"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
 G2L["41"]["Text"] = [[]];
-G2L["41"]["Name"] = [[RemoteHighlight_]];
+G2L["41"]["Name"] = [[Numbers_]];
 
 
--- StarterGui.zerohubsigmayes.main.AiFrame.ScrollingFrame.ResponseLabel.Strings_
-G2L["42"] = Instance.new("TextLabel", G2L["3c"]);
+-- StarterGui.zerohubsigmayes.main.AiFrame.ScrollingFrame.ResponseLabel.RemoteHighlight_
+G2L["42"] = Instance.new("TextLabel", G2L["3d"]);
 G2L["42"]["ZIndex"] = 5;
 G2L["42"]["TextSize"] = 20;
 G2L["42"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["42"]["TextYAlignment"] = Enum.TextYAlignment.Top;
 G2L["42"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["42"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["42"]["TextColor3"] = Color3.fromRGB(174, 242, 150);
+G2L["42"]["TextColor3"] = Color3.fromRGB(0, 145, 255);
 G2L["42"]["BackgroundTransparency"] = 1;
 G2L["42"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["42"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
 G2L["42"]["Text"] = [[]];
-G2L["42"]["Name"] = [[Strings_]];
+G2L["42"]["Name"] = [[RemoteHighlight_]];
 
 
--- StarterGui.zerohubsigmayes.main.AiFrame.ScrollingFrame.ResponseLabel.Tokens_
-G2L["43"] = Instance.new("TextLabel", G2L["3c"]);
+-- StarterGui.zerohubsigmayes.main.AiFrame.ScrollingFrame.ResponseLabel.Strings_
+G2L["43"] = Instance.new("TextLabel", G2L["3d"]);
 G2L["43"]["ZIndex"] = 5;
 G2L["43"]["TextSize"] = 20;
 G2L["43"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["43"]["TextYAlignment"] = Enum.TextYAlignment.Top;
 G2L["43"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["43"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["43"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["43"]["TextColor3"] = Color3.fromRGB(174, 242, 150);
 G2L["43"]["BackgroundTransparency"] = 1;
 G2L["43"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["43"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
 G2L["43"]["Text"] = [[]];
-G2L["43"]["Name"] = [[Tokens_]];
+G2L["43"]["Name"] = [[Strings_]];
+
+
+-- StarterGui.zerohubsigmayes.main.AiFrame.ScrollingFrame.ResponseLabel.Tokens_
+G2L["44"] = Instance.new("TextLabel", G2L["3d"]);
+G2L["44"]["ZIndex"] = 5;
+G2L["44"]["TextSize"] = 20;
+G2L["44"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["44"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["44"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["44"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["44"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["44"]["BackgroundTransparency"] = 1;
+G2L["44"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["44"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
+G2L["44"]["Text"] = [[]];
+G2L["44"]["Name"] = [[Tokens_]];
 
 
 -- StarterGui.zerohubsigmayes.main.AiFrame.ScrollingFrame.Lines
-G2L["44"] = Instance.new("TextLabel", G2L["3b"]);
-G2L["44"]["BorderSizePixel"] = 0;
-G2L["44"]["TextSize"] = 20;
-G2L["44"]["TextXAlignment"] = Enum.TextXAlignment.Right;
-G2L["44"]["TextYAlignment"] = Enum.TextYAlignment.Top;
-G2L["44"]["BackgroundColor3"] = Color3.fromRGB(93, 93, 93);
-G2L["44"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["44"]["TextColor3"] = Color3.fromRGB(151, 151, 151);
-G2L["44"]["BackgroundTransparency"] = 1;
-G2L["44"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["44"]["Text"] = [[]];
-G2L["44"]["Name"] = [[Lines]];
+G2L["45"] = Instance.new("TextLabel", G2L["3c"]);
+G2L["45"]["BorderSizePixel"] = 0;
+G2L["45"]["TextSize"] = 20;
+G2L["45"]["TextXAlignment"] = Enum.TextXAlignment.Right;
+G2L["45"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["45"]["BackgroundColor3"] = Color3.fromRGB(93, 93, 93);
+G2L["45"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["45"]["TextColor3"] = Color3.fromRGB(151, 151, 151);
+G2L["45"]["BackgroundTransparency"] = 1;
+G2L["45"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["45"]["Text"] = [[]];
+G2L["45"]["Name"] = [[Lines]];
 
 
 -- StarterGui.zerohubsigmayes.main.AiFrame.ScrollingFrame.LocalScript
-G2L["45"] = Instance.new("LocalScript", G2L["3b"]);
+G2L["46"] = Instance.new("LocalScript", G2L["3c"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.AiFrame.Frame
-G2L["46"] = Instance.new("Frame", G2L["34"]);
-G2L["46"]["BorderSizePixel"] = 0;
-G2L["46"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["46"]["Size"] = UDim2.new(0, 111, 0, 35);
-G2L["46"]["Position"] = UDim2.new(0.3136, 0, 0.02586, 0);
-G2L["46"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["46"]["BackgroundTransparency"] = 0.65;
+G2L["47"] = Instance.new("Frame", G2L["34"]);
+G2L["47"]["BorderSizePixel"] = 0;
+G2L["47"]["BackgroundColor3"] = Color3.fromRGB(2, 48, 73);
+G2L["47"]["Size"] = UDim2.new(0, 111, 0, 35);
+G2L["47"]["Position"] = UDim2.new(0.3136, 0, 0.02586, 0);
+G2L["47"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["47"]["BackgroundTransparency"] = 0.65;
 
 
 -- StarterGui.zerohubsigmayes.main.AiFrame.Frame.UICorner
-G2L["47"] = Instance.new("UICorner", G2L["46"]);
-G2L["47"]["CornerRadius"] = UDim.new(0, 20);
+G2L["48"] = Instance.new("UICorner", G2L["47"]);
+G2L["48"]["CornerRadius"] = UDim.new(0, 20);
 
 
 -- StarterGui.zerohubsigmayes.main.AiFrame.Frame.UIStroke
-G2L["48"] = Instance.new("UIStroke", G2L["46"]);
-G2L["48"]["Transparency"] = 0.5;
-G2L["48"]["Color"] = Color3.fromRGB(76, 76, 76);
+G2L["49"] = Instance.new("UIStroke", G2L["47"]);
+G2L["49"]["Transparency"] = 0.5;
+G2L["49"]["Color"] = Color3.fromRGB(76, 76, 76);
 
 
 -- StarterGui.zerohubsigmayes.main.AiFrame.Frame.ImageButton
-G2L["49"] = Instance.new("ImageButton", G2L["46"]);
-G2L["49"]["BorderSizePixel"] = 0;
-G2L["49"]["BackgroundTransparency"] = 1;
+G2L["4a"] = Instance.new("ImageButton", G2L["47"]);
+G2L["4a"]["BorderSizePixel"] = 0;
+G2L["4a"]["BackgroundTransparency"] = 1;
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["49"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["49"]["Image"] = [[rbxassetid://11422150995]];
-G2L["49"]["Size"] = UDim2.new(0, 20, 0, 20);
-G2L["49"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["49"]["Position"] = UDim2.new(0.13964, 0, 0.2, 0);
+G2L["4a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4a"]["Image"] = [[rbxassetid://11422150995]];
+G2L["4a"]["Size"] = UDim2.new(0, 20, 0, 20);
+G2L["4a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4a"]["Position"] = UDim2.new(0.13964, 0, 0.2, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.AiFrame.Frame.ImageButton.LocalScript
-G2L["4a"] = Instance.new("LocalScript", G2L["49"]);
+G2L["4b"] = Instance.new("LocalScript", G2L["4a"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.AiFrame.Frame.TextLabel
-G2L["4b"] = Instance.new("TextLabel", G2L["46"]);
-G2L["4b"]["BorderSizePixel"] = 0;
-G2L["4b"]["TextSize"] = 20;
-G2L["4b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["4b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["4b"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["4b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["4b"]["BackgroundTransparency"] = 1;
-G2L["4b"]["Size"] = UDim2.new(0, 113, 0, 23);
-G2L["4b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["4b"]["Text"] = [[Copy]];
-G2L["4b"]["Position"] = UDim2.new(0.41, 0, 0.14286, 0);
-
-
--- StarterGui.zerohubsigmayes.main.AiFrame.Frame
-G2L["4c"] = Instance.new("Frame", G2L["34"]);
+G2L["4c"] = Instance.new("TextLabel", G2L["47"]);
 G2L["4c"]["BorderSizePixel"] = 0;
-G2L["4c"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["4c"]["Size"] = UDim2.new(0, 122, 0, 35);
-G2L["4c"]["Position"] = UDim2.new(0.1088, 0, 0.02586, 0);
+G2L["4c"]["TextSize"] = 20;
+G2L["4c"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["4c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4c"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["4c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4c"]["BackgroundTransparency"] = 1;
+G2L["4c"]["Size"] = UDim2.new(0, 113, 0, 23);
 G2L["4c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["4c"]["BackgroundTransparency"] = 0.65;
-
-
--- StarterGui.zerohubsigmayes.main.AiFrame.Frame.UICorner
-G2L["4d"] = Instance.new("UICorner", G2L["4c"]);
-G2L["4d"]["CornerRadius"] = UDim.new(0, 20);
-
-
--- StarterGui.zerohubsigmayes.main.AiFrame.Frame.UIStroke
-G2L["4e"] = Instance.new("UIStroke", G2L["4c"]);
-G2L["4e"]["Transparency"] = 0.5;
-G2L["4e"]["Color"] = Color3.fromRGB(76, 76, 76);
-
-
--- StarterGui.zerohubsigmayes.main.AiFrame.Frame.ImageButton
-G2L["4f"] = Instance.new("ImageButton", G2L["4c"]);
-G2L["4f"]["BorderSizePixel"] = 0;
-G2L["4f"]["BackgroundTransparency"] = 1;
--- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["4f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["4f"]["Image"] = [[rbxassetid://11423157473]];
-G2L["4f"]["Size"] = UDim2.new(0, 20, 0, 20);
-G2L["4f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["4f"]["Position"] = UDim2.new(0.11572, 0, 0.2, 0);
-
-
--- StarterGui.zerohubsigmayes.main.AiFrame.Frame.ImageButton.LocalScript
-G2L["50"] = Instance.new("LocalScript", G2L["4f"]);
-
-
-
--- StarterGui.zerohubsigmayes.main.AiFrame.Frame.TextLabel
-G2L["51"] = Instance.new("TextLabel", G2L["4c"]);
-G2L["51"]["BorderSizePixel"] = 0;
-G2L["51"]["TextSize"] = 20;
-G2L["51"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["51"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["51"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["51"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["51"]["BackgroundTransparency"] = 1;
-G2L["51"]["Size"] = UDim2.new(0, 67, 0, 23);
-G2L["51"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["51"]["Text"] = [[Execute]];
-G2L["51"]["Position"] = UDim2.new(0.35965, 0, 0.17143, 0);
-
-
--- StarterGui.zerohubsigmayes.main.AiFrame.LocalScript
-G2L["52"] = Instance.new("LocalScript", G2L["34"]);
-
-
-
--- StarterGui.zerohubsigmayes.main.AiFrame.Frame
-G2L["53"] = Instance.new("Frame", G2L["34"]);
-G2L["53"]["Visible"] = false;
-G2L["53"]["BorderSizePixel"] = 0;
-G2L["53"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["53"]["Size"] = UDim2.new(0, 537, 0, 291);
-G2L["53"]["Position"] = UDim2.new(0.1088, 0, 0.13793, 0);
-G2L["53"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-
-
--- StarterGui.zerohubsigmayes.main.AiFrame.Frame.UICorner
-G2L["54"] = Instance.new("UICorner", G2L["53"]);
-G2L["54"]["CornerRadius"] = UDim.new(0, 15);
+G2L["4c"]["Text"] = [[Copy]];
+G2L["4c"]["Position"] = UDim2.new(0.41, 0, 0.14286, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.AiFrame.Frame.UIGradient
-G2L["55"] = Instance.new("UIGradient", G2L["53"]);
-G2L["55"]["Rotation"] = 35;
-G2L["55"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 171, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 0))};
+G2L["4d"] = Instance.new("UIGradient", G2L["47"]);
+G2L["4d"]["Rotation"] = 90;
+G2L["4d"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
 
 
--- StarterGui.zerohubsigmayes.main.AiFrame.Frame.ImageLabel
-G2L["56"] = Instance.new("ImageLabel", G2L["53"]);
-G2L["56"]["BorderSizePixel"] = 0;
-G2L["56"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+-- StarterGui.zerohubsigmayes.main.AiFrame.Frame
+G2L["4e"] = Instance.new("Frame", G2L["34"]);
+G2L["4e"]["BorderSizePixel"] = 0;
+G2L["4e"]["BackgroundColor3"] = Color3.fromRGB(2, 48, 73);
+G2L["4e"]["Size"] = UDim2.new(0, 122, 0, 35);
+G2L["4e"]["Position"] = UDim2.new(0.1088, 0, 0.02586, 0);
+G2L["4e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4e"]["BackgroundTransparency"] = 0.65;
+
+
+-- StarterGui.zerohubsigmayes.main.AiFrame.Frame.UICorner
+G2L["4f"] = Instance.new("UICorner", G2L["4e"]);
+G2L["4f"]["CornerRadius"] = UDim.new(0, 20);
+
+
+-- StarterGui.zerohubsigmayes.main.AiFrame.Frame.UIStroke
+G2L["50"] = Instance.new("UIStroke", G2L["4e"]);
+G2L["50"]["Transparency"] = 0.5;
+G2L["50"]["Color"] = Color3.fromRGB(76, 76, 76);
+
+
+-- StarterGui.zerohubsigmayes.main.AiFrame.Frame.ImageButton
+G2L["51"] = Instance.new("ImageButton", G2L["4e"]);
+G2L["51"]["BorderSizePixel"] = 0;
+G2L["51"]["BackgroundTransparency"] = 1;
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["56"]["ImageColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["56"]["Image"] = [[rbxassetid://14187755345]];
-G2L["56"]["Size"] = UDim2.new(0, 75, 0, 75);
-G2L["56"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["56"]["BackgroundTransparency"] = 1;
-G2L["56"]["Position"] = UDim2.new(0.43017, 0, 0.14089, 0);
+G2L["51"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["51"]["Image"] = [[rbxassetid://11423157473]];
+G2L["51"]["Size"] = UDim2.new(0, 20, 0, 20);
+G2L["51"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["51"]["Position"] = UDim2.new(0.11572, 0, 0.2, 0);
+
+
+-- StarterGui.zerohubsigmayes.main.AiFrame.Frame.ImageButton.LocalScript
+G2L["52"] = Instance.new("LocalScript", G2L["51"]);
+
 
 
 -- StarterGui.zerohubsigmayes.main.AiFrame.Frame.TextLabel
-G2L["57"] = Instance.new("TextLabel", G2L["53"]);
-G2L["57"]["TextWrapped"] = true;
-G2L["57"]["BorderSizePixel"] = 0;
-G2L["57"]["TextSize"] = 25;
-G2L["57"]["TextYAlignment"] = Enum.TextYAlignment.Top;
-G2L["57"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["57"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["57"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["57"]["BackgroundTransparency"] = 1;
-G2L["57"]["Size"] = UDim2.new(0, 454, 0, 68);
-G2L["57"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["57"]["Text"] = [[AI is locked! Only premium users can access the AI.]];
-G2L["57"]["Position"] = UDim2.new(0.07657, 0, 0.52577, 0);
+G2L["53"] = Instance.new("TextLabel", G2L["4e"]);
+G2L["53"]["BorderSizePixel"] = 0;
+G2L["53"]["TextSize"] = 20;
+G2L["53"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["53"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["53"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["53"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["53"]["BackgroundTransparency"] = 1;
+G2L["53"]["Size"] = UDim2.new(0, 67, 0, 23);
+G2L["53"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["53"]["Text"] = [[Execute]];
+G2L["53"]["Position"] = UDim2.new(0.35965, 0, 0.17143, 0);
+
+
+-- StarterGui.zerohubsigmayes.main.AiFrame.Frame.UIGradient
+G2L["54"] = Instance.new("UIGradient", G2L["4e"]);
+G2L["54"]["Rotation"] = 90;
+G2L["54"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
+
+
+-- StarterGui.zerohubsigmayes.main.AiFrame.LocalScript
+G2L["55"] = Instance.new("LocalScript", G2L["34"]);
+
+
+
+-- StarterGui.zerohubsigmayes.main.AiFrame.Frame
+G2L["56"] = Instance.new("Frame", G2L["34"]);
+G2L["56"]["Visible"] = false;
+G2L["56"]["BorderSizePixel"] = 0;
+G2L["56"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["56"]["Size"] = UDim2.new(0, 537, 0, 291);
+G2L["56"]["Position"] = UDim2.new(0.1088, 0, 0.13793, 0);
+G2L["56"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- StarterGui.zerohubsigmayes.main.AiFrame.Frame.UICorner
+G2L["57"] = Instance.new("UICorner", G2L["56"]);
+G2L["57"]["CornerRadius"] = UDim.new(0, 15);
+
+
+-- StarterGui.zerohubsigmayes.main.AiFrame.Frame.UIGradient
+G2L["58"] = Instance.new("UIGradient", G2L["56"]);
+G2L["58"]["Rotation"] = 35;
+G2L["58"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 171, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 0))};
+
+
+-- StarterGui.zerohubsigmayes.main.AiFrame.Frame.ImageLabel
+G2L["59"] = Instance.new("ImageLabel", G2L["56"]);
+G2L["59"]["BorderSizePixel"] = 0;
+G2L["59"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["59"]["ImageColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["59"]["Image"] = [[rbxassetid://14187755345]];
+G2L["59"]["Size"] = UDim2.new(0, 75, 0, 75);
+G2L["59"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["59"]["BackgroundTransparency"] = 1;
+G2L["59"]["Position"] = UDim2.new(0.43017, 0, 0.14089, 0);
+
+
+-- StarterGui.zerohubsigmayes.main.AiFrame.Frame.TextLabel
+G2L["5a"] = Instance.new("TextLabel", G2L["56"]);
+G2L["5a"]["TextWrapped"] = true;
+G2L["5a"]["BorderSizePixel"] = 0;
+G2L["5a"]["TextSize"] = 25;
+G2L["5a"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["5a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5a"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["5a"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5a"]["BackgroundTransparency"] = 1;
+G2L["5a"]["Size"] = UDim2.new(0, 454, 0, 68);
+G2L["5a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5a"]["Text"] = [[AI is locked! Only premium users can access the AI.]];
+G2L["5a"]["Position"] = UDim2.new(0.07657, 0, 0.52577, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.AiFrame.Frame.TextButton
-G2L["58"] = Instance.new("TextButton", G2L["53"]);
-G2L["58"]["BorderSizePixel"] = 0;
-G2L["58"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["58"]["TextSize"] = 25;
-G2L["58"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["58"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 61);
-G2L["58"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["58"]["BackgroundTransparency"] = 0.5;
-G2L["58"]["Size"] = UDim2.new(0, 244, 0, 45);
-G2L["58"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["58"]["Text"] = [[  Copy link]];
-G2L["58"]["Position"] = UDim2.new(0.27188, 0, 0.75778, 0);
+G2L["5b"] = Instance.new("TextButton", G2L["56"]);
+G2L["5b"]["BorderSizePixel"] = 0;
+G2L["5b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["5b"]["TextSize"] = 25;
+G2L["5b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5b"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 61);
+G2L["5b"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["5b"]["BackgroundTransparency"] = 0.5;
+G2L["5b"]["Size"] = UDim2.new(0, 244, 0, 45);
+G2L["5b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5b"]["Text"] = [[  Copy link]];
+G2L["5b"]["Position"] = UDim2.new(0.27188, 0, 0.75778, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.AiFrame.Frame.TextButton.UICorner
-G2L["59"] = Instance.new("UICorner", G2L["58"]);
-G2L["59"]["CornerRadius"] = UDim.new(0, 10);
+G2L["5c"] = Instance.new("UICorner", G2L["5b"]);
+G2L["5c"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.zerohubsigmayes.main.AiFrame.Frame.TextButton.ImageLabel
-G2L["5a"] = Instance.new("ImageLabel", G2L["58"]);
-G2L["5a"]["BorderSizePixel"] = 0;
-G2L["5a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5d"] = Instance.new("ImageLabel", G2L["5b"]);
+G2L["5d"]["BorderSizePixel"] = 0;
+G2L["5d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["5a"]["Image"] = [[rbxassetid://11422142913]];
-G2L["5a"]["Size"] = UDim2.new(0, 30, 0, 30);
-G2L["5a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["5a"]["BackgroundTransparency"] = 1;
-G2L["5a"]["Position"] = UDim2.new(0.80738, 0, 0.15556, 0);
+G2L["5d"]["Image"] = [[rbxassetid://11422142913]];
+G2L["5d"]["Size"] = UDim2.new(0, 30, 0, 30);
+G2L["5d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5d"]["BackgroundTransparency"] = 1;
+G2L["5d"]["Position"] = UDim2.new(0.80738, 0, 0.15556, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.AiFrame.Frame.TextButton.LocalScript
-G2L["5b"] = Instance.new("LocalScript", G2L["58"]);
+G2L["5e"] = Instance.new("LocalScript", G2L["5b"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.AiFrame.Frame.LocalScript
-G2L["5c"] = Instance.new("LocalScript", G2L["53"]);
+G2L["5f"] = Instance.new("LocalScript", G2L["56"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ExecutorFrame
-G2L["5d"] = Instance.new("Frame", G2L["1d"]);
-G2L["5d"]["Visible"] = false;
-G2L["5d"]["BorderSizePixel"] = 0;
-G2L["5d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["5d"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["5d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["5d"]["Name"] = [[ExecutorFrame]];
-G2L["5d"]["BackgroundTransparency"] = 1;
-
-
--- StarterGui.zerohubsigmayes.main.ExecutorFrame.ScrollingFrame
-G2L["5e"] = Instance.new("ScrollingFrame", G2L["5d"]);
-G2L["5e"]["Active"] = true;
-G2L["5e"]["BorderSizePixel"] = 0;
-G2L["5e"]["CanvasSize"] = UDim2.new(6, 0, 6, 0);
-G2L["5e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["5e"]["Size"] = UDim2.new(0, 540, 0, 284);
-G2L["5e"]["ScrollBarImageColor3"] = Color3.fromRGB(26, 26, 26);
-G2L["5e"]["Position"] = UDim2.new(0.12, 0, 0.16092, 0);
-G2L["5e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["5e"]["BackgroundTransparency"] = 1;
-
-
--- StarterGui.zerohubsigmayes.main.ExecutorFrame.ScrollingFrame.Lines
-G2L["5f"] = Instance.new("TextLabel", G2L["5e"]);
-G2L["5f"]["BorderSizePixel"] = 0;
-G2L["5f"]["TextSize"] = 18;
-G2L["5f"]["TextYAlignment"] = Enum.TextYAlignment.Top;
-G2L["5f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["5f"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["5f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["5f"]["BackgroundTransparency"] = 1;
-G2L["5f"]["Size"] = UDim2.new(0, 40, 1, 0);
-G2L["5f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["5f"]["Text"] = [[1]];
-G2L["5f"]["Name"] = [[Lines]];
-
-
--- StarterGui.zerohubsigmayes.main.ExecutorFrame.ScrollingFrame.Source
-G2L["60"] = Instance.new("TextBox", G2L["5e"]);
-G2L["60"]["Name"] = [[Source]];
-G2L["60"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["60"] = Instance.new("Frame", G2L["1d"]);
+G2L["60"]["Visible"] = false;
 G2L["60"]["BorderSizePixel"] = 0;
-G2L["60"]["TextSize"] = 18;
-G2L["60"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["60"]["TextYAlignment"] = Enum.TextYAlignment.Top;
 G2L["60"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["60"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["60"]["MultiLine"] = true;
-G2L["60"]["ClearTextOnFocus"] = false;
-G2L["60"]["PlaceholderText"] = [[-- Place your script here]];
 G2L["60"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["60"]["Position"] = UDim2.new(0, 50, 0, 0);
 G2L["60"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["60"]["Text"] = [[print("zerohub is the best!")]];
+G2L["60"]["Name"] = [[ExecutorFrame]];
 G2L["60"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.zerohubsigmayes.main.ExecutorFrame.ScrollingFrame.Source.Comments_
-G2L["61"] = Instance.new("TextLabel", G2L["60"]);
-G2L["61"]["ZIndex"] = 5;
-G2L["61"]["TextSize"] = 18;
-G2L["61"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["61"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+-- StarterGui.zerohubsigmayes.main.ExecutorFrame.ScrollingFrame
+G2L["61"] = Instance.new("ScrollingFrame", G2L["60"]);
+G2L["61"]["Active"] = true;
+G2L["61"]["BorderSizePixel"] = 0;
+G2L["61"]["CanvasSize"] = UDim2.new(6, 0, 6, 0);
 G2L["61"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["61"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["61"]["TextColor3"] = Color3.fromRGB(60, 201, 60);
+G2L["61"]["Size"] = UDim2.new(0, 540, 0, 284);
+G2L["61"]["ScrollBarImageColor3"] = Color3.fromRGB(26, 26, 26);
+G2L["61"]["Position"] = UDim2.new(0.12, 0, 0.16092, 0);
+G2L["61"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["61"]["BackgroundTransparency"] = 1;
-G2L["61"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["61"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
-G2L["61"]["Text"] = [[]];
-G2L["61"]["Name"] = [[Comments_]];
 
 
--- StarterGui.zerohubsigmayes.main.ExecutorFrame.ScrollingFrame.Source.Globals_
-G2L["62"] = Instance.new("TextLabel", G2L["60"]);
-G2L["62"]["ZIndex"] = 5;
+-- StarterGui.zerohubsigmayes.main.ExecutorFrame.ScrollingFrame.Lines
+G2L["62"] = Instance.new("TextLabel", G2L["61"]);
+G2L["62"]["BorderSizePixel"] = 0;
 G2L["62"]["TextSize"] = 18;
-G2L["62"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["62"]["TextYAlignment"] = Enum.TextYAlignment.Top;
 G2L["62"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["62"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["62"]["TextColor3"] = Color3.fromRGB(133, 215, 248);
+G2L["62"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["62"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["62"]["BackgroundTransparency"] = 1;
-G2L["62"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["62"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
-G2L["62"]["Text"] = [[]];
-G2L["62"]["Name"] = [[Globals_]];
+G2L["62"]["Size"] = UDim2.new(0, 40, 1, 0);
+G2L["62"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["62"]["Text"] = [[1]];
+G2L["62"]["Name"] = [[Lines]];
 
 
--- StarterGui.zerohubsigmayes.main.ExecutorFrame.ScrollingFrame.Source.Keywords_
-G2L["63"] = Instance.new("TextLabel", G2L["60"]);
-G2L["63"]["ZIndex"] = 5;
-G2L["63"]["TextSize"] = 18;
+-- StarterGui.zerohubsigmayes.main.ExecutorFrame.ScrollingFrame.Source
+G2L["63"] = Instance.new("TextBox", G2L["61"]);
+G2L["63"]["Name"] = [[Source]];
 G2L["63"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["63"]["BorderSizePixel"] = 0;
+G2L["63"]["TextSize"] = 18;
+G2L["63"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["63"]["TextYAlignment"] = Enum.TextYAlignment.Top;
 G2L["63"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["63"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["63"]["TextColor3"] = Color3.fromRGB(249, 110, 125);
-G2L["63"]["BackgroundTransparency"] = 1;
+G2L["63"]["MultiLine"] = true;
+G2L["63"]["ClearTextOnFocus"] = false;
+G2L["63"]["PlaceholderText"] = [[-- Place your script here]];
 G2L["63"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["63"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
-G2L["63"]["Text"] = [[]];
-G2L["63"]["Name"] = [[Keywords_]];
+G2L["63"]["Position"] = UDim2.new(0, 50, 0, 0);
+G2L["63"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["63"]["Text"] = [[print("zerohub is the best!")]];
+G2L["63"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.zerohubsigmayes.main.ExecutorFrame.ScrollingFrame.Source.Numbers_
-G2L["64"] = Instance.new("TextLabel", G2L["60"]);
-G2L["64"]["ZIndex"] = 4;
+-- StarterGui.zerohubsigmayes.main.ExecutorFrame.ScrollingFrame.Source.Comments_
+G2L["64"] = Instance.new("TextLabel", G2L["63"]);
+G2L["64"]["ZIndex"] = 5;
 G2L["64"]["TextSize"] = 18;
 G2L["64"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["64"]["TextYAlignment"] = Enum.TextYAlignment.Top;
 G2L["64"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["64"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["64"]["TextColor3"] = Color3.fromRGB(255, 199, 0);
+G2L["64"]["TextColor3"] = Color3.fromRGB(60, 201, 60);
 G2L["64"]["BackgroundTransparency"] = 1;
 G2L["64"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["64"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
 G2L["64"]["Text"] = [[]];
-G2L["64"]["Name"] = [[Numbers_]];
+G2L["64"]["Name"] = [[Comments_]];
 
 
--- StarterGui.zerohubsigmayes.main.ExecutorFrame.ScrollingFrame.Source.RemoteHighlight_
-G2L["65"] = Instance.new("TextLabel", G2L["60"]);
+-- StarterGui.zerohubsigmayes.main.ExecutorFrame.ScrollingFrame.Source.Globals_
+G2L["65"] = Instance.new("TextLabel", G2L["63"]);
 G2L["65"]["ZIndex"] = 5;
 G2L["65"]["TextSize"] = 18;
 G2L["65"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["65"]["TextYAlignment"] = Enum.TextYAlignment.Top;
 G2L["65"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["65"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["65"]["TextColor3"] = Color3.fromRGB(0, 145, 255);
+G2L["65"]["TextColor3"] = Color3.fromRGB(133, 215, 248);
 G2L["65"]["BackgroundTransparency"] = 1;
 G2L["65"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["65"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
 G2L["65"]["Text"] = [[]];
-G2L["65"]["Name"] = [[RemoteHighlight_]];
+G2L["65"]["Name"] = [[Globals_]];
 
 
--- StarterGui.zerohubsigmayes.main.ExecutorFrame.ScrollingFrame.Source.Strings_
-G2L["66"] = Instance.new("TextLabel", G2L["60"]);
+-- StarterGui.zerohubsigmayes.main.ExecutorFrame.ScrollingFrame.Source.Keywords_
+G2L["66"] = Instance.new("TextLabel", G2L["63"]);
 G2L["66"]["ZIndex"] = 5;
 G2L["66"]["TextSize"] = 18;
 G2L["66"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["66"]["TextYAlignment"] = Enum.TextYAlignment.Top;
 G2L["66"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["66"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["66"]["TextColor3"] = Color3.fromRGB(174, 242, 150);
+G2L["66"]["TextColor3"] = Color3.fromRGB(249, 110, 125);
 G2L["66"]["BackgroundTransparency"] = 1;
 G2L["66"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["66"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
 G2L["66"]["Text"] = [[]];
-G2L["66"]["Name"] = [[Strings_]];
+G2L["66"]["Name"] = [[Keywords_]];
 
 
--- StarterGui.zerohubsigmayes.main.ExecutorFrame.ScrollingFrame.Source.Tokens_
-G2L["67"] = Instance.new("TextLabel", G2L["60"]);
-G2L["67"]["ZIndex"] = 5;
+-- StarterGui.zerohubsigmayes.main.ExecutorFrame.ScrollingFrame.Source.Numbers_
+G2L["67"] = Instance.new("TextLabel", G2L["63"]);
+G2L["67"]["ZIndex"] = 4;
 G2L["67"]["TextSize"] = 18;
 G2L["67"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["67"]["TextYAlignment"] = Enum.TextYAlignment.Top;
 G2L["67"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["67"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["67"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["67"]["TextColor3"] = Color3.fromRGB(255, 199, 0);
 G2L["67"]["BackgroundTransparency"] = 1;
 G2L["67"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["67"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
 G2L["67"]["Text"] = [[]];
-G2L["67"]["Name"] = [[Tokens_]];
+G2L["67"]["Name"] = [[Numbers_]];
+
+
+-- StarterGui.zerohubsigmayes.main.ExecutorFrame.ScrollingFrame.Source.RemoteHighlight_
+G2L["68"] = Instance.new("TextLabel", G2L["63"]);
+G2L["68"]["ZIndex"] = 5;
+G2L["68"]["TextSize"] = 18;
+G2L["68"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["68"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["68"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["68"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["68"]["TextColor3"] = Color3.fromRGB(0, 145, 255);
+G2L["68"]["BackgroundTransparency"] = 1;
+G2L["68"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["68"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
+G2L["68"]["Text"] = [[]];
+G2L["68"]["Name"] = [[RemoteHighlight_]];
+
+
+-- StarterGui.zerohubsigmayes.main.ExecutorFrame.ScrollingFrame.Source.Strings_
+G2L["69"] = Instance.new("TextLabel", G2L["63"]);
+G2L["69"]["ZIndex"] = 5;
+G2L["69"]["TextSize"] = 18;
+G2L["69"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["69"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["69"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["69"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["69"]["TextColor3"] = Color3.fromRGB(174, 242, 150);
+G2L["69"]["BackgroundTransparency"] = 1;
+G2L["69"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["69"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
+G2L["69"]["Text"] = [[]];
+G2L["69"]["Name"] = [[Strings_]];
+
+
+-- StarterGui.zerohubsigmayes.main.ExecutorFrame.ScrollingFrame.Source.Tokens_
+G2L["6a"] = Instance.new("TextLabel", G2L["63"]);
+G2L["6a"]["ZIndex"] = 5;
+G2L["6a"]["TextSize"] = 18;
+G2L["6a"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["6a"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["6a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["6a"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["6a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["6a"]["BackgroundTransparency"] = 1;
+G2L["6a"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["6a"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
+G2L["6a"]["Text"] = [[]];
+G2L["6a"]["Name"] = [[Tokens_]];
 
 
 -- StarterGui.zerohubsigmayes.main.ExecutorFrame.ScrollingFrame.LocalScript
-G2L["68"] = Instance.new("LocalScript", G2L["5e"]);
+G2L["6b"] = Instance.new("LocalScript", G2L["61"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ExecutorFrame.Frame
-G2L["69"] = Instance.new("Frame", G2L["5d"]);
-G2L["69"]["BorderSizePixel"] = 0;
-G2L["69"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["69"]["Size"] = UDim2.new(0, 84, 0, 35);
-G2L["69"]["Position"] = UDim2.new(0.12, 0, 0.02586, 0);
-G2L["69"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["69"]["BackgroundTransparency"] = 0.65;
+G2L["6c"] = Instance.new("Frame", G2L["60"]);
+G2L["6c"]["BorderSizePixel"] = 0;
+G2L["6c"]["BackgroundColor3"] = Color3.fromRGB(2, 48, 73);
+G2L["6c"]["Size"] = UDim2.new(0, 84, 0, 35);
+G2L["6c"]["Position"] = UDim2.new(0.12, 0, 0.02586, 0);
+G2L["6c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6c"]["BackgroundTransparency"] = 0.65;
 
 
 -- StarterGui.zerohubsigmayes.main.ExecutorFrame.Frame.UICorner
-G2L["6a"] = Instance.new("UICorner", G2L["69"]);
-G2L["6a"]["CornerRadius"] = UDim.new(0, 20);
+G2L["6d"] = Instance.new("UICorner", G2L["6c"]);
+G2L["6d"]["CornerRadius"] = UDim.new(0, 20);
 
 
 -- StarterGui.zerohubsigmayes.main.ExecutorFrame.Frame.UIStroke
-G2L["6b"] = Instance.new("UIStroke", G2L["69"]);
-G2L["6b"]["Transparency"] = 0.5;
-G2L["6b"]["Color"] = Color3.fromRGB(76, 76, 76);
+G2L["6e"] = Instance.new("UIStroke", G2L["6c"]);
+G2L["6e"]["Transparency"] = 0.5;
+G2L["6e"]["Color"] = Color3.fromRGB(76, 76, 76);
 
 
 -- StarterGui.zerohubsigmayes.main.ExecutorFrame.Frame.ImageButton
-G2L["6c"] = Instance.new("ImageButton", G2L["69"]);
-G2L["6c"]["BorderSizePixel"] = 0;
-G2L["6c"]["BackgroundTransparency"] = 1;
+G2L["6f"] = Instance.new("ImageButton", G2L["6c"]);
+G2L["6f"]["BorderSizePixel"] = 0;
+G2L["6f"]["BackgroundTransparency"] = 1;
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["6c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["6c"]["Image"] = [[rbxassetid://11423157473]];
-G2L["6c"]["Size"] = UDim2.new(0, 20, 0, 20);
-G2L["6c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["6c"]["Position"] = UDim2.new(0.5709, 0, 0.20902, 0);
+G2L["6f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["6f"]["Image"] = [[rbxassetid://11423157473]];
+G2L["6f"]["Size"] = UDim2.new(0, 20, 0, 20);
+G2L["6f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6f"]["Position"] = UDim2.new(0.5709, 0, 0.20902, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.ExecutorFrame.Frame.ImageButton.LocalScript
-G2L["6d"] = Instance.new("LocalScript", G2L["6c"]);
+G2L["70"] = Instance.new("LocalScript", G2L["6f"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ExecutorFrame.Frame.LocalScript
-G2L["6e"] = Instance.new("ImageButton", G2L["69"]);
-G2L["6e"]["BorderSizePixel"] = 0;
-G2L["6e"]["BackgroundTransparency"] = 1;
+G2L["71"] = Instance.new("ImageButton", G2L["6c"]);
+G2L["71"]["BorderSizePixel"] = 0;
+G2L["71"]["BackgroundTransparency"] = 1;
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["6e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["6e"]["Image"] = [[rbxassetid://11430231340]];
-G2L["6e"]["Size"] = UDim2.new(0, 20, 0, 20);
-G2L["6e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["6e"]["Name"] = [[LocalScript]];
-G2L["6e"]["Position"] = UDim2.new(0.17235, 0, 0.18045, 0);
+G2L["71"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["71"]["Image"] = [[rbxassetid://11430231340]];
+G2L["71"]["Size"] = UDim2.new(0, 20, 0, 20);
+G2L["71"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["71"]["Name"] = [[LocalScript]];
+G2L["71"]["Position"] = UDim2.new(0.17235, 0, 0.18045, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.ExecutorFrame.Frame.LocalScript.LocalScript
-G2L["6f"] = Instance.new("LocalScript", G2L["6e"]);
+G2L["72"] = Instance.new("LocalScript", G2L["71"]);
 
+
+
+-- StarterGui.zerohubsigmayes.main.ExecutorFrame.Frame.UIGradient
+G2L["73"] = Instance.new("UIGradient", G2L["6c"]);
+G2L["73"]["Rotation"] = 90;
+G2L["73"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame
-G2L["70"] = Instance.new("Frame", G2L["1d"]);
-G2L["70"]["Visible"] = false;
-G2L["70"]["BorderSizePixel"] = 0;
-G2L["70"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["70"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["70"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["70"]["Name"] = [[ScriptsFrame]];
-G2L["70"]["BackgroundTransparency"] = 1;
+G2L["74"] = Instance.new("Frame", G2L["1d"]);
+G2L["74"]["Visible"] = false;
+G2L["74"]["BorderSizePixel"] = 0;
+G2L["74"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["74"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["74"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["74"]["Name"] = [[ScriptsFrame]];
+G2L["74"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.Frame
-G2L["71"] = Instance.new("Frame", G2L["70"]);
-G2L["71"]["BorderSizePixel"] = 0;
-G2L["71"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["71"]["Size"] = UDim2.new(0, 229, 0, 35);
-G2L["71"]["Position"] = UDim2.new(0.128, 0, 0.02586, 0);
-G2L["71"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["71"]["BackgroundTransparency"] = 0.65;
+G2L["75"] = Instance.new("Frame", G2L["74"]);
+G2L["75"]["BorderSizePixel"] = 0;
+G2L["75"]["BackgroundColor3"] = Color3.fromRGB(2, 48, 73);
+G2L["75"]["Size"] = UDim2.new(0, 237, 0, 35);
+G2L["75"]["Position"] = UDim2.new(0.1136, 0, 0.02586, 0);
+G2L["75"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["75"]["BackgroundTransparency"] = 0.65;
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.Frame.UICorner
-G2L["72"] = Instance.new("UICorner", G2L["71"]);
-G2L["72"]["CornerRadius"] = UDim.new(0, 20);
+G2L["76"] = Instance.new("UICorner", G2L["75"]);
+G2L["76"]["CornerRadius"] = UDim.new(0, 20);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.Frame.UIStroke
-G2L["73"] = Instance.new("UIStroke", G2L["71"]);
-G2L["73"]["Transparency"] = 0.5;
-G2L["73"]["Color"] = Color3.fromRGB(76, 76, 76);
+G2L["77"] = Instance.new("UIStroke", G2L["75"]);
+G2L["77"]["Transparency"] = 0.5;
+G2L["77"]["Color"] = Color3.fromRGB(76, 76, 76);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.Frame.ImageLabel
-G2L["74"] = Instance.new("ImageLabel", G2L["71"]);
-G2L["74"]["BorderSizePixel"] = 0;
-G2L["74"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["78"] = Instance.new("ImageLabel", G2L["75"]);
+G2L["78"]["BorderSizePixel"] = 0;
+G2L["78"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["74"]["Image"] = [[rbxassetid://11293977875]];
-G2L["74"]["Size"] = UDim2.new(0, 20, 0, 20);
-G2L["74"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["74"]["BackgroundTransparency"] = 1;
-G2L["74"]["Position"] = UDim2.new(0.88103, 0, 0.2, 0);
+G2L["78"]["Image"] = [[rbxassetid://11293977875]];
+G2L["78"]["Size"] = UDim2.new(0, 20, 0, 20);
+G2L["78"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["78"]["BackgroundTransparency"] = 1;
+G2L["78"]["Position"] = UDim2.new(0.88103, 0, 0.2, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.Frame.TextBox
-G2L["75"] = Instance.new("TextBox", G2L["71"]);
-G2L["75"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["75"]["BorderSizePixel"] = 0;
-G2L["75"]["TextSize"] = 20;
-G2L["75"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["75"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["75"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["75"]["PlaceholderText"] = [[Search]];
-G2L["75"]["Size"] = UDim2.new(0, 245, 0, 35);
-G2L["75"]["Position"] = UDim2.new(0.05788, 0, 0, 0);
-G2L["75"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["75"]["Text"] = [[]];
-G2L["75"]["BackgroundTransparency"] = 1;
-
-
--- StarterGui.zerohubsigmayes.main.ScriptsFrame.Frame.TextBox.LocalScript
-G2L["76"] = Instance.new("LocalScript", G2L["75"]);
-
-
-
--- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame
-G2L["77"] = Instance.new("ScrollingFrame", G2L["70"]);
-G2L["77"]["Active"] = true;
-G2L["77"]["BorderSizePixel"] = 0;
-G2L["77"]["CanvasSize"] = UDim2.new(0, 0, 8, 0);
-G2L["77"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["77"]["Size"] = UDim2.new(0, 543, 0, 242);
-G2L["77"]["ScrollBarImageColor3"] = Color3.fromRGB(61, 61, 61);
-G2L["77"]["Position"] = UDim2.new(0.1232, 0, 0.16092, 0);
-G2L["77"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["77"]["ScrollBarThickness"] = 5;
-G2L["77"]["BackgroundTransparency"] = 1;
-
-
--- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.UIGridLayout
-G2L["78"] = Instance.new("UIGridLayout", G2L["77"]);
-G2L["78"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
-G2L["78"]["CellSize"] = UDim2.new(1, 0, 0, 31);
-G2L["78"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
-
-
--- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["79"] = Instance.new("TextButton", G2L["77"]);
-G2L["79"]["BorderSizePixel"] = 0;
+G2L["79"] = Instance.new("TextBox", G2L["75"]);
+G2L["79"]["CursorPosition"] = -1;
 G2L["79"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["79"]["BorderSizePixel"] = 0;
 G2L["79"]["TextSize"] = 20;
 G2L["79"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["79"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["79"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["79"]["BackgroundTransparency"] = 1;
-G2L["79"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["79"]["PlaceholderText"] = [[Search]];
+G2L["79"]["Size"] = UDim2.new(0, 245, 0, 35);
+G2L["79"]["Position"] = UDim2.new(0.05788, 0, 0, 0);
 G2L["79"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["79"]["Text"] = [[Chat tracker]];
+G2L["79"]["Text"] = [[]];
+G2L["79"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["7a"] = Instance.new("UICorner", G2L["79"]);
-G2L["7a"]["CornerRadius"] = UDim.new(0, 99);
-
-
--- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["7b"] = Instance.new("LocalScript", G2L["79"]);
+-- StarterGui.zerohubsigmayes.main.ScriptsFrame.Frame.TextBox.LocalScript
+G2L["7a"] = Instance.new("LocalScript", G2L["79"]);
 
 
 
--- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["7c"] = Instance.new("TextButton", G2L["77"]);
+-- StarterGui.zerohubsigmayes.main.ScriptsFrame.Frame.UIGradient
+G2L["7b"] = Instance.new("UIGradient", G2L["75"]);
+G2L["7b"]["Rotation"] = 90;
+G2L["7b"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
+
+
+-- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame
+G2L["7c"] = Instance.new("ScrollingFrame", G2L["74"]);
+G2L["7c"]["Active"] = true;
 G2L["7c"]["BorderSizePixel"] = 0;
-G2L["7c"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["7c"]["TextSize"] = 20;
-G2L["7c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7c"]["CanvasSize"] = UDim2.new(0, 0, 8, 0);
 G2L["7c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["7c"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["7c"]["BackgroundTransparency"] = 1;
-G2L["7c"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["7c"]["Size"] = UDim2.new(0, 543, 0, 242);
+G2L["7c"]["ScrollBarImageColor3"] = Color3.fromRGB(61, 61, 61);
+G2L["7c"]["Position"] = UDim2.new(0.1232, 0, 0.16092, 0);
 G2L["7c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["7c"]["Text"] = [[Zarar Hub Control Panel]];
+G2L["7c"]["ScrollBarThickness"] = 5;
+G2L["7c"]["BackgroundTransparency"] = 1;
 
 
+-- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.UIGridLayout
+G2L["7d"] = Instance.new("UIGridLayout", G2L["7c"]);
+G2L["7d"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
+G2L["7d"]["CellSize"] = UDim2.new(1, 0, 0, 31);
+G2L["7d"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
+G2L["7e"] = Instance.new("TextButton", G2L["7c"]);
+G2L["7e"]["BorderSizePixel"] = 0;
+G2L["7e"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["7e"]["TextSize"] = 20;
+G2L["7e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7e"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["7e"]["BackgroundTransparency"] = 1;
+G2L["7e"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["7e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7e"]["Text"] = [[Chat tracker]];
+
+
+-- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
+G2L["7f"] = Instance.new("UICorner", G2L["7e"]);
+G2L["7f"]["CornerRadius"] = UDim.new(0, 99);
+
+
+-- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
+G2L["80"] = Instance.new("LocalScript", G2L["7e"]);
+
+
+
+-- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
+G2L["81"] = Instance.new("TextButton", G2L["7c"]);
+G2L["81"]["BorderSizePixel"] = 0;
+G2L["81"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["81"]["TextSize"] = 20;
+G2L["81"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["81"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["81"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["81"]["BackgroundTransparency"] = 1;
+G2L["81"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["81"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["81"]["Text"] = [[Zarar Hub Control Panel]];
+
+
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["7d"] = Instance.new("UICorner", G2L["7c"]);
-G2L["7d"]["CornerRadius"] = UDim.new(0, 99);
+G2L["82"] = Instance.new("UICorner", G2L["81"]);
+G2L["82"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["7e"] = Instance.new("LocalScript", G2L["7c"]);
+G2L["83"] = Instance.new("LocalScript", G2L["81"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["7f"] = Instance.new("TextButton", G2L["77"]);
-G2L["7f"]["BorderSizePixel"] = 0;
-G2L["7f"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["7f"]["TextSize"] = 20;
-G2L["7f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["7f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["7f"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["7f"]["BackgroundTransparency"] = 1;
-G2L["7f"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["7f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["7f"]["Text"] = [[Infinite Yield]];
+G2L["84"] = Instance.new("TextButton", G2L["7c"]);
+G2L["84"]["BorderSizePixel"] = 0;
+G2L["84"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["84"]["TextSize"] = 20;
+G2L["84"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["84"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["84"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["84"]["BackgroundTransparency"] = 1;
+G2L["84"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["84"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["84"]["Text"] = [[Infinite Yield]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["80"] = Instance.new("UICorner", G2L["7f"]);
-G2L["80"]["CornerRadius"] = UDim.new(0, 99);
+G2L["85"] = Instance.new("UICorner", G2L["84"]);
+G2L["85"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["81"] = Instance.new("LocalScript", G2L["7f"]);
+G2L["86"] = Instance.new("LocalScript", G2L["84"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["82"] = Instance.new("TextButton", G2L["77"]);
-G2L["82"]["BorderSizePixel"] = 0;
-G2L["82"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["82"]["TextSize"] = 20;
-G2L["82"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["82"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["82"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["82"]["BackgroundTransparency"] = 1;
-G2L["82"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["82"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["82"]["Text"] = [[Solara hub]];
+G2L["87"] = Instance.new("TextButton", G2L["7c"]);
+G2L["87"]["BorderSizePixel"] = 0;
+G2L["87"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["87"]["TextSize"] = 20;
+G2L["87"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["87"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["87"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["87"]["BackgroundTransparency"] = 1;
+G2L["87"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["87"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["87"]["Text"] = [[Solara hub]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["83"] = Instance.new("UICorner", G2L["82"]);
-G2L["83"]["CornerRadius"] = UDim.new(0, 99);
+G2L["88"] = Instance.new("UICorner", G2L["87"]);
+G2L["88"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["84"] = Instance.new("LocalScript", G2L["82"]);
+G2L["89"] = Instance.new("LocalScript", G2L["87"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["85"] = Instance.new("TextButton", G2L["77"]);
-G2L["85"]["BorderSizePixel"] = 0;
-G2L["85"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["85"]["TextSize"] = 20;
-G2L["85"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["85"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["85"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["85"]["BackgroundTransparency"] = 1;
-G2L["85"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["85"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["85"]["Text"] = [[HD Admin Panel]];
+G2L["8a"] = Instance.new("TextButton", G2L["7c"]);
+G2L["8a"]["BorderSizePixel"] = 0;
+G2L["8a"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["8a"]["TextSize"] = 20;
+G2L["8a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["8a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["8a"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["8a"]["BackgroundTransparency"] = 1;
+G2L["8a"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["8a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8a"]["Text"] = [[HD Admin Panel]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["86"] = Instance.new("UICorner", G2L["85"]);
-G2L["86"]["CornerRadius"] = UDim.new(0, 99);
+G2L["8b"] = Instance.new("UICorner", G2L["8a"]);
+G2L["8b"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["87"] = Instance.new("LocalScript", G2L["85"]);
+G2L["8c"] = Instance.new("LocalScript", G2L["8a"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["88"] = Instance.new("TextButton", G2L["77"]);
-G2L["88"]["BorderSizePixel"] = 0;
-G2L["88"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["88"]["TextSize"] = 20;
-G2L["88"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["88"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["88"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["88"]["BackgroundTransparency"] = 1;
-G2L["88"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["88"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["88"]["Text"] = [[Aimbot]];
+G2L["8d"] = Instance.new("TextButton", G2L["7c"]);
+G2L["8d"]["BorderSizePixel"] = 0;
+G2L["8d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["8d"]["TextSize"] = 20;
+G2L["8d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["8d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["8d"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["8d"]["BackgroundTransparency"] = 1;
+G2L["8d"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["8d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8d"]["Text"] = [[Aimbot]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["89"] = Instance.new("UICorner", G2L["88"]);
-G2L["89"]["CornerRadius"] = UDim.new(0, 99);
+G2L["8e"] = Instance.new("UICorner", G2L["8d"]);
+G2L["8e"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["8a"] = Instance.new("LocalScript", G2L["88"]);
+G2L["8f"] = Instance.new("LocalScript", G2L["8d"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["8b"] = Instance.new("TextButton", G2L["77"]);
-G2L["8b"]["BorderSizePixel"] = 0;
-G2L["8b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["8b"]["TextSize"] = 20;
-G2L["8b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["8b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["8b"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["8b"]["BackgroundTransparency"] = 1;
-G2L["8b"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["8b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["8b"]["Text"] = [[Duck Hub: Rivals]];
+G2L["90"] = Instance.new("TextButton", G2L["7c"]);
+G2L["90"]["BorderSizePixel"] = 0;
+G2L["90"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["90"]["TextSize"] = 20;
+G2L["90"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["90"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["90"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["90"]["BackgroundTransparency"] = 1;
+G2L["90"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["90"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["90"]["Text"] = [[Duck Hub: Rivals]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["8c"] = Instance.new("UICorner", G2L["8b"]);
-G2L["8c"]["CornerRadius"] = UDim.new(0, 99);
+G2L["91"] = Instance.new("UICorner", G2L["90"]);
+G2L["91"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["8d"] = Instance.new("LocalScript", G2L["8b"]);
+G2L["92"] = Instance.new("LocalScript", G2L["90"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["8e"] = Instance.new("TextButton", G2L["77"]);
-G2L["8e"]["BorderSizePixel"] = 0;
-G2L["8e"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["8e"]["TextSize"] = 20;
-G2L["8e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["8e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["8e"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["8e"]["BackgroundTransparency"] = 1;
-G2L["8e"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["8e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["8e"]["Text"] = [[ESP GUI]];
+G2L["93"] = Instance.new("TextButton", G2L["7c"]);
+G2L["93"]["BorderSizePixel"] = 0;
+G2L["93"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["93"]["TextSize"] = 20;
+G2L["93"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["93"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["93"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["93"]["BackgroundTransparency"] = 1;
+G2L["93"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["93"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["93"]["Text"] = [[ESP GUI]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["8f"] = Instance.new("UICorner", G2L["8e"]);
-G2L["8f"]["CornerRadius"] = UDim.new(0, 99);
+G2L["94"] = Instance.new("UICorner", G2L["93"]);
+G2L["94"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["90"] = Instance.new("LocalScript", G2L["8e"]);
+G2L["95"] = Instance.new("LocalScript", G2L["93"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["91"] = Instance.new("TextButton", G2L["77"]);
-G2L["91"]["BorderSizePixel"] = 0;
-G2L["91"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["91"]["TextSize"] = 20;
-G2L["91"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["91"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["91"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["91"]["BackgroundTransparency"] = 1;
-G2L["91"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["91"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["91"]["Text"] = [[Change Rig Type]];
+G2L["96"] = Instance.new("TextButton", G2L["7c"]);
+G2L["96"]["BorderSizePixel"] = 0;
+G2L["96"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["96"]["TextSize"] = 20;
+G2L["96"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["96"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["96"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["96"]["BackgroundTransparency"] = 1;
+G2L["96"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["96"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["96"]["Text"] = [[Change Rig Type]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["92"] = Instance.new("UICorner", G2L["91"]);
-G2L["92"]["CornerRadius"] = UDim.new(0, 99);
+G2L["97"] = Instance.new("UICorner", G2L["96"]);
+G2L["97"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["93"] = Instance.new("LocalScript", G2L["91"]);
+G2L["98"] = Instance.new("LocalScript", G2L["96"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["94"] = Instance.new("TextButton", G2L["77"]);
-G2L["94"]["BorderSizePixel"] = 0;
-G2L["94"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["94"]["TextSize"] = 20;
-G2L["94"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["94"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["94"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["94"]["BackgroundTransparency"] = 1;
-G2L["94"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["94"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["94"]["Text"] = [[Nameless Admin]];
+G2L["99"] = Instance.new("TextButton", G2L["7c"]);
+G2L["99"]["BorderSizePixel"] = 0;
+G2L["99"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["99"]["TextSize"] = 20;
+G2L["99"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["99"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["99"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["99"]["BackgroundTransparency"] = 1;
+G2L["99"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["99"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["99"]["Text"] = [[Nameless Admin]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["95"] = Instance.new("UICorner", G2L["94"]);
-G2L["95"]["CornerRadius"] = UDim.new(0, 99);
+G2L["9a"] = Instance.new("UICorner", G2L["99"]);
+G2L["9a"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["96"] = Instance.new("LocalScript", G2L["94"]);
+G2L["9b"] = Instance.new("LocalScript", G2L["99"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["97"] = Instance.new("TextButton", G2L["77"]);
-G2L["97"]["BorderSizePixel"] = 0;
-G2L["97"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["97"]["TextSize"] = 20;
-G2L["97"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["97"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["97"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["97"]["BackgroundTransparency"] = 1;
-G2L["97"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["97"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["97"]["Text"] = [[Reviz Admin]];
+G2L["9c"] = Instance.new("TextButton", G2L["7c"]);
+G2L["9c"]["BorderSizePixel"] = 0;
+G2L["9c"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["9c"]["TextSize"] = 20;
+G2L["9c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["9c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["9c"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["9c"]["BackgroundTransparency"] = 1;
+G2L["9c"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["9c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9c"]["Text"] = [[Reviz Admin]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["98"] = Instance.new("UICorner", G2L["97"]);
-G2L["98"]["CornerRadius"] = UDim.new(0, 99);
+G2L["9d"] = Instance.new("UICorner", G2L["9c"]);
+G2L["9d"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["99"] = Instance.new("LocalScript", G2L["97"]);
+G2L["9e"] = Instance.new("LocalScript", G2L["9c"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["9a"] = Instance.new("TextButton", G2L["77"]);
-G2L["9a"]["BorderSizePixel"] = 0;
-G2L["9a"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["9a"]["TextSize"] = 20;
-G2L["9a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["9a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["9a"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["9a"]["BackgroundTransparency"] = 1;
-G2L["9a"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["9a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["9a"]["Text"] = [[QuirkyCMD Admin]];
+G2L["9f"] = Instance.new("TextButton", G2L["7c"]);
+G2L["9f"]["BorderSizePixel"] = 0;
+G2L["9f"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["9f"]["TextSize"] = 20;
+G2L["9f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["9f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["9f"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["9f"]["BackgroundTransparency"] = 1;
+G2L["9f"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["9f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9f"]["Text"] = [[QuirkyCMD Admin]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["9b"] = Instance.new("UICorner", G2L["9a"]);
-G2L["9b"]["CornerRadius"] = UDim.new(0, 99);
+G2L["a0"] = Instance.new("UICorner", G2L["9f"]);
+G2L["a0"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["9c"] = Instance.new("LocalScript", G2L["9a"]);
+G2L["a1"] = Instance.new("LocalScript", G2L["9f"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["9d"] = Instance.new("TextButton", G2L["77"]);
-G2L["9d"]["BorderSizePixel"] = 0;
-G2L["9d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["9d"]["TextSize"] = 20;
-G2L["9d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["9d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["9d"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["9d"]["BackgroundTransparency"] = 1;
-G2L["9d"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["9d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["9d"]["Text"] = [[Dex Explorer]];
+G2L["a2"] = Instance.new("TextButton", G2L["7c"]);
+G2L["a2"]["BorderSizePixel"] = 0;
+G2L["a2"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["a2"]["TextSize"] = 20;
+G2L["a2"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a2"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["a2"]["BackgroundTransparency"] = 1;
+G2L["a2"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["a2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a2"]["Text"] = [[Dex Explorer]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["9e"] = Instance.new("UICorner", G2L["9d"]);
-G2L["9e"]["CornerRadius"] = UDim.new(0, 99);
+G2L["a3"] = Instance.new("UICorner", G2L["a2"]);
+G2L["a3"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["9f"] = Instance.new("LocalScript", G2L["9d"]);
+G2L["a4"] = Instance.new("LocalScript", G2L["a2"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["a0"] = Instance.new("TextButton", G2L["77"]);
-G2L["a0"]["BorderSizePixel"] = 0;
-G2L["a0"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["a0"]["TextSize"] = 20;
-G2L["a0"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a0"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["a0"]["BackgroundTransparency"] = 1;
-G2L["a0"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["a0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a0"]["Text"] = [[SimpleSpy v3]];
+G2L["a5"] = Instance.new("TextButton", G2L["7c"]);
+G2L["a5"]["BorderSizePixel"] = 0;
+G2L["a5"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["a5"]["TextSize"] = 20;
+G2L["a5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a5"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["a5"]["BackgroundTransparency"] = 1;
+G2L["a5"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["a5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a5"]["Text"] = [[SimpleSpy v3]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["a1"] = Instance.new("UICorner", G2L["a0"]);
-G2L["a1"]["CornerRadius"] = UDim.new(0, 99);
+G2L["a6"] = Instance.new("UICorner", G2L["a5"]);
+G2L["a6"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["a2"] = Instance.new("LocalScript", G2L["a0"]);
+G2L["a7"] = Instance.new("LocalScript", G2L["a5"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["a3"] = Instance.new("TextButton", G2L["77"]);
-G2L["a3"]["BorderSizePixel"] = 0;
-G2L["a3"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["a3"]["TextSize"] = 20;
-G2L["a3"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a3"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["a3"]["BackgroundTransparency"] = 1;
-G2L["a3"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["a3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a3"]["Text"] = [[Audio logger]];
+G2L["a8"] = Instance.new("TextButton", G2L["7c"]);
+G2L["a8"]["BorderSizePixel"] = 0;
+G2L["a8"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["a8"]["TextSize"] = 20;
+G2L["a8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a8"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["a8"]["BackgroundTransparency"] = 1;
+G2L["a8"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["a8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a8"]["Text"] = [[Audio logger]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["a4"] = Instance.new("UICorner", G2L["a3"]);
-G2L["a4"]["CornerRadius"] = UDim.new(0, 99);
+G2L["a9"] = Instance.new("UICorner", G2L["a8"]);
+G2L["a9"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["a5"] = Instance.new("LocalScript", G2L["a3"]);
+G2L["aa"] = Instance.new("LocalScript", G2L["a8"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["a6"] = Instance.new("TextButton", G2L["77"]);
-G2L["a6"]["BorderSizePixel"] = 0;
-G2L["a6"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["a6"]["TextSize"] = 20;
-G2L["a6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a6"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["a6"]["BackgroundTransparency"] = 1;
-G2L["a6"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["a6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a6"]["Text"] = [[Sander X]];
+G2L["ab"] = Instance.new("TextButton", G2L["7c"]);
+G2L["ab"]["BorderSizePixel"] = 0;
+G2L["ab"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["ab"]["TextSize"] = 20;
+G2L["ab"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ab"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ab"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["ab"]["BackgroundTransparency"] = 1;
+G2L["ab"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["ab"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ab"]["Text"] = [[Sander X]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["a7"] = Instance.new("UICorner", G2L["a6"]);
-G2L["a7"]["CornerRadius"] = UDim.new(0, 99);
+G2L["ac"] = Instance.new("UICorner", G2L["ab"]);
+G2L["ac"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["a8"] = Instance.new("LocalScript", G2L["a6"]);
+G2L["ad"] = Instance.new("LocalScript", G2L["ab"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["a9"] = Instance.new("TextButton", G2L["77"]);
-G2L["a9"]["BorderSizePixel"] = 0;
-G2L["a9"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["a9"]["TextSize"] = 20;
-G2L["a9"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a9"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["a9"]["BackgroundTransparency"] = 1;
-G2L["a9"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["a9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a9"]["Text"] = [[Sander XY]];
+G2L["ae"] = Instance.new("TextButton", G2L["7c"]);
+G2L["ae"]["BorderSizePixel"] = 0;
+G2L["ae"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["ae"]["TextSize"] = 20;
+G2L["ae"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ae"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ae"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["ae"]["BackgroundTransparency"] = 1;
+G2L["ae"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["ae"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ae"]["Text"] = [[Sander XY]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["aa"] = Instance.new("UICorner", G2L["a9"]);
-G2L["aa"]["CornerRadius"] = UDim.new(0, 99);
+G2L["af"] = Instance.new("UICorner", G2L["ae"]);
+G2L["af"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["ab"] = Instance.new("LocalScript", G2L["a9"]);
+G2L["b0"] = Instance.new("LocalScript", G2L["ae"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["ac"] = Instance.new("TextButton", G2L["77"]);
-G2L["ac"]["BorderSizePixel"] = 0;
-G2L["ac"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["ac"]["TextSize"] = 20;
-G2L["ac"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ac"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ac"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["ac"]["BackgroundTransparency"] = 1;
-G2L["ac"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["ac"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ac"]["Text"] = [[Neon Duplicator]];
+G2L["b1"] = Instance.new("TextButton", G2L["7c"]);
+G2L["b1"]["BorderSizePixel"] = 0;
+G2L["b1"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["b1"]["TextSize"] = 20;
+G2L["b1"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b1"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["b1"]["BackgroundTransparency"] = 1;
+G2L["b1"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["b1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["b1"]["Text"] = [[Neon Duplicator]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["ad"] = Instance.new("UICorner", G2L["ac"]);
-G2L["ad"]["CornerRadius"] = UDim.new(0, 99);
+G2L["b2"] = Instance.new("UICorner", G2L["b1"]);
+G2L["b2"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["ae"] = Instance.new("LocalScript", G2L["ac"]);
+G2L["b3"] = Instance.new("LocalScript", G2L["b1"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["af"] = Instance.new("TextButton", G2L["77"]);
-G2L["af"]["BorderSizePixel"] = 0;
-G2L["af"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["af"]["TextSize"] = 20;
-G2L["af"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["af"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["af"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["af"]["BackgroundTransparency"] = 1;
-G2L["af"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["af"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["af"]["Text"] = [[Black Hole Script]];
+G2L["b4"] = Instance.new("TextButton", G2L["7c"]);
+G2L["b4"]["BorderSizePixel"] = 0;
+G2L["b4"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["b4"]["TextSize"] = 20;
+G2L["b4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b4"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["b4"]["BackgroundTransparency"] = 1;
+G2L["b4"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["b4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["b4"]["Text"] = [[Black Hole Script]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["b0"] = Instance.new("UICorner", G2L["af"]);
-G2L["b0"]["CornerRadius"] = UDim.new(0, 99);
+G2L["b5"] = Instance.new("UICorner", G2L["b4"]);
+G2L["b5"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["b1"] = Instance.new("LocalScript", G2L["af"]);
+G2L["b6"] = Instance.new("LocalScript", G2L["b4"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["b2"] = Instance.new("TextButton", G2L["77"]);
-G2L["b2"]["BorderSizePixel"] = 0;
-G2L["b2"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["b2"]["TextSize"] = 20;
-G2L["b2"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["b2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["b2"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["b2"]["BackgroundTransparency"] = 1;
-G2L["b2"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["b2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["b2"]["Text"] = [[Lear Hub]];
+G2L["b7"] = Instance.new("TextButton", G2L["7c"]);
+G2L["b7"]["BorderSizePixel"] = 0;
+G2L["b7"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["b7"]["TextSize"] = 20;
+G2L["b7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b7"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["b7"]["BackgroundTransparency"] = 1;
+G2L["b7"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["b7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["b7"]["Text"] = [[Lear Hub]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["b3"] = Instance.new("UICorner", G2L["b2"]);
-G2L["b3"]["CornerRadius"] = UDim.new(0, 99);
+G2L["b8"] = Instance.new("UICorner", G2L["b7"]);
+G2L["b8"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["b4"] = Instance.new("LocalScript", G2L["b2"]);
+G2L["b9"] = Instance.new("LocalScript", G2L["b7"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["b5"] = Instance.new("TextButton", G2L["77"]);
-G2L["b5"]["BorderSizePixel"] = 0;
-G2L["b5"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["b5"]["TextSize"] = 20;
-G2L["b5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["b5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["b5"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["b5"]["BackgroundTransparency"] = 1;
-G2L["b5"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["b5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["b5"]["Text"] = [[Energize (R6 and R16 animations)]];
+G2L["ba"] = Instance.new("TextButton", G2L["7c"]);
+G2L["ba"]["BorderSizePixel"] = 0;
+G2L["ba"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["ba"]["TextSize"] = 20;
+G2L["ba"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ba"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ba"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["ba"]["BackgroundTransparency"] = 1;
+G2L["ba"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["ba"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ba"]["Text"] = [[Energize (R6 and R16 animations)]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["b6"] = Instance.new("UICorner", G2L["b5"]);
-G2L["b6"]["CornerRadius"] = UDim.new(0, 99);
+G2L["bb"] = Instance.new("UICorner", G2L["ba"]);
+G2L["bb"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["b7"] = Instance.new("LocalScript", G2L["b5"]);
+G2L["bc"] = Instance.new("LocalScript", G2L["ba"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["b8"] = Instance.new("TextButton", G2L["77"]);
-G2L["b8"]["BorderSizePixel"] = 0;
-G2L["b8"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["b8"]["TextSize"] = 20;
-G2L["b8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["b8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["b8"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["b8"]["BackgroundTransparency"] = 1;
-G2L["b8"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["b8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["b8"]["Text"] = [[FE ball script]];
+G2L["bd"] = Instance.new("TextButton", G2L["7c"]);
+G2L["bd"]["BorderSizePixel"] = 0;
+G2L["bd"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["bd"]["TextSize"] = 20;
+G2L["bd"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["bd"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["bd"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["bd"]["BackgroundTransparency"] = 1;
+G2L["bd"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["bd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["bd"]["Text"] = [[FE ball script]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["b9"] = Instance.new("UICorner", G2L["b8"]);
-G2L["b9"]["CornerRadius"] = UDim.new(0, 99);
+G2L["be"] = Instance.new("UICorner", G2L["bd"]);
+G2L["be"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["ba"] = Instance.new("LocalScript", G2L["b8"]);
+G2L["bf"] = Instance.new("LocalScript", G2L["bd"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["bb"] = Instance.new("TextButton", G2L["77"]);
-G2L["bb"]["BorderSizePixel"] = 0;
-G2L["bb"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["bb"]["TextSize"] = 20;
-G2L["bb"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["bb"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["bb"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["bb"]["BackgroundTransparency"] = 1;
-G2L["bb"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["bb"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["bb"]["Text"] = [[FE Equip All Tools]];
+G2L["c0"] = Instance.new("TextButton", G2L["7c"]);
+G2L["c0"]["BorderSizePixel"] = 0;
+G2L["c0"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["c0"]["TextSize"] = 20;
+G2L["c0"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c0"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["c0"]["BackgroundTransparency"] = 1;
+G2L["c0"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["c0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c0"]["Text"] = [[FE Equip All Tools]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["bc"] = Instance.new("UICorner", G2L["bb"]);
-G2L["bc"]["CornerRadius"] = UDim.new(0, 99);
+G2L["c1"] = Instance.new("UICorner", G2L["c0"]);
+G2L["c1"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["bd"] = Instance.new("LocalScript", G2L["bb"]);
+G2L["c2"] = Instance.new("LocalScript", G2L["c0"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["be"] = Instance.new("TextButton", G2L["77"]);
-G2L["be"]["BorderSizePixel"] = 0;
-G2L["be"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["be"]["TextSize"] = 20;
-G2L["be"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["be"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["be"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["be"]["BackgroundTransparency"] = 1;
-G2L["be"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["be"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["be"]["Text"] = [[FE Unequip All Tools]];
+G2L["c3"] = Instance.new("TextButton", G2L["7c"]);
+G2L["c3"]["BorderSizePixel"] = 0;
+G2L["c3"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["c3"]["TextSize"] = 20;
+G2L["c3"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c3"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["c3"]["BackgroundTransparency"] = 1;
+G2L["c3"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["c3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c3"]["Text"] = [[FE Unequip All Tools]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["bf"] = Instance.new("UICorner", G2L["be"]);
-G2L["bf"]["CornerRadius"] = UDim.new(0, 99);
+G2L["c4"] = Instance.new("UICorner", G2L["c3"]);
+G2L["c4"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["c0"] = Instance.new("LocalScript", G2L["be"]);
+G2L["c5"] = Instance.new("LocalScript", G2L["c3"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["c1"] = Instance.new("TextButton", G2L["77"]);
-G2L["c1"]["BorderSizePixel"] = 0;
-G2L["c1"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["c1"]["TextSize"] = 20;
-G2L["c1"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c1"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["c1"]["BackgroundTransparency"] = 1;
-G2L["c1"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["c1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c1"]["Text"] = [[r4d hub]];
+G2L["c6"] = Instance.new("TextButton", G2L["7c"]);
+G2L["c6"]["BorderSizePixel"] = 0;
+G2L["c6"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["c6"]["TextSize"] = 20;
+G2L["c6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c6"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["c6"]["BackgroundTransparency"] = 1;
+G2L["c6"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["c6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c6"]["Text"] = [[r4d hub]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["c2"] = Instance.new("UICorner", G2L["c1"]);
-G2L["c2"]["CornerRadius"] = UDim.new(0, 99);
+G2L["c7"] = Instance.new("UICorner", G2L["c6"]);
+G2L["c7"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["c3"] = Instance.new("LocalScript", G2L["c1"]);
+G2L["c8"] = Instance.new("LocalScript", G2L["c6"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["c4"] = Instance.new("TextButton", G2L["77"]);
-G2L["c4"]["BorderSizePixel"] = 0;
-G2L["c4"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["c4"]["TextSize"] = 20;
-G2L["c4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c4"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["c4"]["BackgroundTransparency"] = 1;
-G2L["c4"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["c4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c4"]["Text"] = [[Project Dnez Quick Panel]];
+G2L["c9"] = Instance.new("TextButton", G2L["7c"]);
+G2L["c9"]["BorderSizePixel"] = 0;
+G2L["c9"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["c9"]["TextSize"] = 20;
+G2L["c9"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c9"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["c9"]["BackgroundTransparency"] = 1;
+G2L["c9"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["c9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c9"]["Text"] = [[Project Dnez Quick Panel]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["c5"] = Instance.new("UICorner", G2L["c4"]);
-G2L["c5"]["CornerRadius"] = UDim.new(0, 99);
+G2L["ca"] = Instance.new("UICorner", G2L["c9"]);
+G2L["ca"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["c6"] = Instance.new("LocalScript", G2L["c4"]);
+G2L["cb"] = Instance.new("LocalScript", G2L["c9"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["c7"] = Instance.new("TextButton", G2L["77"]);
-G2L["c7"]["BorderSizePixel"] = 0;
-G2L["c7"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["c7"]["TextSize"] = 20;
-G2L["c7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c7"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["c7"]["BackgroundTransparency"] = 1;
-G2L["c7"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["c7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c7"]["Text"] = [[Redz hub]];
+G2L["cc"] = Instance.new("TextButton", G2L["7c"]);
+G2L["cc"]["BorderSizePixel"] = 0;
+G2L["cc"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["cc"]["TextSize"] = 20;
+G2L["cc"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["cc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["cc"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["cc"]["BackgroundTransparency"] = 1;
+G2L["cc"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["cc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["cc"]["Text"] = [[Redz hub]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["c8"] = Instance.new("UICorner", G2L["c7"]);
-G2L["c8"]["CornerRadius"] = UDim.new(0, 99);
+G2L["cd"] = Instance.new("UICorner", G2L["cc"]);
+G2L["cd"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["c9"] = Instance.new("LocalScript", G2L["c7"]);
+G2L["ce"] = Instance.new("LocalScript", G2L["cc"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["ca"] = Instance.new("TextButton", G2L["77"]);
-G2L["ca"]["BorderSizePixel"] = 0;
-G2L["ca"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["ca"]["TextSize"] = 20;
-G2L["ca"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ca"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ca"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["ca"]["BackgroundTransparency"] = 1;
-G2L["ca"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["ca"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ca"]["Text"] = [[Speed Hub X]];
+G2L["cf"] = Instance.new("TextButton", G2L["7c"]);
+G2L["cf"]["BorderSizePixel"] = 0;
+G2L["cf"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["cf"]["TextSize"] = 20;
+G2L["cf"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["cf"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["cf"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["cf"]["BackgroundTransparency"] = 1;
+G2L["cf"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["cf"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["cf"]["Text"] = [[Speed Hub X]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["cb"] = Instance.new("UICorner", G2L["ca"]);
-G2L["cb"]["CornerRadius"] = UDim.new(0, 99);
+G2L["d0"] = Instance.new("UICorner", G2L["cf"]);
+G2L["d0"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["cc"] = Instance.new("LocalScript", G2L["ca"]);
+G2L["d1"] = Instance.new("LocalScript", G2L["cf"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["cd"] = Instance.new("TextButton", G2L["77"]);
-G2L["cd"]["BorderSizePixel"] = 0;
-G2L["cd"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["cd"]["TextSize"] = 20;
-G2L["cd"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["cd"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["cd"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["cd"]["BackgroundTransparency"] = 1;
-G2L["cd"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["cd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["cd"]["Text"] = [[FE Chat Draw]];
+G2L["d2"] = Instance.new("TextButton", G2L["7c"]);
+G2L["d2"]["BorderSizePixel"] = 0;
+G2L["d2"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["d2"]["TextSize"] = 20;
+G2L["d2"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d2"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["d2"]["BackgroundTransparency"] = 1;
+G2L["d2"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["d2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d2"]["Text"] = [[FE Chat Draw]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["ce"] = Instance.new("UICorner", G2L["cd"]);
-G2L["ce"]["CornerRadius"] = UDim.new(0, 99);
+G2L["d3"] = Instance.new("UICorner", G2L["d2"]);
+G2L["d3"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["cf"] = Instance.new("LocalScript", G2L["cd"]);
+G2L["d4"] = Instance.new("LocalScript", G2L["d2"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["d0"] = Instance.new("TextButton", G2L["77"]);
-G2L["d0"]["BorderSizePixel"] = 0;
-G2L["d0"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["d0"]["TextSize"] = 20;
-G2L["d0"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d0"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["d0"]["BackgroundTransparency"] = 1;
-G2L["d0"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["d0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d0"]["Text"] = [[FE Tool Giver]];
+G2L["d5"] = Instance.new("TextButton", G2L["7c"]);
+G2L["d5"]["BorderSizePixel"] = 0;
+G2L["d5"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["d5"]["TextSize"] = 20;
+G2L["d5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d5"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["d5"]["BackgroundTransparency"] = 1;
+G2L["d5"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["d5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d5"]["Text"] = [[FE Tool Giver]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["d1"] = Instance.new("UICorner", G2L["d0"]);
-G2L["d1"]["CornerRadius"] = UDim.new(0, 99);
+G2L["d6"] = Instance.new("UICorner", G2L["d5"]);
+G2L["d6"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["d2"] = Instance.new("LocalScript", G2L["d0"]);
+G2L["d7"] = Instance.new("LocalScript", G2L["d5"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["d3"] = Instance.new("TextButton", G2L["77"]);
-G2L["d3"]["BorderSizePixel"] = 0;
-G2L["d3"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["d3"]["TextSize"] = 20;
-G2L["d3"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d3"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["d3"]["BackgroundTransparency"] = 1;
-G2L["d3"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["d3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d3"]["Text"] = [[Owlhub]];
+G2L["d8"] = Instance.new("TextButton", G2L["7c"]);
+G2L["d8"]["BorderSizePixel"] = 0;
+G2L["d8"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["d8"]["TextSize"] = 20;
+G2L["d8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d8"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["d8"]["BackgroundTransparency"] = 1;
+G2L["d8"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["d8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d8"]["Text"] = [[Owlhub]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["d4"] = Instance.new("UICorner", G2L["d3"]);
-G2L["d4"]["CornerRadius"] = UDim.new(0, 99);
+G2L["d9"] = Instance.new("UICorner", G2L["d8"]);
+G2L["d9"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["d5"] = Instance.new("LocalScript", G2L["d3"]);
+G2L["da"] = Instance.new("LocalScript", G2L["d8"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["d6"] = Instance.new("TextButton", G2L["77"]);
-G2L["d6"]["BorderSizePixel"] = 0;
-G2L["d6"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["d6"]["TextSize"] = 20;
-G2L["d6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d6"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["d6"]["BackgroundTransparency"] = 1;
-G2L["d6"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["d6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d6"]["Text"] = [[CTRL+Click Teleport]];
+G2L["db"] = Instance.new("TextButton", G2L["7c"]);
+G2L["db"]["BorderSizePixel"] = 0;
+G2L["db"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["db"]["TextSize"] = 20;
+G2L["db"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["db"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["db"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["db"]["BackgroundTransparency"] = 1;
+G2L["db"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["db"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["db"]["Text"] = [[CTRL+Click Teleport]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["d7"] = Instance.new("UICorner", G2L["d6"]);
-G2L["d7"]["CornerRadius"] = UDim.new(0, 99);
+G2L["dc"] = Instance.new("UICorner", G2L["db"]);
+G2L["dc"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["d8"] = Instance.new("LocalScript", G2L["d6"]);
+G2L["dd"] = Instance.new("LocalScript", G2L["db"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["d9"] = Instance.new("TextButton", G2L["77"]);
-G2L["d9"]["BorderSizePixel"] = 0;
-G2L["d9"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["d9"]["TextSize"] = 20;
-G2L["d9"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d9"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["d9"]["BackgroundTransparency"] = 1;
-G2L["d9"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["d9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d9"]["Text"] = [[Evarge Hub Admin Panel]];
+G2L["de"] = Instance.new("TextButton", G2L["7c"]);
+G2L["de"]["BorderSizePixel"] = 0;
+G2L["de"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["de"]["TextSize"] = 20;
+G2L["de"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["de"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["de"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["de"]["BackgroundTransparency"] = 1;
+G2L["de"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["de"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["de"]["Text"] = [[Evarge Hub Admin Panel]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["da"] = Instance.new("UICorner", G2L["d9"]);
-G2L["da"]["CornerRadius"] = UDim.new(0, 99);
+G2L["df"] = Instance.new("UICorner", G2L["de"]);
+G2L["df"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["db"] = Instance.new("LocalScript", G2L["d9"]);
+G2L["e0"] = Instance.new("LocalScript", G2L["de"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["dc"] = Instance.new("TextButton", G2L["77"]);
-G2L["dc"]["BorderSizePixel"] = 0;
-G2L["dc"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["dc"]["TextSize"] = 20;
-G2L["dc"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["dc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["dc"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["dc"]["BackgroundTransparency"] = 1;
-G2L["dc"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["dc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["dc"]["Text"] = [[Annabypasser Chat Bypasser]];
+G2L["e1"] = Instance.new("TextButton", G2L["7c"]);
+G2L["e1"]["BorderSizePixel"] = 0;
+G2L["e1"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["e1"]["TextSize"] = 20;
+G2L["e1"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e1"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["e1"]["BackgroundTransparency"] = 1;
+G2L["e1"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["e1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e1"]["Text"] = [[Annabypasser Chat Bypasser]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["dd"] = Instance.new("UICorner", G2L["dc"]);
-G2L["dd"]["CornerRadius"] = UDim.new(0, 99);
+G2L["e2"] = Instance.new("UICorner", G2L["e1"]);
+G2L["e2"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["de"] = Instance.new("LocalScript", G2L["dc"]);
+G2L["e3"] = Instance.new("LocalScript", G2L["e1"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["df"] = Instance.new("TextButton", G2L["77"]);
-G2L["df"]["BorderSizePixel"] = 0;
-G2L["df"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["df"]["TextSize"] = 20;
-G2L["df"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["df"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["df"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["df"]["BackgroundTransparency"] = 1;
-G2L["df"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["df"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["df"]["Text"] = [[Chatbot hub]];
+G2L["e4"] = Instance.new("TextButton", G2L["7c"]);
+G2L["e4"]["BorderSizePixel"] = 0;
+G2L["e4"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["e4"]["TextSize"] = 20;
+G2L["e4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e4"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["e4"]["BackgroundTransparency"] = 1;
+G2L["e4"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["e4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e4"]["Text"] = [[Chatbot hub]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["e0"] = Instance.new("UICorner", G2L["df"]);
-G2L["e0"]["CornerRadius"] = UDim.new(0, 99);
+G2L["e5"] = Instance.new("UICorner", G2L["e4"]);
+G2L["e5"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["e1"] = Instance.new("LocalScript", G2L["df"]);
+G2L["e6"] = Instance.new("LocalScript", G2L["e4"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["e2"] = Instance.new("TextButton", G2L["77"]);
-G2L["e2"]["BorderSizePixel"] = 0;
-G2L["e2"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["e2"]["TextSize"] = 20;
-G2L["e2"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e2"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["e2"]["BackgroundTransparency"] = 1;
-G2L["e2"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["e2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e2"]["Text"] = [[Fling things and people script]];
+G2L["e7"] = Instance.new("TextButton", G2L["7c"]);
+G2L["e7"]["BorderSizePixel"] = 0;
+G2L["e7"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["e7"]["TextSize"] = 20;
+G2L["e7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e7"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["e7"]["BackgroundTransparency"] = 1;
+G2L["e7"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["e7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e7"]["Text"] = [[Fling things and people script]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["e3"] = Instance.new("UICorner", G2L["e2"]);
-G2L["e3"]["CornerRadius"] = UDim.new(0, 99);
+G2L["e8"] = Instance.new("UICorner", G2L["e7"]);
+G2L["e8"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["e4"] = Instance.new("LocalScript", G2L["e2"]);
+G2L["e9"] = Instance.new("LocalScript", G2L["e7"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["e5"] = Instance.new("TextButton", G2L["77"]);
-G2L["e5"]["BorderSizePixel"] = 0;
-G2L["e5"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["e5"]["TextSize"] = 20;
-G2L["e5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e5"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["e5"]["BackgroundTransparency"] = 1;
-G2L["e5"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["e5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e5"]["Text"] = [[Dead rails]];
+G2L["ea"] = Instance.new("TextButton", G2L["7c"]);
+G2L["ea"]["BorderSizePixel"] = 0;
+G2L["ea"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["ea"]["TextSize"] = 20;
+G2L["ea"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ea"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ea"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["ea"]["BackgroundTransparency"] = 1;
+G2L["ea"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["ea"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ea"]["Text"] = [[Dead rails]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["e6"] = Instance.new("UICorner", G2L["e5"]);
-G2L["e6"]["CornerRadius"] = UDim.new(0, 99);
+G2L["eb"] = Instance.new("UICorner", G2L["ea"]);
+G2L["eb"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["e7"] = Instance.new("LocalScript", G2L["e5"]);
+G2L["ec"] = Instance.new("LocalScript", G2L["ea"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["e8"] = Instance.new("TextButton", G2L["77"]);
-G2L["e8"]["BorderSizePixel"] = 0;
-G2L["e8"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["e8"]["TextSize"] = 20;
-G2L["e8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e8"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["e8"]["BackgroundTransparency"] = 1;
-G2L["e8"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["e8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e8"]["Text"] = [[sUNC Test]];
+G2L["ed"] = Instance.new("TextButton", G2L["7c"]);
+G2L["ed"]["BorderSizePixel"] = 0;
+G2L["ed"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["ed"]["TextSize"] = 20;
+G2L["ed"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ed"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ed"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["ed"]["BackgroundTransparency"] = 1;
+G2L["ed"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["ed"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ed"]["Text"] = [[sUNC Test]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["e9"] = Instance.new("UICorner", G2L["e8"]);
-G2L["e9"]["CornerRadius"] = UDim.new(0, 99);
+G2L["ee"] = Instance.new("UICorner", G2L["ed"]);
+G2L["ee"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["ea"] = Instance.new("LocalScript", G2L["e8"]);
+G2L["ef"] = Instance.new("LocalScript", G2L["ed"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["eb"] = Instance.new("TextButton", G2L["77"]);
-G2L["eb"]["BorderSizePixel"] = 0;
-G2L["eb"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["eb"]["TextSize"] = 20;
-G2L["eb"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["eb"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["eb"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["eb"]["BackgroundTransparency"] = 1;
-G2L["eb"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["eb"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["eb"]["Text"] = [[Grow A Garden Script]];
+G2L["f0"] = Instance.new("TextButton", G2L["7c"]);
+G2L["f0"]["BorderSizePixel"] = 0;
+G2L["f0"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["f0"]["TextSize"] = 20;
+G2L["f0"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f0"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f0"]["BackgroundTransparency"] = 1;
+G2L["f0"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["f0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f0"]["Text"] = [[Grow A Garden Script]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["ec"] = Instance.new("UICorner", G2L["eb"]);
-G2L["ec"]["CornerRadius"] = UDim.new(0, 99);
+G2L["f1"] = Instance.new("UICorner", G2L["f0"]);
+G2L["f1"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["ed"] = Instance.new("LocalScript", G2L["eb"]);
+G2L["f2"] = Instance.new("LocalScript", G2L["f0"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["ee"] = Instance.new("TextButton", G2L["77"]);
-G2L["ee"]["BorderSizePixel"] = 0;
-G2L["ee"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["ee"]["TextSize"] = 20;
-G2L["ee"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ee"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ee"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["ee"]["BackgroundTransparency"] = 1;
-G2L["ee"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["ee"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ee"]["Text"] = [[NatHub - Universal]];
+G2L["f3"] = Instance.new("TextButton", G2L["7c"]);
+G2L["f3"]["BorderSizePixel"] = 0;
+G2L["f3"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["f3"]["TextSize"] = 20;
+G2L["f3"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f3"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f3"]["BackgroundTransparency"] = 1;
+G2L["f3"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["f3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f3"]["Text"] = [[NatHub - Universal]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["ef"] = Instance.new("UICorner", G2L["ee"]);
-G2L["ef"]["CornerRadius"] = UDim.new(0, 99);
+G2L["f4"] = Instance.new("UICorner", G2L["f3"]);
+G2L["f4"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["f0"] = Instance.new("LocalScript", G2L["ee"]);
+G2L["f5"] = Instance.new("LocalScript", G2L["f3"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["f1"] = Instance.new("TextButton", G2L["77"]);
-G2L["f1"]["BorderSizePixel"] = 0;
-G2L["f1"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["f1"]["TextSize"] = 20;
-G2L["f1"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f1"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["f1"]["BackgroundTransparency"] = 1;
-G2L["f1"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["f1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f1"]["Text"] = [[Winnable Hub]];
+G2L["f6"] = Instance.new("TextButton", G2L["7c"]);
+G2L["f6"]["BorderSizePixel"] = 0;
+G2L["f6"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["f6"]["TextSize"] = 20;
+G2L["f6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f6"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f6"]["BackgroundTransparency"] = 1;
+G2L["f6"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["f6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f6"]["Text"] = [[Winnable Hub]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["f2"] = Instance.new("UICorner", G2L["f1"]);
-G2L["f2"]["CornerRadius"] = UDim.new(0, 99);
+G2L["f7"] = Instance.new("UICorner", G2L["f6"]);
+G2L["f7"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["f3"] = Instance.new("LocalScript", G2L["f1"]);
+G2L["f8"] = Instance.new("LocalScript", G2L["f6"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["f4"] = Instance.new("TextButton", G2L["77"]);
-G2L["f4"]["BorderSizePixel"] = 0;
-G2L["f4"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["f4"]["TextSize"] = 20;
-G2L["f4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f4"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["f4"]["BackgroundTransparency"] = 1;
-G2L["f4"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["f4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f4"]["Text"] = [[Skinwalker ESP]];
+G2L["f9"] = Instance.new("TextButton", G2L["7c"]);
+G2L["f9"]["BorderSizePixel"] = 0;
+G2L["f9"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["f9"]["TextSize"] = 20;
+G2L["f9"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f9"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f9"]["BackgroundTransparency"] = 1;
+G2L["f9"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["f9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f9"]["Text"] = [[Skinwalker ESP]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["f5"] = Instance.new("UICorner", G2L["f4"]);
-G2L["f5"]["CornerRadius"] = UDim.new(0, 99);
+G2L["fa"] = Instance.new("UICorner", G2L["f9"]);
+G2L["fa"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["f6"] = Instance.new("LocalScript", G2L["f4"]);
+G2L["fb"] = Instance.new("LocalScript", G2L["f9"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["f7"] = Instance.new("TextButton", G2L["77"]);
-G2L["f7"]["BorderSizePixel"] = 0;
-G2L["f7"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["f7"]["TextSize"] = 20;
-G2L["f7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f7"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["f7"]["BackgroundTransparency"] = 1;
-G2L["f7"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["f7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f7"]["Text"] = [[Mango Hub | Key: Mango_RAINDROPW]];
+G2L["fc"] = Instance.new("TextButton", G2L["7c"]);
+G2L["fc"]["BorderSizePixel"] = 0;
+G2L["fc"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["fc"]["TextSize"] = 20;
+G2L["fc"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["fc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["fc"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["fc"]["BackgroundTransparency"] = 1;
+G2L["fc"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["fc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["fc"]["Text"] = [[Mango Hub | Key: Mango_RAINDROPW]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["f8"] = Instance.new("UICorner", G2L["f7"]);
-G2L["f8"]["CornerRadius"] = UDim.new(0, 99);
+G2L["fd"] = Instance.new("UICorner", G2L["fc"]);
+G2L["fd"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["f9"] = Instance.new("LocalScript", G2L["f7"]);
+G2L["fe"] = Instance.new("LocalScript", G2L["fc"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["fa"] = Instance.new("TextButton", G2L["77"]);
-G2L["fa"]["BorderSizePixel"] = 0;
-G2L["fa"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["fa"]["TextSize"] = 20;
-G2L["fa"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["fa"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["fa"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["fa"]["BackgroundTransparency"] = 1;
-G2L["fa"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["fa"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["fa"]["Text"] = [[c00lman Script Hub]];
+G2L["ff"] = Instance.new("TextButton", G2L["7c"]);
+G2L["ff"]["BorderSizePixel"] = 0;
+G2L["ff"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["ff"]["TextSize"] = 20;
+G2L["ff"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ff"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ff"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["ff"]["BackgroundTransparency"] = 1;
+G2L["ff"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["ff"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ff"]["Text"] = [[c00lman Script Hub]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["fb"] = Instance.new("UICorner", G2L["fa"]);
-G2L["fb"]["CornerRadius"] = UDim.new(0, 99);
+G2L["100"] = Instance.new("UICorner", G2L["ff"]);
+G2L["100"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["fc"] = Instance.new("LocalScript", G2L["fa"]);
+G2L["101"] = Instance.new("LocalScript", G2L["ff"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["fd"] = Instance.new("TextButton", G2L["77"]);
-G2L["fd"]["BorderSizePixel"] = 0;
-G2L["fd"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["fd"]["TextSize"] = 20;
-G2L["fd"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["fd"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["fd"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["fd"]["BackgroundTransparency"] = 1;
-G2L["fd"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["fd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["fd"]["Text"] = [[Flame Object {OP}]];
+G2L["102"] = Instance.new("TextButton", G2L["7c"]);
+G2L["102"]["BorderSizePixel"] = 0;
+G2L["102"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["102"]["TextSize"] = 20;
+G2L["102"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["102"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["102"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["102"]["BackgroundTransparency"] = 1;
+G2L["102"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["102"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["102"]["Text"] = [[Flame Object {OP}]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["fe"] = Instance.new("UICorner", G2L["fd"]);
-G2L["fe"]["CornerRadius"] = UDim.new(0, 99);
+G2L["103"] = Instance.new("UICorner", G2L["102"]);
+G2L["103"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["ff"] = Instance.new("LocalScript", G2L["fd"]);
+G2L["104"] = Instance.new("LocalScript", G2L["102"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["100"] = Instance.new("TextButton", G2L["77"]);
-G2L["100"]["BorderSizePixel"] = 0;
-G2L["100"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["100"]["TextSize"] = 20;
-G2L["100"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["100"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["100"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["100"]["BackgroundTransparency"] = 1;
-G2L["100"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["100"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["100"]["Text"] = [[LoS (Legends of Speed) hub]];
+G2L["105"] = Instance.new("TextButton", G2L["7c"]);
+G2L["105"]["BorderSizePixel"] = 0;
+G2L["105"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["105"]["TextSize"] = 20;
+G2L["105"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["105"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["105"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["105"]["BackgroundTransparency"] = 1;
+G2L["105"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["105"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["105"]["Text"] = [[LoS (Legends of Speed) hub]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["101"] = Instance.new("UICorner", G2L["100"]);
-G2L["101"]["CornerRadius"] = UDim.new(0, 99);
+G2L["106"] = Instance.new("UICorner", G2L["105"]);
+G2L["106"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["102"] = Instance.new("LocalScript", G2L["100"]);
+G2L["107"] = Instance.new("LocalScript", G2L["105"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["103"] = Instance.new("TextButton", G2L["77"]);
-G2L["103"]["BorderSizePixel"] = 0;
-G2L["103"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["103"]["TextSize"] = 20;
-G2L["103"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["103"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["103"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["103"]["BackgroundTransparency"] = 1;
-G2L["103"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["103"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["103"]["Text"] = [[Ro-hub | rohub.gg]];
+G2L["108"] = Instance.new("TextButton", G2L["7c"]);
+G2L["108"]["BorderSizePixel"] = 0;
+G2L["108"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["108"]["TextSize"] = 20;
+G2L["108"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["108"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["108"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["108"]["BackgroundTransparency"] = 1;
+G2L["108"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["108"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["108"]["Text"] = [[Ro-hub | rohub.gg]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["104"] = Instance.new("UICorner", G2L["103"]);
-G2L["104"]["CornerRadius"] = UDim.new(0, 99);
+G2L["109"] = Instance.new("UICorner", G2L["108"]);
+G2L["109"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["105"] = Instance.new("LocalScript", G2L["103"]);
+G2L["10a"] = Instance.new("LocalScript", G2L["108"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["106"] = Instance.new("TextButton", G2L["77"]);
-G2L["106"]["BorderSizePixel"] = 0;
-G2L["106"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["106"]["TextSize"] = 20;
-G2L["106"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["106"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["106"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["106"]["BackgroundTransparency"] = 1;
-G2L["106"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["106"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["106"]["Text"] = [[Fly Gui v3]];
+G2L["10b"] = Instance.new("TextButton", G2L["7c"]);
+G2L["10b"]["BorderSizePixel"] = 0;
+G2L["10b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["10b"]["TextSize"] = 20;
+G2L["10b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["10b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["10b"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["10b"]["BackgroundTransparency"] = 1;
+G2L["10b"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["10b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["10b"]["Text"] = [[Fly Gui v3]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["107"] = Instance.new("UICorner", G2L["106"]);
-G2L["107"]["CornerRadius"] = UDim.new(0, 99);
+G2L["10c"] = Instance.new("UICorner", G2L["10b"]);
+G2L["10c"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["108"] = Instance.new("LocalScript", G2L["106"]);
+G2L["10d"] = Instance.new("LocalScript", G2L["10b"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["109"] = Instance.new("TextButton", G2L["77"]);
-G2L["109"]["BorderSizePixel"] = 0;
-G2L["109"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["109"]["TextSize"] = 20;
-G2L["109"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["109"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["109"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["109"]["BackgroundTransparency"] = 1;
-G2L["109"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["109"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["109"]["Text"] = [[Aussie Wire]];
+G2L["10e"] = Instance.new("TextButton", G2L["7c"]);
+G2L["10e"]["BorderSizePixel"] = 0;
+G2L["10e"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["10e"]["TextSize"] = 20;
+G2L["10e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["10e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["10e"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["10e"]["BackgroundTransparency"] = 1;
+G2L["10e"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["10e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["10e"]["Text"] = [[Aussie Wire]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["10a"] = Instance.new("UICorner", G2L["109"]);
-G2L["10a"]["CornerRadius"] = UDim.new(0, 99);
+G2L["10f"] = Instance.new("UICorner", G2L["10e"]);
+G2L["10f"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["10b"] = Instance.new("LocalScript", G2L["109"]);
+G2L["110"] = Instance.new("LocalScript", G2L["10e"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["10c"] = Instance.new("TextButton", G2L["77"]);
-G2L["10c"]["BorderSizePixel"] = 0;
-G2L["10c"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["10c"]["TextSize"] = 20;
-G2L["10c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["10c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["10c"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["10c"]["BackgroundTransparency"] = 1;
-G2L["10c"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["10c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["10c"]["Text"] = [[Systembroken]];
+G2L["111"] = Instance.new("TextButton", G2L["7c"]);
+G2L["111"]["BorderSizePixel"] = 0;
+G2L["111"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["111"]["TextSize"] = 20;
+G2L["111"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["111"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["111"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["111"]["BackgroundTransparency"] = 1;
+G2L["111"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["111"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["111"]["Text"] = [[Systembroken]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["10d"] = Instance.new("UICorner", G2L["10c"]);
-G2L["10d"]["CornerRadius"] = UDim.new(0, 99);
+G2L["112"] = Instance.new("UICorner", G2L["111"]);
+G2L["112"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["10e"] = Instance.new("LocalScript", G2L["10c"]);
+G2L["113"] = Instance.new("LocalScript", G2L["111"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["10f"] = Instance.new("TextButton", G2L["77"]);
-G2L["10f"]["BorderSizePixel"] = 0;
-G2L["10f"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["10f"]["TextSize"] = 20;
-G2L["10f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["10f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["10f"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["10f"]["BackgroundTransparency"] = 1;
-G2L["10f"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["10f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["10f"]["Text"] = [[v3rx's c00lgui]];
+G2L["114"] = Instance.new("TextButton", G2L["7c"]);
+G2L["114"]["BorderSizePixel"] = 0;
+G2L["114"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["114"]["TextSize"] = 20;
+G2L["114"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["114"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["114"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["114"]["BackgroundTransparency"] = 1;
+G2L["114"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["114"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["114"]["Text"] = [[v3rx's c00lgui]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["110"] = Instance.new("UICorner", G2L["10f"]);
-G2L["110"]["CornerRadius"] = UDim.new(0, 99);
+G2L["115"] = Instance.new("UICorner", G2L["114"]);
+G2L["115"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["111"] = Instance.new("LocalScript", G2L["10f"]);
+G2L["116"] = Instance.new("LocalScript", G2L["114"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["112"] = Instance.new("TextButton", G2L["77"]);
-G2L["112"]["BorderSizePixel"] = 0;
-G2L["112"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["112"]["TextSize"] = 20;
-G2L["112"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["112"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["112"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["112"]["BackgroundTransparency"] = 1;
-G2L["112"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["112"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["112"]["Text"] = [[HatHub]];
+G2L["117"] = Instance.new("TextButton", G2L["7c"]);
+G2L["117"]["BorderSizePixel"] = 0;
+G2L["117"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["117"]["TextSize"] = 20;
+G2L["117"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["117"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["117"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["117"]["BackgroundTransparency"] = 1;
+G2L["117"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["117"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["117"]["Text"] = [[HatHub]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["113"] = Instance.new("UICorner", G2L["112"]);
-G2L["113"]["CornerRadius"] = UDim.new(0, 99);
+G2L["118"] = Instance.new("UICorner", G2L["117"]);
+G2L["118"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["114"] = Instance.new("LocalScript", G2L["112"]);
+G2L["119"] = Instance.new("LocalScript", G2L["117"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["115"] = Instance.new("TextButton", G2L["77"]);
-G2L["115"]["BorderSizePixel"] = 0;
-G2L["115"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["115"]["TextSize"] = 20;
-G2L["115"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["115"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["115"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["115"]["BackgroundTransparency"] = 1;
-G2L["115"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["115"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["115"]["Text"] = [[Steal a Brainrot: Auto farm, Auto collect cash]];
+G2L["11a"] = Instance.new("TextButton", G2L["7c"]);
+G2L["11a"]["BorderSizePixel"] = 0;
+G2L["11a"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["11a"]["TextSize"] = 20;
+G2L["11a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11a"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["11a"]["BackgroundTransparency"] = 1;
+G2L["11a"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["11a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11a"]["Text"] = [[Steal a Brainrot: Auto farm, Auto collect cash]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["116"] = Instance.new("UICorner", G2L["115"]);
-G2L["116"]["CornerRadius"] = UDim.new(0, 99);
+G2L["11b"] = Instance.new("UICorner", G2L["11a"]);
+G2L["11b"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["117"] = Instance.new("LocalScript", G2L["115"]);
+G2L["11c"] = Instance.new("LocalScript", G2L["11a"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["118"] = Instance.new("TextButton", G2L["77"]);
-G2L["118"]["BorderSizePixel"] = 0;
-G2L["118"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["118"]["TextSize"] = 20;
-G2L["118"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["118"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["118"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["118"]["BackgroundTransparency"] = 1;
-G2L["118"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["118"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["118"]["Text"] = [[Steal a Brainrot by Moondiety]];
+G2L["11d"] = Instance.new("TextButton", G2L["7c"]);
+G2L["11d"]["BorderSizePixel"] = 0;
+G2L["11d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["11d"]["TextSize"] = 20;
+G2L["11d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11d"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["11d"]["BackgroundTransparency"] = 1;
+G2L["11d"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["11d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11d"]["Text"] = [[Steal a Brainrot by Moondiety]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["119"] = Instance.new("UICorner", G2L["118"]);
-G2L["119"]["CornerRadius"] = UDim.new(0, 99);
+G2L["11e"] = Instance.new("UICorner", G2L["11d"]);
+G2L["11e"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["11a"] = Instance.new("LocalScript", G2L["118"]);
+G2L["11f"] = Instance.new("LocalScript", G2L["11d"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["11b"] = Instance.new("TextButton", G2L["77"]);
-G2L["11b"]["BorderSizePixel"] = 0;
-G2L["11b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["11b"]["TextSize"] = 20;
-G2L["11b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["11b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["11b"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["11b"]["BackgroundTransparency"] = 1;
-G2L["11b"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["11b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["11b"]["Text"] = [[Steal a Brainrot: LURK HACK]];
+G2L["120"] = Instance.new("TextButton", G2L["7c"]);
+G2L["120"]["BorderSizePixel"] = 0;
+G2L["120"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["120"]["TextSize"] = 20;
+G2L["120"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["120"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["120"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["120"]["BackgroundTransparency"] = 1;
+G2L["120"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["120"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["120"]["Text"] = [[Steal a Brainrot: LURK HACK]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["11c"] = Instance.new("UICorner", G2L["11b"]);
-G2L["11c"]["CornerRadius"] = UDim.new(0, 99);
+G2L["121"] = Instance.new("UICorner", G2L["120"]);
+G2L["121"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["11d"] = Instance.new("LocalScript", G2L["11b"]);
+G2L["122"] = Instance.new("LocalScript", G2L["120"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["11e"] = Instance.new("TextButton", G2L["77"]);
-G2L["11e"]["BorderSizePixel"] = 0;
-G2L["11e"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["11e"]["TextSize"] = 20;
-G2L["11e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["11e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["11e"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["11e"]["BackgroundTransparency"] = 1;
-G2L["11e"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["11e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["11e"]["Text"] = [[AVOnTop]];
+G2L["123"] = Instance.new("TextButton", G2L["7c"]);
+G2L["123"]["BorderSizePixel"] = 0;
+G2L["123"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["123"]["TextSize"] = 20;
+G2L["123"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["123"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["123"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["123"]["BackgroundTransparency"] = 1;
+G2L["123"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["123"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["123"]["Text"] = [[AVOnTop]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["11f"] = Instance.new("UICorner", G2L["11e"]);
-G2L["11f"]["CornerRadius"] = UDim.new(0, 99);
+G2L["124"] = Instance.new("UICorner", G2L["123"]);
+G2L["124"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["120"] = Instance.new("LocalScript", G2L["11e"]);
+G2L["125"] = Instance.new("LocalScript", G2L["123"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["121"] = Instance.new("TextButton", G2L["77"]);
-G2L["121"]["BorderSizePixel"] = 0;
-G2L["121"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["121"]["TextSize"] = 20;
-G2L["121"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["121"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["121"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["121"]["BackgroundTransparency"] = 1;
-G2L["121"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["121"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["121"]["Text"] = [[Ronix Hub]];
+G2L["126"] = Instance.new("TextButton", G2L["7c"]);
+G2L["126"]["BorderSizePixel"] = 0;
+G2L["126"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["126"]["TextSize"] = 20;
+G2L["126"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["126"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["126"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["126"]["BackgroundTransparency"] = 1;
+G2L["126"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["126"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["126"]["Text"] = [[Ronix Hub]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["122"] = Instance.new("UICorner", G2L["121"]);
-G2L["122"]["CornerRadius"] = UDim.new(0, 99);
+G2L["127"] = Instance.new("UICorner", G2L["126"]);
+G2L["127"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["123"] = Instance.new("LocalScript", G2L["121"]);
+G2L["128"] = Instance.new("LocalScript", G2L["126"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["124"] = Instance.new("TextButton", G2L["77"]);
-G2L["124"]["BorderSizePixel"] = 0;
-G2L["124"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["124"]["TextSize"] = 20;
-G2L["124"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["124"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["124"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["124"]["BackgroundTransparency"] = 1;
-G2L["124"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["124"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["124"]["Text"] = [[Steal a Brainrot: Simple GUI]];
+G2L["129"] = Instance.new("TextButton", G2L["7c"]);
+G2L["129"]["BorderSizePixel"] = 0;
+G2L["129"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["129"]["TextSize"] = 20;
+G2L["129"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["129"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["129"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["129"]["BackgroundTransparency"] = 1;
+G2L["129"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["129"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["129"]["Text"] = [[Steal a Brainrot: Simple GUI]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["125"] = Instance.new("UICorner", G2L["124"]);
-G2L["125"]["CornerRadius"] = UDim.new(0, 99);
+G2L["12a"] = Instance.new("UICorner", G2L["129"]);
+G2L["12a"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["126"] = Instance.new("LocalScript", G2L["124"]);
+G2L["12b"] = Instance.new("LocalScript", G2L["129"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["127"] = Instance.new("TextButton", G2L["77"]);
-G2L["127"]["BorderSizePixel"] = 0;
-G2L["127"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["127"]["TextSize"] = 20;
-G2L["127"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["127"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["127"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["127"]["BackgroundTransparency"] = 1;
-G2L["127"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["127"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["127"]["Text"] = [[GAG script]];
+G2L["12c"] = Instance.new("TextButton", G2L["7c"]);
+G2L["12c"]["BorderSizePixel"] = 0;
+G2L["12c"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["12c"]["TextSize"] = 20;
+G2L["12c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["12c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["12c"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["12c"]["BackgroundTransparency"] = 1;
+G2L["12c"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["12c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["12c"]["Text"] = [[GAG script]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["128"] = Instance.new("UICorner", G2L["127"]);
-G2L["128"]["CornerRadius"] = UDim.new(0, 99);
+G2L["12d"] = Instance.new("UICorner", G2L["12c"]);
+G2L["12d"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["129"] = Instance.new("LocalScript", G2L["127"]);
+G2L["12e"] = Instance.new("LocalScript", G2L["12c"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["12a"] = Instance.new("TextButton", G2L["77"]);
-G2L["12a"]["BorderSizePixel"] = 0;
-G2L["12a"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["12a"]["TextSize"] = 20;
-G2L["12a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["12a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["12a"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["12a"]["BackgroundTransparency"] = 1;
-G2L["12a"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["12a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["12a"]["Text"] = [[Y-Hub: Grow A Garden]];
+G2L["12f"] = Instance.new("TextButton", G2L["7c"]);
+G2L["12f"]["BorderSizePixel"] = 0;
+G2L["12f"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["12f"]["TextSize"] = 20;
+G2L["12f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["12f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["12f"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["12f"]["BackgroundTransparency"] = 1;
+G2L["12f"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["12f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["12f"]["Text"] = [[Y-Hub: Grow A Garden]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["12b"] = Instance.new("UICorner", G2L["12a"]);
-G2L["12b"]["CornerRadius"] = UDim.new(0, 99);
+G2L["130"] = Instance.new("UICorner", G2L["12f"]);
+G2L["130"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["12c"] = Instance.new("LocalScript", G2L["12a"]);
+G2L["131"] = Instance.new("LocalScript", G2L["12f"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["12d"] = Instance.new("TextButton", G2L["77"]);
-G2L["12d"]["BorderSizePixel"] = 0;
-G2L["12d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["12d"]["TextSize"] = 20;
-G2L["12d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["12d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["12d"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["12d"]["BackgroundTransparency"] = 1;
-G2L["12d"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["12d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["12d"]["Text"] = [[Thunder Z: Grow A Garden]];
+G2L["132"] = Instance.new("TextButton", G2L["7c"]);
+G2L["132"]["BorderSizePixel"] = 0;
+G2L["132"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["132"]["TextSize"] = 20;
+G2L["132"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["132"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["132"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["132"]["BackgroundTransparency"] = 1;
+G2L["132"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["132"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["132"]["Text"] = [[Thunder Z: Grow A Garden]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["12e"] = Instance.new("UICorner", G2L["12d"]);
-G2L["12e"]["CornerRadius"] = UDim.new(0, 99);
+G2L["133"] = Instance.new("UICorner", G2L["132"]);
+G2L["133"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["12f"] = Instance.new("LocalScript", G2L["12d"]);
+G2L["134"] = Instance.new("LocalScript", G2L["132"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["130"] = Instance.new("TextButton", G2L["77"]);
-G2L["130"]["BorderSizePixel"] = 0;
-G2L["130"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["130"]["TextSize"] = 20;
-G2L["130"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["130"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["130"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["130"]["BackgroundTransparency"] = 1;
-G2L["130"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["130"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["130"]["Text"] = [[AlterHub]];
+G2L["135"] = Instance.new("TextButton", G2L["7c"]);
+G2L["135"]["BorderSizePixel"] = 0;
+G2L["135"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["135"]["TextSize"] = 20;
+G2L["135"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["135"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["135"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["135"]["BackgroundTransparency"] = 1;
+G2L["135"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["135"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["135"]["Text"] = [[AlterHub]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["131"] = Instance.new("UICorner", G2L["130"]);
-G2L["131"]["CornerRadius"] = UDim.new(0, 99);
+G2L["136"] = Instance.new("UICorner", G2L["135"]);
+G2L["136"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["132"] = Instance.new("LocalScript", G2L["130"]);
+G2L["137"] = Instance.new("LocalScript", G2L["135"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["133"] = Instance.new("TextButton", G2L["77"]);
-G2L["133"]["BorderSizePixel"] = 0;
-G2L["133"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["133"]["TextSize"] = 20;
-G2L["133"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["133"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["133"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["133"]["BackgroundTransparency"] = 1;
-G2L["133"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["133"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["133"]["Text"] = [[Mozil Hub: Grow A Garden]];
+G2L["138"] = Instance.new("TextButton", G2L["7c"]);
+G2L["138"]["BorderSizePixel"] = 0;
+G2L["138"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["138"]["TextSize"] = 20;
+G2L["138"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["138"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["138"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["138"]["BackgroundTransparency"] = 1;
+G2L["138"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["138"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["138"]["Text"] = [[Mozil Hub: Grow A Garden]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["134"] = Instance.new("UICorner", G2L["133"]);
-G2L["134"]["CornerRadius"] = UDim.new(0, 99);
+G2L["139"] = Instance.new("UICorner", G2L["138"]);
+G2L["139"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["135"] = Instance.new("LocalScript", G2L["133"]);
+G2L["13a"] = Instance.new("LocalScript", G2L["138"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["136"] = Instance.new("TextButton", G2L["77"]);
-G2L["136"]["BorderSizePixel"] = 0;
-G2L["136"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["136"]["TextSize"] = 20;
-G2L["136"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["136"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["136"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["136"]["BackgroundTransparency"] = 1;
-G2L["136"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["136"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["136"]["Text"] = [[Panda Hub: Grow A Garden & more]];
+G2L["13b"] = Instance.new("TextButton", G2L["7c"]);
+G2L["13b"]["BorderSizePixel"] = 0;
+G2L["13b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["13b"]["TextSize"] = 20;
+G2L["13b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["13b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["13b"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["13b"]["BackgroundTransparency"] = 1;
+G2L["13b"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["13b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["13b"]["Text"] = [[Panda Hub: Grow A Garden & more]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["137"] = Instance.new("UICorner", G2L["136"]);
-G2L["137"]["CornerRadius"] = UDim.new(0, 99);
+G2L["13c"] = Instance.new("UICorner", G2L["13b"]);
+G2L["13c"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["138"] = Instance.new("LocalScript", G2L["136"]);
+G2L["13d"] = Instance.new("LocalScript", G2L["13b"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["139"] = Instance.new("TextButton", G2L["77"]);
-G2L["139"]["BorderSizePixel"] = 0;
-G2L["139"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["139"]["TextSize"] = 20;
-G2L["139"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["139"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["139"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["139"]["BackgroundTransparency"] = 1;
-G2L["139"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["139"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["139"]["Text"] = [[PhantomFlux]];
+G2L["13e"] = Instance.new("TextButton", G2L["7c"]);
+G2L["13e"]["BorderSizePixel"] = 0;
+G2L["13e"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["13e"]["TextSize"] = 20;
+G2L["13e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["13e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["13e"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["13e"]["BackgroundTransparency"] = 1;
+G2L["13e"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["13e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["13e"]["Text"] = [[PhantomFlux]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["13a"] = Instance.new("UICorner", G2L["139"]);
-G2L["13a"]["CornerRadius"] = UDim.new(0, 99);
+G2L["13f"] = Instance.new("UICorner", G2L["13e"]);
+G2L["13f"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["13b"] = Instance.new("LocalScript", G2L["139"]);
+G2L["140"] = Instance.new("LocalScript", G2L["13e"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["13c"] = Instance.new("TextButton", G2L["77"]);
-G2L["13c"]["BorderSizePixel"] = 0;
-G2L["13c"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["13c"]["TextSize"] = 20;
-G2L["13c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["13c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["13c"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["13c"]["BackgroundTransparency"] = 1;
-G2L["13c"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["13c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["13c"]["Text"] = [[The Vault Scripts]];
+G2L["141"] = Instance.new("TextButton", G2L["7c"]);
+G2L["141"]["BorderSizePixel"] = 0;
+G2L["141"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["141"]["TextSize"] = 20;
+G2L["141"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["141"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["141"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["141"]["BackgroundTransparency"] = 1;
+G2L["141"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["141"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["141"]["Text"] = [[The Vault Scripts]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["13d"] = Instance.new("UICorner", G2L["13c"]);
-G2L["13d"]["CornerRadius"] = UDim.new(0, 99);
+G2L["142"] = Instance.new("UICorner", G2L["141"]);
+G2L["142"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["13e"] = Instance.new("LocalScript", G2L["13c"]);
+G2L["143"] = Instance.new("LocalScript", G2L["141"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["13f"] = Instance.new("TextButton", G2L["77"]);
-G2L["13f"]["BorderSizePixel"] = 0;
-G2L["13f"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["13f"]["TextSize"] = 20;
-G2L["13f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["13f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["13f"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["13f"]["BackgroundTransparency"] = 1;
-G2L["13f"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["13f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["13f"]["Text"] = [[Airflow Hub]];
+G2L["144"] = Instance.new("TextButton", G2L["7c"]);
+G2L["144"]["BorderSizePixel"] = 0;
+G2L["144"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["144"]["TextSize"] = 20;
+G2L["144"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["144"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["144"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["144"]["BackgroundTransparency"] = 1;
+G2L["144"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["144"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["144"]["Text"] = [[Airflow Hub]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["140"] = Instance.new("UICorner", G2L["13f"]);
-G2L["140"]["CornerRadius"] = UDim.new(0, 99);
+G2L["145"] = Instance.new("UICorner", G2L["144"]);
+G2L["145"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["141"] = Instance.new("LocalScript", G2L["13f"]);
+G2L["146"] = Instance.new("LocalScript", G2L["144"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["142"] = Instance.new("TextButton", G2L["77"]);
-G2L["142"]["BorderSizePixel"] = 0;
-G2L["142"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["142"]["TextSize"] = 20;
-G2L["142"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["142"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["142"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["142"]["BackgroundTransparency"] = 1;
-G2L["142"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["142"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["142"]["Text"] = [[Regrevator Script]];
+G2L["147"] = Instance.new("TextButton", G2L["7c"]);
+G2L["147"]["BorderSizePixel"] = 0;
+G2L["147"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["147"]["TextSize"] = 20;
+G2L["147"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["147"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["147"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["147"]["BackgroundTransparency"] = 1;
+G2L["147"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["147"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["147"]["Text"] = [[Regrevator Script]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["143"] = Instance.new("UICorner", G2L["142"]);
-G2L["143"]["CornerRadius"] = UDim.new(0, 99);
+G2L["148"] = Instance.new("UICorner", G2L["147"]);
+G2L["148"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["144"] = Instance.new("LocalScript", G2L["142"]);
+G2L["149"] = Instance.new("LocalScript", G2L["147"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["145"] = Instance.new("TextButton", G2L["77"]);
-G2L["145"]["BorderSizePixel"] = 0;
-G2L["145"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["145"]["TextSize"] = 20;
-G2L["145"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["145"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["145"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["145"]["BackgroundTransparency"] = 1;
-G2L["145"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["145"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["145"]["Text"] = [[Epic Minigames Script]];
+G2L["14a"] = Instance.new("TextButton", G2L["7c"]);
+G2L["14a"]["BorderSizePixel"] = 0;
+G2L["14a"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["14a"]["TextSize"] = 20;
+G2L["14a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["14a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["14a"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["14a"]["BackgroundTransparency"] = 1;
+G2L["14a"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["14a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["14a"]["Text"] = [[Epic Minigames Script]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["146"] = Instance.new("UICorner", G2L["145"]);
-G2L["146"]["CornerRadius"] = UDim.new(0, 99);
+G2L["14b"] = Instance.new("UICorner", G2L["14a"]);
+G2L["14b"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["147"] = Instance.new("LocalScript", G2L["145"]);
+G2L["14c"] = Instance.new("LocalScript", G2L["14a"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["148"] = Instance.new("TextButton", G2L["77"]);
-G2L["148"]["BorderSizePixel"] = 0;
-G2L["148"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["148"]["TextSize"] = 20;
-G2L["148"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["148"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["148"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["148"]["BackgroundTransparency"] = 1;
-G2L["148"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["148"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["148"]["Text"] = [[SLAP BATTLE FORGE HUB (key system)]];
+G2L["14d"] = Instance.new("TextButton", G2L["7c"]);
+G2L["14d"]["BorderSizePixel"] = 0;
+G2L["14d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["14d"]["TextSize"] = 20;
+G2L["14d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["14d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["14d"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["14d"]["BackgroundTransparency"] = 1;
+G2L["14d"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["14d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["14d"]["Text"] = [[SLAP BATTLE FORGE HUB (key system)]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["149"] = Instance.new("UICorner", G2L["148"]);
-G2L["149"]["CornerRadius"] = UDim.new(0, 99);
+G2L["14e"] = Instance.new("UICorner", G2L["14d"]);
+G2L["14e"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["14a"] = Instance.new("LocalScript", G2L["148"]);
+G2L["14f"] = Instance.new("LocalScript", G2L["14d"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["14b"] = Instance.new("TextButton", G2L["77"]);
-G2L["14b"]["BorderSizePixel"] = 0;
-G2L["14b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["14b"]["TextSize"] = 20;
-G2L["14b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["14b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["14b"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["14b"]["BackgroundTransparency"] = 1;
-G2L["14b"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["14b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["14b"]["Text"] = [[Tbao Hub: 99 nights in the forest]];
+G2L["150"] = Instance.new("TextButton", G2L["7c"]);
+G2L["150"]["BorderSizePixel"] = 0;
+G2L["150"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["150"]["TextSize"] = 20;
+G2L["150"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["150"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["150"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["150"]["BackgroundTransparency"] = 1;
+G2L["150"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["150"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["150"]["Text"] = [[Tbao Hub: 99 nights in the forest]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["14c"] = Instance.new("UICorner", G2L["14b"]);
-G2L["14c"]["CornerRadius"] = UDim.new(0, 99);
+G2L["151"] = Instance.new("UICorner", G2L["150"]);
+G2L["151"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["14d"] = Instance.new("LocalScript", G2L["14b"]);
+G2L["152"] = Instance.new("LocalScript", G2L["150"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton
-G2L["14e"] = Instance.new("TextButton", G2L["77"]);
-G2L["14e"]["BorderSizePixel"] = 0;
-G2L["14e"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["14e"]["TextSize"] = 20;
-G2L["14e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["14e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["14e"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["14e"]["BackgroundTransparency"] = 1;
-G2L["14e"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["14e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["14e"]["Text"] = [[Steal a slap script]];
+G2L["153"] = Instance.new("TextButton", G2L["7c"]);
+G2L["153"]["BorderSizePixel"] = 0;
+G2L["153"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["153"]["TextSize"] = 20;
+G2L["153"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["153"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["153"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["153"]["BackgroundTransparency"] = 1;
+G2L["153"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["153"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["153"]["Text"] = [[Steal a slap script]];
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.UICorner
-G2L["14f"] = Instance.new("UICorner", G2L["14e"]);
-G2L["14f"]["CornerRadius"] = UDim.new(0, 99);
+G2L["154"] = Instance.new("UICorner", G2L["153"]);
+G2L["154"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-G2L["150"] = Instance.new("LocalScript", G2L["14e"]);
+G2L["155"] = Instance.new("LocalScript", G2L["153"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.TextLabel
-G2L["151"] = Instance.new("TextLabel", G2L["70"]);
-G2L["151"]["BorderSizePixel"] = 0;
-G2L["151"]["TextSize"] = 18;
-G2L["151"]["TextXAlignment"] = Enum.TextXAlignment.Right;
-G2L["151"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["151"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["151"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["151"]["BackgroundTransparency"] = 1;
-G2L["151"]["Size"] = UDim2.new(0, 225, 0, 21);
-G2L["151"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["151"]["Text"] = [[Results: 0]];
-G2L["151"]["Position"] = UDim2.new(0.6112, 0, 0.89943, 0);
+G2L["156"] = Instance.new("TextLabel", G2L["74"]);
+G2L["156"]["BorderSizePixel"] = 0;
+G2L["156"]["TextSize"] = 18;
+G2L["156"]["TextXAlignment"] = Enum.TextXAlignment.Right;
+G2L["156"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["156"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["156"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["156"]["BackgroundTransparency"] = 1;
+G2L["156"]["Size"] = UDim2.new(0, 225, 0, 21);
+G2L["156"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["156"]["Text"] = [[Results: 0]];
+G2L["156"]["Position"] = UDim2.new(0.6112, 0, 0.89943, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.TextLabel.LocalScript
-G2L["152"] = Instance.new("LocalScript", G2L["151"]);
+G2L["157"] = Instance.new("LocalScript", G2L["156"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.BugreportFrame
-G2L["153"] = Instance.new("Frame", G2L["1d"]);
-G2L["153"]["Visible"] = false;
-G2L["153"]["BorderSizePixel"] = 0;
-G2L["153"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["153"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["153"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["153"]["Name"] = [[BugreportFrame]];
-G2L["153"]["BackgroundTransparency"] = 1;
+G2L["158"] = Instance.new("Frame", G2L["1d"]);
+G2L["158"]["Visible"] = false;
+G2L["158"]["BorderSizePixel"] = 0;
+G2L["158"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["158"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["158"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["158"]["Name"] = [[BugreportFrame]];
+G2L["158"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.zerohubsigmayes.main.BugreportFrame.title
-G2L["154"] = Instance.new("TextLabel", G2L["153"]);
-G2L["154"]["BorderSizePixel"] = 0;
-G2L["154"]["TextSize"] = 30;
-G2L["154"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["154"]["TextYAlignment"] = Enum.TextYAlignment.Top;
-G2L["154"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["154"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["154"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["154"]["BackgroundTransparency"] = 1;
-G2L["154"]["Size"] = UDim2.new(0, 200, 0, 29);
-G2L["154"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["154"]["Text"] = [[Something's off?]];
-G2L["154"]["Name"] = [[title]];
-G2L["154"]["Position"] = UDim2.new(0.128, 0, 0.16092, 0);
-
-
--- StarterGui.zerohubsigmayes.main.BugreportFrame.desc
-G2L["155"] = Instance.new("TextLabel", G2L["153"]);
-G2L["155"]["TextWrapped"] = true;
-G2L["155"]["BorderSizePixel"] = 0;
-G2L["155"]["TextSize"] = 18;
-G2L["155"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["155"]["TextYAlignment"] = Enum.TextYAlignment.Top;
-G2L["155"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["155"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["155"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["155"]["BackgroundTransparency"] = 1;
-G2L["155"]["Size"] = UDim2.new(0, 527, 0, 78);
-G2L["155"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["155"]["Text"] = [[We got your back. Just describe us the issue and we will do our best to fix it. Remember, if you use this feature to troll or send something that is off-topic, you will get instantly blacklisted from using zerohub. Thank you for improving our project!]];
-G2L["155"]["Name"] = [[desc]];
-G2L["155"]["Position"] = UDim2.new(0.128, 0, 0.26724, 0);
-
-
--- StarterGui.zerohubsigmayes.main.BugreportFrame.input
-G2L["156"] = Instance.new("Frame", G2L["153"]);
-G2L["156"]["BorderSizePixel"] = 0;
-G2L["156"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["156"]["Size"] = UDim2.new(0, 527, 0, 115);
-G2L["156"]["Position"] = UDim2.new(0.128, 0, 0.52586, 0);
-G2L["156"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["156"]["Name"] = [[input]];
-G2L["156"]["BackgroundTransparency"] = 0.65;
-
-
--- StarterGui.zerohubsigmayes.main.BugreportFrame.input.UICorner
-G2L["157"] = Instance.new("UICorner", G2L["156"]);
-G2L["157"]["CornerRadius"] = UDim.new(0, 15);
-
-
--- StarterGui.zerohubsigmayes.main.BugreportFrame.input.UIStroke
-G2L["158"] = Instance.new("UIStroke", G2L["156"]);
-G2L["158"]["Transparency"] = 0.1;
-G2L["158"]["Color"] = Color3.fromRGB(151, 151, 151);
-
-
--- StarterGui.zerohubsigmayes.main.BugreportFrame.input.TextBox
-G2L["159"] = Instance.new("TextBox", G2L["156"]);
-G2L["159"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["159"] = Instance.new("TextLabel", G2L["158"]);
 G2L["159"]["BorderSizePixel"] = 0;
-G2L["159"]["TextWrapped"] = true;
-G2L["159"]["TextSize"] = 18;
-G2L["159"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["159"]["TextSize"] = 30;
+G2L["159"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["159"]["TextYAlignment"] = Enum.TextYAlignment.Top;
 G2L["159"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["159"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["159"]["MultiLine"] = true;
-G2L["159"]["ClearTextOnFocus"] = false;
-G2L["159"]["PlaceholderText"] = [[Describe your issue here...]];
-G2L["159"]["Size"] = UDim2.new(0, 507, 0, 98);
-G2L["159"]["Position"] = UDim2.new(0.01898, 0, 0.06957, 0);
-G2L["159"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["159"]["Text"] = [[]];
+G2L["159"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["159"]["BackgroundTransparency"] = 1;
+G2L["159"]["Size"] = UDim2.new(0, 200, 0, 29);
+G2L["159"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["159"]["Text"] = [[Something's off?]];
+G2L["159"]["Name"] = [[title]];
+G2L["159"]["Position"] = UDim2.new(0.128, 0, 0.16092, 0);
+
+
+-- StarterGui.zerohubsigmayes.main.BugreportFrame.desc
+G2L["15a"] = Instance.new("TextLabel", G2L["158"]);
+G2L["15a"]["TextWrapped"] = true;
+G2L["15a"]["BorderSizePixel"] = 0;
+G2L["15a"]["TextSize"] = 18;
+G2L["15a"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["15a"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["15a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["15a"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["15a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["15a"]["BackgroundTransparency"] = 1;
+G2L["15a"]["Size"] = UDim2.new(0, 527, 0, 78);
+G2L["15a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["15a"]["Text"] = [[We got your back. Just describe us the issue and we will do our best to fix it. Remember, if you use this feature to troll or send something that is off-topic, you will get instantly blacklisted from using zerohub. Thank you for improving our project!]];
+G2L["15a"]["Name"] = [[desc]];
+G2L["15a"]["Position"] = UDim2.new(0.128, 0, 0.26724, 0);
+
+
+-- StarterGui.zerohubsigmayes.main.BugreportFrame.input
+G2L["15b"] = Instance.new("Frame", G2L["158"]);
+G2L["15b"]["BorderSizePixel"] = 0;
+G2L["15b"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["15b"]["Size"] = UDim2.new(0, 527, 0, 115);
+G2L["15b"]["Position"] = UDim2.new(0.128, 0, 0.52586, 0);
+G2L["15b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["15b"]["Name"] = [[input]];
+G2L["15b"]["BackgroundTransparency"] = 0.65;
+
+
+-- StarterGui.zerohubsigmayes.main.BugreportFrame.input.UICorner
+G2L["15c"] = Instance.new("UICorner", G2L["15b"]);
+G2L["15c"]["CornerRadius"] = UDim.new(0, 15);
+
+
+-- StarterGui.zerohubsigmayes.main.BugreportFrame.input.UIStroke
+G2L["15d"] = Instance.new("UIStroke", G2L["15b"]);
+G2L["15d"]["Transparency"] = 0.1;
+G2L["15d"]["Color"] = Color3.fromRGB(151, 151, 151);
+
+
+-- StarterGui.zerohubsigmayes.main.BugreportFrame.input.TextBox
+G2L["15e"] = Instance.new("TextBox", G2L["15b"]);
+G2L["15e"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["15e"]["BorderSizePixel"] = 0;
+G2L["15e"]["TextWrapped"] = true;
+G2L["15e"]["TextSize"] = 18;
+G2L["15e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["15e"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["15e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["15e"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["15e"]["MultiLine"] = true;
+G2L["15e"]["ClearTextOnFocus"] = false;
+G2L["15e"]["PlaceholderText"] = [[Describe your issue here...]];
+G2L["15e"]["Size"] = UDim2.new(0, 507, 0, 98);
+G2L["15e"]["Position"] = UDim2.new(0.01898, 0, 0.06957, 0);
+G2L["15e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["15e"]["Text"] = [[]];
+G2L["15e"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.zerohubsigmayes.main.BugreportFrame.TextButton
-G2L["15a"] = Instance.new("TextButton", G2L["153"]);
-G2L["15a"]["BorderSizePixel"] = 0;
-G2L["15a"]["TextSize"] = 20;
-G2L["15a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["15a"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["15a"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["15a"]["BackgroundTransparency"] = 0.65;
-G2L["15a"]["Size"] = UDim2.new(0, 200, 0, 32);
-G2L["15a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["15a"]["Text"] = [[Send]];
-G2L["15a"]["Position"] = UDim2.new(0.6512, 0, 0.88506, 0);
+G2L["15f"] = Instance.new("TextButton", G2L["158"]);
+G2L["15f"]["BorderSizePixel"] = 0;
+G2L["15f"]["TextSize"] = 20;
+G2L["15f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["15f"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["15f"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["15f"]["BackgroundTransparency"] = 0.65;
+G2L["15f"]["Size"] = UDim2.new(0, 200, 0, 32);
+G2L["15f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["15f"]["Text"] = [[Send]];
+G2L["15f"]["Position"] = UDim2.new(0.6512, 0, 0.88506, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.BugreportFrame.TextButton.UICorner
-G2L["15b"] = Instance.new("UICorner", G2L["15a"]);
-G2L["15b"]["CornerRadius"] = UDim.new(0, 15);
+G2L["160"] = Instance.new("UICorner", G2L["15f"]);
+G2L["160"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.zerohubsigmayes.main.BugreportFrame.TextButton.Frame
-G2L["15c"] = Instance.new("Frame", G2L["15a"]);
-G2L["15c"]["BorderSizePixel"] = 0;
-G2L["15c"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["15c"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["15c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["15c"]["BackgroundTransparency"] = 1;
+G2L["161"] = Instance.new("Frame", G2L["15f"]);
+G2L["161"]["BorderSizePixel"] = 0;
+G2L["161"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["161"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["161"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["161"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.zerohubsigmayes.main.BugreportFrame.TextButton.Frame.UICorner
-G2L["15d"] = Instance.new("UICorner", G2L["15c"]);
-G2L["15d"]["CornerRadius"] = UDim.new(0, 15);
+G2L["162"] = Instance.new("UICorner", G2L["161"]);
+G2L["162"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.zerohubsigmayes.main.BugreportFrame.TextButton.Frame.UIStroke
-G2L["15e"] = Instance.new("UIStroke", G2L["15c"]);
-G2L["15e"]["Transparency"] = 0.1;
-G2L["15e"]["Color"] = Color3.fromRGB(151, 151, 151);
+G2L["163"] = Instance.new("UIStroke", G2L["161"]);
+G2L["163"]["Transparency"] = 0.1;
+G2L["163"]["Color"] = Color3.fromRGB(151, 151, 151);
 
 
 -- StarterGui.zerohubsigmayes.main.BugreportFrame.TextButton.LocalScript
-G2L["15f"] = Instance.new("LocalScript", G2L["15a"]);
+G2L["164"] = Instance.new("LocalScript", G2L["15f"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.BugreportFrame.TextButton.LocalScript
-G2L["160"] = Instance.new("LocalScript", G2L["15a"]);
+G2L["165"] = Instance.new("LocalScript", G2L["15f"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame
-G2L["161"] = Instance.new("Frame", G2L["1d"]);
-G2L["161"]["Visible"] = false;
-G2L["161"]["BorderSizePixel"] = 0;
-G2L["161"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["161"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["161"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["161"]["Name"] = [[CreditsFrame]];
-G2L["161"]["BackgroundTransparency"] = 1;
+G2L["166"] = Instance.new("Frame", G2L["1d"]);
+G2L["166"]["Visible"] = false;
+G2L["166"]["BorderSizePixel"] = 0;
+G2L["166"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["166"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["166"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["166"]["Name"] = [[CreditsFrame]];
+G2L["166"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame
-G2L["162"] = Instance.new("ScrollingFrame", G2L["161"]);
-G2L["162"]["Active"] = true;
-G2L["162"]["BorderSizePixel"] = 0;
-G2L["162"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["162"]["Size"] = UDim2.new(0, 533, 0, 285);
-G2L["162"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["162"]["Position"] = UDim2.new(0.1264, 0, 0.15528, 0);
-G2L["162"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["162"]["BackgroundTransparency"] = 1;
+G2L["167"] = Instance.new("ScrollingFrame", G2L["166"]);
+G2L["167"]["Active"] = true;
+G2L["167"]["BorderSizePixel"] = 0;
+G2L["167"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["167"]["Size"] = UDim2.new(0, 533, 0, 285);
+G2L["167"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["167"]["Position"] = UDim2.new(0.1264, 0, 0.15528, 0);
+G2L["167"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["167"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.UIGridLayout
-G2L["163"] = Instance.new("UIGridLayout", G2L["162"]);
-G2L["163"]["CellSize"] = UDim2.new(0, 500, 0, 100);
-G2L["163"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
-G2L["163"]["CellPadding"] = UDim2.new(0, 15, 0, 15);
+G2L["168"] = Instance.new("UIGridLayout", G2L["167"]);
+G2L["168"]["CellSize"] = UDim2.new(0, 500, 0, 100);
+G2L["168"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+G2L["168"]["CellPadding"] = UDim2.new(0, 15, 0, 15);
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame
-G2L["164"] = Instance.new("Frame", G2L["162"]);
-G2L["164"]["BorderSizePixel"] = 0;
-G2L["164"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["164"]["Size"] = UDim2.new(0, 522, 0, 100);
-G2L["164"]["Position"] = UDim2.new(0.1328, 0, 0.17529, 0);
-G2L["164"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["164"]["BackgroundTransparency"] = 0.65;
+G2L["169"] = Instance.new("Frame", G2L["167"]);
+G2L["169"]["BorderSizePixel"] = 0;
+G2L["169"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["169"]["Size"] = UDim2.new(0, 522, 0, 100);
+G2L["169"]["Position"] = UDim2.new(0.1328, 0, 0.17529, 0);
+G2L["169"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["169"]["BackgroundTransparency"] = 0.65;
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.UICorner
-G2L["165"] = Instance.new("UICorner", G2L["164"]);
-G2L["165"]["CornerRadius"] = UDim.new(0, 15);
+G2L["16a"] = Instance.new("UICorner", G2L["169"]);
+G2L["16a"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.UIStroke
-G2L["166"] = Instance.new("UIStroke", G2L["164"]);
-G2L["166"]["Color"] = Color3.fromRGB(76, 76, 76);
+G2L["16b"] = Instance.new("UIStroke", G2L["169"]);
+G2L["16b"]["Color"] = Color3.fromRGB(76, 76, 76);
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextLabel
-G2L["167"] = Instance.new("TextLabel", G2L["164"]);
-G2L["167"]["TextWrapped"] = true;
-G2L["167"]["BorderSizePixel"] = 0;
-G2L["167"]["TextSize"] = 30;
-G2L["167"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["167"]["TextYAlignment"] = Enum.TextYAlignment.Top;
-G2L["167"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["167"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["167"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["167"]["BackgroundTransparency"] = 1;
-G2L["167"]["Size"] = UDim2.new(0, 353, 0, 30);
-G2L["167"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["167"]["Text"] = [[Performance stats]];
-G2L["167"]["Position"] = UDim2.new(0.036, 0, 0.14, 0);
+G2L["16c"] = Instance.new("TextLabel", G2L["169"]);
+G2L["16c"]["TextWrapped"] = true;
+G2L["16c"]["BorderSizePixel"] = 0;
+G2L["16c"]["TextSize"] = 30;
+G2L["16c"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["16c"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["16c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["16c"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["16c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["16c"]["BackgroundTransparency"] = 1;
+G2L["16c"]["Size"] = UDim2.new(0, 353, 0, 30);
+G2L["16c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["16c"]["Text"] = [[Performance stats]];
+G2L["16c"]["Position"] = UDim2.new(0.036, 0, 0.14, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextLabel
-G2L["168"] = Instance.new("TextLabel", G2L["164"]);
-G2L["168"]["TextWrapped"] = true;
-G2L["168"]["BorderSizePixel"] = 0;
-G2L["168"]["TextSize"] = 20;
-G2L["168"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["168"]["TextYAlignment"] = Enum.TextYAlignment.Top;
-G2L["168"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["168"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["168"]["TextColor3"] = Color3.fromRGB(151, 151, 151);
-G2L["168"]["BackgroundTransparency"] = 1;
-G2L["168"]["Size"] = UDim2.new(0, 353, 0, 41);
-G2L["168"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["168"]["Text"] = [[When activated, you'll see performance stuff on the bottom left.]];
-G2L["168"]["Position"] = UDim2.new(0.036, 0, 0.49, 0);
+G2L["16d"] = Instance.new("TextLabel", G2L["169"]);
+G2L["16d"]["TextWrapped"] = true;
+G2L["16d"]["BorderSizePixel"] = 0;
+G2L["16d"]["TextSize"] = 20;
+G2L["16d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["16d"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["16d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["16d"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["16d"]["TextColor3"] = Color3.fromRGB(151, 151, 151);
+G2L["16d"]["BackgroundTransparency"] = 1;
+G2L["16d"]["Size"] = UDim2.new(0, 353, 0, 41);
+G2L["16d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["16d"]["Text"] = [[When activated, you'll see performance stuff on the bottom left.]];
+G2L["16d"]["Position"] = UDim2.new(0.036, 0, 0.49, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.Element
-G2L["169"] = Instance.new("ImageButton", G2L["164"]);
-G2L["169"]["SliceCenter"] = Rect.new(18, 18, 18, 18);
-G2L["169"]["ScaleType"] = Enum.ScaleType.Slice;
-G2L["169"]["ImageTransparency"] = 0.3;
-G2L["169"]["BackgroundTransparency"] = 1;
+G2L["16e"] = Instance.new("ImageButton", G2L["169"]);
+G2L["16e"]["SliceCenter"] = Rect.new(18, 18, 18, 18);
+G2L["16e"]["ScaleType"] = Enum.ScaleType.Slice;
+G2L["16e"]["ImageTransparency"] = 0.3;
+G2L["16e"]["BackgroundTransparency"] = 1;
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["169"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["169"]["Image"] = [[rbxasset://textures/ui/ImageSet/InGameMenu/img_set_1x_1.png]];
-G2L["169"]["ImageRectSize"] = Vector2.new(36, 36);
-G2L["169"]["Size"] = UDim2.new(0, 60, 0, 36);
-G2L["169"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
-G2L["169"]["Name"] = [[Element]];
-G2L["169"]["ImageRectOffset"] = Vector2.new(287, 0);
-G2L["169"]["Position"] = UDim2.new(0.882, 0, 0.5, 0);
+G2L["16e"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["16e"]["Image"] = [[rbxasset://textures/ui/ImageSet/InGameMenu/img_set_1x_1.png]];
+G2L["16e"]["ImageRectSize"] = Vector2.new(36, 36);
+G2L["16e"]["Size"] = UDim2.new(0, 60, 0, 36);
+G2L["16e"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
+G2L["16e"]["Name"] = [[Element]];
+G2L["16e"]["ImageRectOffset"] = Vector2.new(287, 0);
+G2L["16e"]["Position"] = UDim2.new(0.882, 0, 0.5, 0);
 -- Attributes
-G2L["169"]:SetAttribute([[state]], false);
+G2L["16e"]:SetAttribute([[state]], false);
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.Element.Knob
-G2L["16a"] = Instance.new("ImageLabel", G2L["169"]);
-G2L["16a"]["ZIndex"] = 2;
+G2L["16f"] = Instance.new("ImageLabel", G2L["16e"]);
+G2L["16f"]["ZIndex"] = 2;
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["16a"]["AnchorPoint"] = Vector2.new(0, 0.5);
-G2L["16a"]["Image"] = [[rbxasset://textures/ui/ImageSet/InGameMenu/img_set_1x_1.png]];
-G2L["16a"]["ImageRectSize"] = Vector2.new(42, 42);
-G2L["16a"]["Size"] = UDim2.new(0, 42, 0, 42);
-G2L["16a"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
-G2L["16a"]["BackgroundTransparency"] = 1;
-G2L["16a"]["ImageRectOffset"] = Vector2.new(0, 208);
-G2L["16a"]["Name"] = [[Knob]];
-G2L["16a"]["Position"] = UDim2.new(1, -39, 0.5, 0);
+G2L["16f"]["AnchorPoint"] = Vector2.new(0, 0.5);
+G2L["16f"]["Image"] = [[rbxasset://textures/ui/ImageSet/InGameMenu/img_set_1x_1.png]];
+G2L["16f"]["ImageRectSize"] = Vector2.new(42, 42);
+G2L["16f"]["Size"] = UDim2.new(0, 42, 0, 42);
+G2L["16f"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
+G2L["16f"]["BackgroundTransparency"] = 1;
+G2L["16f"]["ImageRectOffset"] = Vector2.new(0, 208);
+G2L["16f"]["Name"] = [[Knob]];
+G2L["16f"]["Position"] = UDim2.new(1, -39, 0.5, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.Element.Fill
-G2L["16b"] = Instance.new("ImageLabel", G2L["169"]);
-G2L["16b"]["SliceCenter"] = Rect.new(18, 18, 18, 18);
-G2L["16b"]["ScaleType"] = Enum.ScaleType.Slice;
+G2L["170"] = Instance.new("ImageLabel", G2L["16e"]);
+G2L["170"]["SliceCenter"] = Rect.new(18, 18, 18, 18);
+G2L["170"]["ScaleType"] = Enum.ScaleType.Slice;
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["16b"]["ImageColor3"] = Color3.fromRGB(0, 177, 112);
-G2L["16b"]["Image"] = [[rbxasset://textures/ui/ImageSet/InGameMenu/img_set_1x_1.png]];
-G2L["16b"]["ImageRectSize"] = Vector2.new(36, 36);
-G2L["16b"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["16b"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
-G2L["16b"]["BackgroundTransparency"] = 1;
-G2L["16b"]["ImageRectOffset"] = Vector2.new(324, 0);
-G2L["16b"]["Name"] = [[Fill]];
+G2L["170"]["ImageColor3"] = Color3.fromRGB(0, 177, 112);
+G2L["170"]["Image"] = [[rbxasset://textures/ui/ImageSet/InGameMenu/img_set_1x_1.png]];
+G2L["170"]["ImageRectSize"] = Vector2.new(36, 36);
+G2L["170"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["170"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
+G2L["170"]["BackgroundTransparency"] = 1;
+G2L["170"]["ImageRectOffset"] = Vector2.new(324, 0);
+G2L["170"]["Name"] = [[Fill]];
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.Element.LocalScript
-G2L["16c"] = Instance.new("LocalScript", G2L["169"]);
+G2L["171"] = Instance.new("LocalScript", G2L["16e"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame
-G2L["16d"] = Instance.new("Frame", G2L["162"]);
-G2L["16d"]["BorderSizePixel"] = 0;
-G2L["16d"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["16d"]["Size"] = UDim2.new(0, 522, 0, 100);
-G2L["16d"]["Position"] = UDim2.new(0.1328, 0, 0.17529, 0);
-G2L["16d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["16d"]["BackgroundTransparency"] = 0.65;
+G2L["172"] = Instance.new("Frame", G2L["167"]);
+G2L["172"]["BorderSizePixel"] = 0;
+G2L["172"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["172"]["Size"] = UDim2.new(0, 522, 0, 100);
+G2L["172"]["Position"] = UDim2.new(0.1328, 0, 0.17529, 0);
+G2L["172"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["172"]["BackgroundTransparency"] = 0.65;
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.UICorner
-G2L["16e"] = Instance.new("UICorner", G2L["16d"]);
-G2L["16e"]["CornerRadius"] = UDim.new(0, 15);
+G2L["173"] = Instance.new("UICorner", G2L["172"]);
+G2L["173"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.UIStroke
-G2L["16f"] = Instance.new("UIStroke", G2L["16d"]);
-G2L["16f"]["Color"] = Color3.fromRGB(76, 76, 76);
+G2L["174"] = Instance.new("UIStroke", G2L["172"]);
+G2L["174"]["Color"] = Color3.fromRGB(76, 76, 76);
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextLabel
-G2L["170"] = Instance.new("TextLabel", G2L["16d"]);
-G2L["170"]["TextWrapped"] = true;
-G2L["170"]["BorderSizePixel"] = 0;
-G2L["170"]["TextSize"] = 30;
-G2L["170"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["170"]["TextYAlignment"] = Enum.TextYAlignment.Top;
-G2L["170"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["170"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["170"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["170"]["BackgroundTransparency"] = 1;
-G2L["170"]["Size"] = UDim2.new(0, 353, 0, 30);
-G2L["170"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["170"]["Text"] = [[UI transparency]];
-G2L["170"]["Position"] = UDim2.new(0.036, 0, 0.14, 0);
+G2L["175"] = Instance.new("TextLabel", G2L["172"]);
+G2L["175"]["TextWrapped"] = true;
+G2L["175"]["BorderSizePixel"] = 0;
+G2L["175"]["TextSize"] = 30;
+G2L["175"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["175"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["175"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["175"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["175"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["175"]["BackgroundTransparency"] = 1;
+G2L["175"]["Size"] = UDim2.new(0, 353, 0, 30);
+G2L["175"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["175"]["Text"] = [[UI transparency]];
+G2L["175"]["Position"] = UDim2.new(0.036, 0, 0.14, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextLabel
-G2L["171"] = Instance.new("TextLabel", G2L["16d"]);
-G2L["171"]["TextWrapped"] = true;
-G2L["171"]["BorderSizePixel"] = 0;
-G2L["171"]["TextSize"] = 20;
-G2L["171"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["171"]["TextYAlignment"] = Enum.TextYAlignment.Top;
-G2L["171"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["171"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["171"]["TextColor3"] = Color3.fromRGB(151, 151, 151);
-G2L["171"]["BackgroundTransparency"] = 1;
-G2L["171"]["Size"] = UDim2.new(0, 353, 0, 41);
-G2L["171"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["171"]["Text"] = [[Set the UI transparency to your likings! Best for customization]];
-G2L["171"]["Position"] = UDim2.new(0.036, 0, 0.49, 0);
+G2L["176"] = Instance.new("TextLabel", G2L["172"]);
+G2L["176"]["TextWrapped"] = true;
+G2L["176"]["BorderSizePixel"] = 0;
+G2L["176"]["TextSize"] = 20;
+G2L["176"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["176"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["176"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["176"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["176"]["TextColor3"] = Color3.fromRGB(151, 151, 151);
+G2L["176"]["BackgroundTransparency"] = 1;
+G2L["176"]["Size"] = UDim2.new(0, 353, 0, 41);
+G2L["176"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["176"]["Text"] = [[Set the UI transparency to your likings! Best for customization]];
+G2L["176"]["Position"] = UDim2.new(0.036, 0, 0.49, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton
-G2L["172"] = Instance.new("TextButton", G2L["16d"]);
-G2L["172"]["BorderSizePixel"] = 0;
-G2L["172"]["TextSize"] = 25;
-G2L["172"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["172"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 61);
-G2L["172"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["172"]["BackgroundTransparency"] = 0.7;
-G2L["172"]["Size"] = UDim2.new(0, 63, 0, 36);
-G2L["172"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["172"]["Text"] = [[0%]];
-G2L["172"]["Position"] = UDim2.new(0.818, 0, 0.33, 0);
+G2L["177"] = Instance.new("TextButton", G2L["172"]);
+G2L["177"]["BorderSizePixel"] = 0;
+G2L["177"]["TextSize"] = 25;
+G2L["177"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["177"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 61);
+G2L["177"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["177"]["BackgroundTransparency"] = 0.7;
+G2L["177"]["Size"] = UDim2.new(0, 63, 0, 36);
+G2L["177"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["177"]["Text"] = [[0%]];
+G2L["177"]["Position"] = UDim2.new(0.818, 0, 0.33, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.UICorner
-G2L["173"] = Instance.new("UICorner", G2L["172"]);
-G2L["173"]["CornerRadius"] = UDim.new(0, 99);
+G2L["178"] = Instance.new("UICorner", G2L["177"]);
+G2L["178"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.Frame
-G2L["174"] = Instance.new("Frame", G2L["172"]);
-G2L["174"]["Visible"] = false;
-G2L["174"]["BorderSizePixel"] = 0;
-G2L["174"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 61);
-G2L["174"]["Size"] = UDim2.new(0, 151, 0, 190);
-G2L["174"]["Position"] = UDim2.new(-1.4127, 0, 1.25, 0);
-G2L["174"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["174"]["BackgroundTransparency"] = 0.3;
+G2L["179"] = Instance.new("Frame", G2L["177"]);
+G2L["179"]["Visible"] = false;
+G2L["179"]["BorderSizePixel"] = 0;
+G2L["179"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 61);
+G2L["179"]["Size"] = UDim2.new(0, 151, 0, 190);
+G2L["179"]["Position"] = UDim2.new(-1.4127, 0, 1.25, 0);
+G2L["179"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["179"]["BackgroundTransparency"] = 0.3;
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.Frame.UICorner
-G2L["175"] = Instance.new("UICorner", G2L["174"]);
-G2L["175"]["CornerRadius"] = UDim.new(0, 15);
+G2L["17a"] = Instance.new("UICorner", G2L["179"]);
+G2L["17a"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.Frame.Frame
-G2L["176"] = Instance.new("Frame", G2L["174"]);
-G2L["176"]["BorderSizePixel"] = 0;
-G2L["176"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["176"]["Size"] = UDim2.new(0, 126, 0, 164);
-G2L["176"]["Position"] = UDim2.new(0.07947, 0, 0.06842, 0);
-G2L["176"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["176"]["BackgroundTransparency"] = 1;
+G2L["17b"] = Instance.new("Frame", G2L["179"]);
+G2L["17b"]["BorderSizePixel"] = 0;
+G2L["17b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["17b"]["Size"] = UDim2.new(0, 126, 0, 164);
+G2L["17b"]["Position"] = UDim2.new(0.07947, 0, 0.06842, 0);
+G2L["17b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["17b"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.Frame.Frame.UIGridLayout
-G2L["177"] = Instance.new("UIGridLayout", G2L["176"]);
-G2L["177"]["CellSize"] = UDim2.new(1, 0, 0.2, 0);
-G2L["177"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
-G2L["177"]["CellPadding"] = UDim2.new(0, 0, 0, 0);
+G2L["17c"] = Instance.new("UIGridLayout", G2L["17b"]);
+G2L["17c"]["CellSize"] = UDim2.new(1, 0, 0.2, 0);
+G2L["17c"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+G2L["17c"]["CellPadding"] = UDim2.new(0, 0, 0, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.Frame.Frame.TextButton
-G2L["178"] = Instance.new("TextButton", G2L["176"]);
-G2L["178"]["BorderSizePixel"] = 0;
-G2L["178"]["TextXAlignment"] = Enum.TextXAlignment.Right;
-G2L["178"]["TextSize"] = 20;
-G2L["178"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["178"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["178"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["178"]["BackgroundTransparency"] = 1;
-G2L["178"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["178"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["178"]["Text"] = [[0%]];
+G2L["17d"] = Instance.new("TextButton", G2L["17b"]);
+G2L["17d"]["BorderSizePixel"] = 0;
+G2L["17d"]["TextXAlignment"] = Enum.TextXAlignment.Right;
+G2L["17d"]["TextSize"] = 20;
+G2L["17d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["17d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["17d"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["17d"]["BackgroundTransparency"] = 1;
+G2L["17d"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["17d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["17d"]["Text"] = [[0%]];
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.Frame.Frame.TextButton.LocalScript
-G2L["179"] = Instance.new("LocalScript", G2L["178"]);
-
-
-
--- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.Frame.Frame.TextButton
-G2L["17a"] = Instance.new("TextButton", G2L["176"]);
-G2L["17a"]["BorderSizePixel"] = 0;
-G2L["17a"]["TextXAlignment"] = Enum.TextXAlignment.Right;
-G2L["17a"]["TextSize"] = 20;
-G2L["17a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["17a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["17a"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["17a"]["BackgroundTransparency"] = 1;
-G2L["17a"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["17a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["17a"]["Text"] = [[10%]];
-
-
--- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.Frame.Frame.TextButton.LocalScript
-G2L["17b"] = Instance.new("LocalScript", G2L["17a"]);
+G2L["17e"] = Instance.new("LocalScript", G2L["17d"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.Frame.Frame.TextButton
-G2L["17c"] = Instance.new("TextButton", G2L["176"]);
-G2L["17c"]["BorderSizePixel"] = 0;
-G2L["17c"]["TextXAlignment"] = Enum.TextXAlignment.Right;
-G2L["17c"]["TextSize"] = 20;
-G2L["17c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["17c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["17c"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["17c"]["BackgroundTransparency"] = 1;
-G2L["17c"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["17c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["17c"]["Text"] = [[20%]];
+G2L["17f"] = Instance.new("TextButton", G2L["17b"]);
+G2L["17f"]["BorderSizePixel"] = 0;
+G2L["17f"]["TextXAlignment"] = Enum.TextXAlignment.Right;
+G2L["17f"]["TextSize"] = 20;
+G2L["17f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["17f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["17f"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["17f"]["BackgroundTransparency"] = 1;
+G2L["17f"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["17f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["17f"]["Text"] = [[10%]];
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.Frame.Frame.TextButton.LocalScript
-G2L["17d"] = Instance.new("LocalScript", G2L["17c"]);
+G2L["180"] = Instance.new("LocalScript", G2L["17f"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.Frame.Frame.TextButton
-G2L["17e"] = Instance.new("TextButton", G2L["176"]);
-G2L["17e"]["BorderSizePixel"] = 0;
-G2L["17e"]["TextXAlignment"] = Enum.TextXAlignment.Right;
-G2L["17e"]["TextSize"] = 20;
-G2L["17e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["17e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["17e"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["17e"]["BackgroundTransparency"] = 1;
-G2L["17e"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["17e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["17e"]["Text"] = [[30%]];
+G2L["181"] = Instance.new("TextButton", G2L["17b"]);
+G2L["181"]["BorderSizePixel"] = 0;
+G2L["181"]["TextXAlignment"] = Enum.TextXAlignment.Right;
+G2L["181"]["TextSize"] = 20;
+G2L["181"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["181"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["181"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["181"]["BackgroundTransparency"] = 1;
+G2L["181"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["181"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["181"]["Text"] = [[20%]];
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.Frame.Frame.TextButton.LocalScript
-G2L["17f"] = Instance.new("LocalScript", G2L["17e"]);
+G2L["182"] = Instance.new("LocalScript", G2L["181"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.Frame.Frame.TextButton
-G2L["180"] = Instance.new("TextButton", G2L["176"]);
-G2L["180"]["BorderSizePixel"] = 0;
-G2L["180"]["TextXAlignment"] = Enum.TextXAlignment.Right;
-G2L["180"]["TextSize"] = 20;
-G2L["180"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["180"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["180"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["180"]["BackgroundTransparency"] = 1;
-G2L["180"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["180"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["180"]["Text"] = [[40%]];
+G2L["183"] = Instance.new("TextButton", G2L["17b"]);
+G2L["183"]["BorderSizePixel"] = 0;
+G2L["183"]["TextXAlignment"] = Enum.TextXAlignment.Right;
+G2L["183"]["TextSize"] = 20;
+G2L["183"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["183"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["183"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["183"]["BackgroundTransparency"] = 1;
+G2L["183"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["183"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["183"]["Text"] = [[30%]];
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.Frame.Frame.TextButton.LocalScript
-G2L["181"] = Instance.new("LocalScript", G2L["180"]);
+G2L["184"] = Instance.new("LocalScript", G2L["183"]);
+
+
+
+-- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.Frame.Frame.TextButton
+G2L["185"] = Instance.new("TextButton", G2L["17b"]);
+G2L["185"]["BorderSizePixel"] = 0;
+G2L["185"]["TextXAlignment"] = Enum.TextXAlignment.Right;
+G2L["185"]["TextSize"] = 20;
+G2L["185"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["185"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["185"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["185"]["BackgroundTransparency"] = 1;
+G2L["185"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["185"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["185"]["Text"] = [[40%]];
+
+
+-- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.Frame.Frame.TextButton.LocalScript
+G2L["186"] = Instance.new("LocalScript", G2L["185"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.LocalScript
-G2L["182"] = Instance.new("LocalScript", G2L["172"]);
+G2L["187"] = Instance.new("LocalScript", G2L["177"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.TextLabel
-G2L["183"] = Instance.new("TextLabel", G2L["162"]);
-G2L["183"]["TextWrapped"] = true;
-G2L["183"]["BorderSizePixel"] = 0;
-G2L["183"]["TextSize"] = 25;
-G2L["183"]["TextYAlignment"] = Enum.TextYAlignment.Top;
-G2L["183"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["183"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["183"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["183"]["BackgroundTransparency"] = 1;
-G2L["183"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["183"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["183"]["Text"] = [[The end! Credits to: dnezero, adrianek (myfavxvq)]];
-G2L["183"]["Position"] = UDim2.new(0.128, 0, 0.00287, 0);
+G2L["188"] = Instance.new("TextLabel", G2L["167"]);
+G2L["188"]["TextWrapped"] = true;
+G2L["188"]["BorderSizePixel"] = 0;
+G2L["188"]["TextSize"] = 25;
+G2L["188"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["188"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["188"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["188"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["188"]["BackgroundTransparency"] = 1;
+G2L["188"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["188"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["188"]["Text"] = [[The end! Credits to: dnezero, adrianek (myfavxvq)]];
+G2L["188"]["Position"] = UDim2.new(0.128, 0, 0.00287, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem
-G2L["184"] = Instance.new("Frame", G2L["1d"]);
-G2L["184"]["Visible"] = false;
-G2L["184"]["ZIndex"] = 2;
-G2L["184"]["BorderSizePixel"] = 0;
-G2L["184"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
-G2L["184"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["184"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["184"]["Name"] = [[keysystem]];
+G2L["189"] = Instance.new("Frame", G2L["1d"]);
+G2L["189"]["Visible"] = false;
+G2L["189"]["ZIndex"] = 2;
+G2L["189"]["BorderSizePixel"] = 0;
+G2L["189"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["189"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["189"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["189"]["Name"] = [[keysystem]];
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.UICorner
-G2L["185"] = Instance.new("UICorner", G2L["184"]);
-G2L["185"]["CornerRadius"] = UDim.new(0, 15);
+G2L["18a"] = Instance.new("UICorner", G2L["189"]);
+G2L["18a"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.ImageLabel
-G2L["186"] = Instance.new("ImageLabel", G2L["184"]);
-G2L["186"]["BorderSizePixel"] = 0;
-G2L["186"]["ScaleType"] = Enum.ScaleType.Crop;
-G2L["186"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["18b"] = Instance.new("ImageLabel", G2L["189"]);
+G2L["18b"]["BorderSizePixel"] = 0;
+G2L["18b"]["ScaleType"] = Enum.ScaleType.Crop;
+G2L["18b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["186"]["Image"] = [[rbxassetid://4523960334]];
-G2L["186"]["Size"] = UDim2.new(0, 611, 0, 138);
-G2L["186"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["186"]["Position"] = UDim2.new(0.01104, 0, 0.02011, 0);
+G2L["18b"]["Image"] = [[rbxassetid://4523960334]];
+G2L["18b"]["Size"] = UDim2.new(0, 611, 0, 138);
+G2L["18b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["18b"]["Position"] = UDim2.new(0.01104, 0, 0.02011, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.ImageLabel.UICorner
-G2L["187"] = Instance.new("UICorner", G2L["186"]);
-G2L["187"]["CornerRadius"] = UDim.new(0, 15);
+G2L["18c"] = Instance.new("UICorner", G2L["18b"]);
+G2L["18c"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.ImageLabel.TextLabel
-G2L["188"] = Instance.new("TextLabel", G2L["186"]);
-G2L["188"]["BorderSizePixel"] = 0;
-G2L["188"]["TextSize"] = 30;
-G2L["188"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["188"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["188"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["188"]["BackgroundTransparency"] = 1;
-G2L["188"]["Size"] = UDim2.new(0, 532, 0, 50);
-G2L["188"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["188"]["Text"] = [[zerohub]];
-G2L["188"]["Position"] = UDim2.new(0.07365, 0, 0.31884, 0);
+G2L["18d"] = Instance.new("TextLabel", G2L["18b"]);
+G2L["18d"]["BorderSizePixel"] = 0;
+G2L["18d"]["TextSize"] = 30;
+G2L["18d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["18d"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["18d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["18d"]["BackgroundTransparency"] = 1;
+G2L["18d"]["Size"] = UDim2.new(0, 532, 0, 50);
+G2L["18d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["18d"]["Text"] = [[zerohub]];
+G2L["18d"]["Position"] = UDim2.new(0.07365, 0, 0.31884, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.ImageLabel.TextLabel
-G2L["189"] = Instance.new("TextLabel", G2L["186"]);
-G2L["189"]["BorderSizePixel"] = 0;
-G2L["189"]["TextSize"] = 20;
-G2L["189"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["189"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["189"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["189"]["BackgroundTransparency"] = 1;
-G2L["189"]["Size"] = UDim2.new(0, 532, 0, 50);
-G2L["189"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["189"]["Text"] = [[The best hub that's ever lived.]];
-G2L["189"]["Position"] = UDim2.new(0.07365, 0, 0.49275, 0);
+G2L["18e"] = Instance.new("TextLabel", G2L["18b"]);
+G2L["18e"]["BorderSizePixel"] = 0;
+G2L["18e"]["TextSize"] = 20;
+G2L["18e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["18e"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["18e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["18e"]["BackgroundTransparency"] = 1;
+G2L["18e"]["Size"] = UDim2.new(0, 532, 0, 50);
+G2L["18e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["18e"]["Text"] = [[The best hub that's ever lived.]];
+G2L["18e"]["Position"] = UDim2.new(0.07365, 0, 0.49275, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.LocalScript
-G2L["18a"] = Instance.new("LocalScript", G2L["184"]);
+G2L["18f"] = Instance.new("LocalScript", G2L["189"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.TextLabel
-G2L["18b"] = Instance.new("TextLabel", G2L["184"]);
-G2L["18b"]["TextWrapped"] = true;
-G2L["18b"]["BorderSizePixel"] = 0;
-G2L["18b"]["TextSize"] = 20;
-G2L["18b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["18b"]["TextYAlignment"] = Enum.TextYAlignment.Top;
-G2L["18b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["18b"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["18b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["18b"]["BackgroundTransparency"] = 1;
-G2L["18b"]["Size"] = UDim2.new(0, 327, 0, 182);
-G2L["18b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["18b"]["Text"] = [[Welcome back to zerohub! To get started, just join our Discord server, head to the #key channel, grab your key following the instructions, and paste it here. No ads, no hassle. Otherwise, if you want to completly skip the key system, you can get premium.]];
-G2L["18b"]["Position"] = UDim2.new(0.02224, 0, 0.45402, 0);
+G2L["190"] = Instance.new("TextLabel", G2L["189"]);
+G2L["190"]["TextWrapped"] = true;
+G2L["190"]["BorderSizePixel"] = 0;
+G2L["190"]["TextSize"] = 20;
+G2L["190"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["190"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["190"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["190"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["190"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["190"]["BackgroundTransparency"] = 1;
+G2L["190"]["Size"] = UDim2.new(0, 327, 0, 182);
+G2L["190"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["190"]["Text"] = [[Welcome back to zerohub! To get started, just join our Discord server, head to the #key channel, grab your key following the instructions, and paste it here. No ads, no hassle. Otherwise, if you want to completly skip the key system, you can get premium.]];
+G2L["190"]["Position"] = UDim2.new(0.02224, 0, 0.45402, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.input
-G2L["18c"] = Instance.new("Frame", G2L["184"]);
-G2L["18c"]["BorderSizePixel"] = 0;
-G2L["18c"]["BackgroundColor3"] = Color3.fromRGB(41, 41, 41);
-G2L["18c"]["Size"] = UDim2.new(0, 250, 0, 33);
-G2L["18c"]["Position"] = UDim2.new(0.5872, 0, 0.45115, 0);
-G2L["18c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["18c"]["Name"] = [[input]];
+G2L["191"] = Instance.new("Frame", G2L["189"]);
+G2L["191"]["BorderSizePixel"] = 0;
+G2L["191"]["BackgroundColor3"] = Color3.fromRGB(41, 41, 41);
+G2L["191"]["Size"] = UDim2.new(0, 250, 0, 33);
+G2L["191"]["Position"] = UDim2.new(0.5872, 0, 0.45115, 0);
+G2L["191"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["191"]["Name"] = [[input]];
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.input.UICorner
-G2L["18d"] = Instance.new("UICorner", G2L["18c"]);
-G2L["18d"]["CornerRadius"] = UDim.new(0, 15);
+G2L["192"] = Instance.new("UICorner", G2L["191"]);
+G2L["192"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.input.UIStroke
-G2L["18e"] = Instance.new("UIStroke", G2L["18c"]);
-G2L["18e"]["Transparency"] = 0.1;
-G2L["18e"]["Color"] = Color3.fromRGB(151, 151, 151);
+G2L["193"] = Instance.new("UIStroke", G2L["191"]);
+G2L["193"]["Transparency"] = 0.1;
+G2L["193"]["Color"] = Color3.fromRGB(151, 151, 151);
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.input.TextBox
-G2L["18f"] = Instance.new("TextBox", G2L["18c"]);
-G2L["18f"]["BorderSizePixel"] = 0;
-G2L["18f"]["TextWrapped"] = true;
-G2L["18f"]["TextSize"] = 14;
-G2L["18f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["18f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["18f"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["18f"]["PlaceholderText"] = [[Insert your key here]];
-G2L["18f"]["Size"] = UDim2.new(0, 224, 0, 32);
-G2L["18f"]["Position"] = UDim2.new(0.052, 0, 0.0303, 0);
-G2L["18f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["18f"]["Text"] = [[]];
-G2L["18f"]["BackgroundTransparency"] = 1;
+G2L["194"] = Instance.new("TextBox", G2L["191"]);
+G2L["194"]["BorderSizePixel"] = 0;
+G2L["194"]["TextWrapped"] = true;
+G2L["194"]["TextSize"] = 14;
+G2L["194"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["194"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["194"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["194"]["PlaceholderText"] = [[Insert your key here]];
+G2L["194"]["Size"] = UDim2.new(0, 224, 0, 32);
+G2L["194"]["Position"] = UDim2.new(0.052, 0, 0.0303, 0);
+G2L["194"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["194"]["Text"] = [[]];
+G2L["194"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.TextButton
-G2L["190"] = Instance.new("TextButton", G2L["184"]);
-G2L["190"]["BorderSizePixel"] = 0;
-G2L["190"]["TextSize"] = 14;
-G2L["190"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["190"]["BackgroundColor3"] = Color3.fromRGB(86, 171, 0);
-G2L["190"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["190"]["BackgroundTransparency"] = 0.1;
-G2L["190"]["Size"] = UDim2.new(0, 250, 0, 33);
-G2L["190"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["190"]["Text"] = [[Confirm key]];
-G2L["190"]["Position"] = UDim2.new(0.5872, 0, 0.57471, 0);
+G2L["195"] = Instance.new("TextButton", G2L["189"]);
+G2L["195"]["BorderSizePixel"] = 0;
+G2L["195"]["TextSize"] = 14;
+G2L["195"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["195"]["BackgroundColor3"] = Color3.fromRGB(86, 171, 0);
+G2L["195"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["195"]["BackgroundTransparency"] = 0.1;
+G2L["195"]["Size"] = UDim2.new(0, 250, 0, 33);
+G2L["195"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["195"]["Text"] = [[Confirm key]];
+G2L["195"]["Position"] = UDim2.new(0.5872, 0, 0.57471, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.TextButton.UICorner
-G2L["191"] = Instance.new("UICorner", G2L["190"]);
-G2L["191"]["CornerRadius"] = UDim.new(0, 15);
+G2L["196"] = Instance.new("UICorner", G2L["195"]);
+G2L["196"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.TextButton.LocalScript
-G2L["192"] = Instance.new("LocalScript", G2L["190"]);
+G2L["197"] = Instance.new("LocalScript", G2L["195"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.TextButton
-G2L["193"] = Instance.new("TextButton", G2L["184"]);
-G2L["193"]["BorderSizePixel"] = 0;
-G2L["193"]["TextSize"] = 14;
-G2L["193"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["193"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 0);
-G2L["193"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["193"]["BackgroundTransparency"] = 0.1;
-G2L["193"]["Size"] = UDim2.new(0, 250, 0, 33);
-G2L["193"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["193"]["Text"] = [[Get premium]];
-G2L["193"]["Position"] = UDim2.new(0.5872, 0, 0.68678, 0);
+G2L["198"] = Instance.new("TextButton", G2L["189"]);
+G2L["198"]["BorderSizePixel"] = 0;
+G2L["198"]["TextSize"] = 14;
+G2L["198"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["198"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 0);
+G2L["198"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["198"]["BackgroundTransparency"] = 0.1;
+G2L["198"]["Size"] = UDim2.new(0, 250, 0, 33);
+G2L["198"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["198"]["Text"] = [[Get premium]];
+G2L["198"]["Position"] = UDim2.new(0.5872, 0, 0.68678, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.TextButton.UICorner
-G2L["194"] = Instance.new("UICorner", G2L["193"]);
-G2L["194"]["CornerRadius"] = UDim.new(0, 15);
+G2L["199"] = Instance.new("UICorner", G2L["198"]);
+G2L["199"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.TextButton.LocalScript
-G2L["195"] = Instance.new("LocalScript", G2L["193"]);
+G2L["19a"] = Instance.new("LocalScript", G2L["198"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.PremiumFrame
-G2L["196"] = Instance.new("Frame", G2L["184"]);
-G2L["196"]["Visible"] = false;
-G2L["196"]["ZIndex"] = 2;
-G2L["196"]["BorderSizePixel"] = 0;
-G2L["196"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
-G2L["196"]["Size"] = UDim2.new(0, 610, 0, 193);
-G2L["196"]["Position"] = UDim2.new(0.016, 0, 0.42241, 0);
-G2L["196"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["196"]["Name"] = [[PremiumFrame]];
+G2L["19b"] = Instance.new("Frame", G2L["189"]);
+G2L["19b"]["Visible"] = false;
+G2L["19b"]["ZIndex"] = 2;
+G2L["19b"]["BorderSizePixel"] = 0;
+G2L["19b"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["19b"]["Size"] = UDim2.new(0, 610, 0, 193);
+G2L["19b"]["Position"] = UDim2.new(0.016, 0, 0.42241, 0);
+G2L["19b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["19b"]["Name"] = [[PremiumFrame]];
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.PremiumFrame.ImageButton
-G2L["197"] = Instance.new("ImageButton", G2L["196"]);
-G2L["197"]["BorderSizePixel"] = 0;
-G2L["197"]["BackgroundTransparency"] = 1;
+G2L["19c"] = Instance.new("ImageButton", G2L["19b"]);
+G2L["19c"]["BorderSizePixel"] = 0;
+G2L["19c"]["BackgroundTransparency"] = 1;
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["197"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["197"]["Image"] = [[rbxassetid://11422143469]];
-G2L["197"]["Size"] = UDim2.new(0, 30, 0, 30);
-G2L["197"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["197"]["Position"] = UDim2.new(0, 0, 0.08808, 0);
+G2L["19c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["19c"]["Image"] = [[rbxassetid://11422143469]];
+G2L["19c"]["Size"] = UDim2.new(0, 30, 0, 30);
+G2L["19c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["19c"]["Position"] = UDim2.new(0, 0, 0.08808, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.PremiumFrame.ImageButton.LocalScript
-G2L["198"] = Instance.new("LocalScript", G2L["197"]);
+G2L["19d"] = Instance.new("LocalScript", G2L["19c"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.PremiumFrame.TextLabel
-G2L["199"] = Instance.new("TextLabel", G2L["196"]);
-G2L["199"]["BorderSizePixel"] = 0;
-G2L["199"]["TextSize"] = 25;
-G2L["199"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["199"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["199"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["199"]["BackgroundTransparency"] = 1;
-G2L["199"]["Size"] = UDim2.new(0, 200, 0, 39);
-G2L["199"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["199"]["Text"] = [[Get zerohub premium]];
-G2L["199"]["Position"] = UDim2.new(0.34098, 0, 0.06218, 0);
+G2L["19e"] = Instance.new("TextLabel", G2L["19b"]);
+G2L["19e"]["BorderSizePixel"] = 0;
+G2L["19e"]["TextSize"] = 25;
+G2L["19e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["19e"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["19e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["19e"]["BackgroundTransparency"] = 1;
+G2L["19e"]["Size"] = UDim2.new(0, 200, 0, 39);
+G2L["19e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["19e"]["Text"] = [[Get zerohub premium]];
+G2L["19e"]["Position"] = UDim2.new(0.34098, 0, 0.06218, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.PremiumFrame.TextLabel
-G2L["19a"] = Instance.new("TextLabel", G2L["196"]);
-G2L["19a"]["TextWrapped"] = true;
-G2L["19a"]["BorderSizePixel"] = 0;
-G2L["19a"]["TextSize"] = 19;
-G2L["19a"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["19a"]["TextYAlignment"] = Enum.TextYAlignment.Top;
-G2L["19a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["19a"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["19a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["19a"]["BackgroundTransparency"] = 1;
-G2L["19a"]["Size"] = UDim2.new(0, 598, 0, 101);
-G2L["19a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["19a"]["Text"] = [[Tired of doing the key system over and over again? Don't worry, we got a fix to that. With zerohub premium, you can completly skip the key system and go straight to it. It's only 45 robux! Join our Discord, head to the #premium channel and read the instructions. Thanks to everyone who purchased it!]];
-G2L["19a"]["Position"] = UDim2.new(0.00394, 0, 0.31606, 0);
+G2L["19f"] = Instance.new("TextLabel", G2L["19b"]);
+G2L["19f"]["TextWrapped"] = true;
+G2L["19f"]["BorderSizePixel"] = 0;
+G2L["19f"]["TextSize"] = 19;
+G2L["19f"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["19f"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["19f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["19f"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["19f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["19f"]["BackgroundTransparency"] = 1;
+G2L["19f"]["Size"] = UDim2.new(0, 598, 0, 101);
+G2L["19f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["19f"]["Text"] = [[Tired of doing the key system over and over again? Don't worry, we got a fix to that. With zerohub premium, you can completly skip the key system and go straight to it. It's only 45 robux! Join our Discord, head to the #premium channel and read the instructions. Thanks to everyone who purchased it!]];
+G2L["19f"]["Position"] = UDim2.new(0.00394, 0, 0.31606, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.PremiumFrame.TextButton
-G2L["19b"] = Instance.new("TextButton", G2L["196"]);
-G2L["19b"]["BorderSizePixel"] = 0;
-G2L["19b"]["TextSize"] = 14;
-G2L["19b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["19b"]["BackgroundColor3"] = Color3.fromRGB(171, 86, 255);
-G2L["19b"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["19b"]["BackgroundTransparency"] = 0.1;
-G2L["19b"]["Size"] = UDim2.new(0, 289, 0, 33);
-G2L["19b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["19b"]["Text"] = [[Copy Discord link (go to #premium channel)]];
-G2L["19b"]["Position"] = UDim2.new(0.51015, 0, 0.80077, 0);
+G2L["1a0"] = Instance.new("TextButton", G2L["19b"]);
+G2L["1a0"]["BorderSizePixel"] = 0;
+G2L["1a0"]["TextSize"] = 14;
+G2L["1a0"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1a0"]["BackgroundColor3"] = Color3.fromRGB(171, 86, 255);
+G2L["1a0"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1a0"]["BackgroundTransparency"] = 0.1;
+G2L["1a0"]["Size"] = UDim2.new(0, 289, 0, 33);
+G2L["1a0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1a0"]["Text"] = [[Copy Discord link (go to #premium channel)]];
+G2L["1a0"]["Position"] = UDim2.new(0.51015, 0, 0.80077, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.PremiumFrame.TextButton.UICorner
-G2L["19c"] = Instance.new("UICorner", G2L["19b"]);
-G2L["19c"]["CornerRadius"] = UDim.new(0, 15);
+G2L["1a1"] = Instance.new("UICorner", G2L["1a0"]);
+G2L["1a1"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.PremiumFrame.TextButton.LocalScript
-G2L["19d"] = Instance.new("LocalScript", G2L["19b"]);
+G2L["1a2"] = Instance.new("LocalScript", G2L["1a0"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.TextButton
-G2L["19e"] = Instance.new("TextButton", G2L["184"]);
-G2L["19e"]["BorderSizePixel"] = 0;
-G2L["19e"]["TextSize"] = 14;
-G2L["19e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["19e"]["BackgroundColor3"] = Color3.fromRGB(171, 86, 255);
-G2L["19e"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["19e"]["BackgroundTransparency"] = 0.1;
-G2L["19e"]["Size"] = UDim2.new(0, 250, 0, 33);
-G2L["19e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["19e"]["Text"] = [[Get key link (copy)]];
-G2L["19e"]["Position"] = UDim2.new(0.5872, 0, 0.87356, 0);
+G2L["1a3"] = Instance.new("TextButton", G2L["189"]);
+G2L["1a3"]["BorderSizePixel"] = 0;
+G2L["1a3"]["TextSize"] = 14;
+G2L["1a3"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1a3"]["BackgroundColor3"] = Color3.fromRGB(171, 86, 255);
+G2L["1a3"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1a3"]["BackgroundTransparency"] = 0.1;
+G2L["1a3"]["Size"] = UDim2.new(0, 250, 0, 33);
+G2L["1a3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1a3"]["Text"] = [[Get key link (copy)]];
+G2L["1a3"]["Position"] = UDim2.new(0.5872, 0, 0.87356, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.TextButton.UICorner
-G2L["19f"] = Instance.new("UICorner", G2L["19e"]);
-G2L["19f"]["CornerRadius"] = UDim.new(0, 15);
+G2L["1a4"] = Instance.new("UICorner", G2L["1a3"]);
+G2L["1a4"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.TextButton.LocalScript
-G2L["1a0"] = Instance.new("LocalScript", G2L["19e"]);
+G2L["1a5"] = Instance.new("LocalScript", G2L["1a3"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.keysystem.LocalScript
-G2L["1a1"] = Instance.new("LocalScript", G2L["184"]);
+G2L["1a6"] = Instance.new("LocalScript", G2L["189"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.Frame
-G2L["1a2"] = Instance.new("Frame", G2L["1d"]);
-G2L["1a2"]["BorderSizePixel"] = 0;
-G2L["1a2"]["BackgroundColor3"] = Color3.fromRGB(2, 48, 73);
-G2L["1a2"]["Size"] = UDim2.new(0, 222, 0, 35);
-G2L["1a2"]["Position"] = UDim2.new(0.504, 0, 0.02586, 0);
-G2L["1a2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1a2"]["BackgroundTransparency"] = 0.65;
+G2L["1a7"] = Instance.new("Frame", G2L["1d"]);
+G2L["1a7"]["BorderSizePixel"] = 0;
+G2L["1a7"]["BackgroundColor3"] = Color3.fromRGB(2, 48, 73);
+G2L["1a7"]["Size"] = UDim2.new(0, 222, 0, 35);
+G2L["1a7"]["Position"] = UDim2.new(0.504, 0, 0.02586, 0);
+G2L["1a7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1a7"]["BackgroundTransparency"] = 0.65;
 
 
 -- StarterGui.zerohubsigmayes.main.Frame.UICorner
-G2L["1a3"] = Instance.new("UICorner", G2L["1a2"]);
-G2L["1a3"]["CornerRadius"] = UDim.new(0, 20);
+G2L["1a8"] = Instance.new("UICorner", G2L["1a7"]);
+G2L["1a8"]["CornerRadius"] = UDim.new(0, 20);
 
 
 -- StarterGui.zerohubsigmayes.main.Frame.UIStroke
-G2L["1a4"] = Instance.new("UIStroke", G2L["1a2"]);
-G2L["1a4"]["Transparency"] = 0.5;
-G2L["1a4"]["Color"] = Color3.fromRGB(76, 76, 76);
+G2L["1a9"] = Instance.new("UIStroke", G2L["1a7"]);
+G2L["1a9"]["Transparency"] = 0.5;
+G2L["1a9"]["Color"] = Color3.fromRGB(76, 76, 76);
 
 
 -- StarterGui.zerohubsigmayes.main.Frame.Frame
-G2L["1a5"] = Instance.new("Frame", G2L["1a2"]);
-G2L["1a5"]["BorderSizePixel"] = 0;
-G2L["1a5"]["BackgroundColor3"] = Color3.fromRGB(181, 181, 181);
-G2L["1a5"]["Size"] = UDim2.new(0, 1, 0, 24);
-G2L["1a5"]["Position"] = UDim2.new(0.22072, 0, 0.14286, 0);
-G2L["1a5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1a5"]["BackgroundTransparency"] = 0.3;
+G2L["1aa"] = Instance.new("Frame", G2L["1a7"]);
+G2L["1aa"]["BorderSizePixel"] = 0;
+G2L["1aa"]["BackgroundColor3"] = Color3.fromRGB(181, 181, 181);
+G2L["1aa"]["Size"] = UDim2.new(0, 1, 0, 24);
+G2L["1aa"]["Position"] = UDim2.new(0.22072, 0, 0.14286, 0);
+G2L["1aa"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1aa"]["BackgroundTransparency"] = 0.3;
 
 
 -- StarterGui.zerohubsigmayes.main.Frame.ImageButton
-G2L["1a6"] = Instance.new("ImageButton", G2L["1a2"]);
-G2L["1a6"]["BorderSizePixel"] = 0;
-G2L["1a6"]["BackgroundTransparency"] = 1;
+G2L["1ab"] = Instance.new("ImageButton", G2L["1a7"]);
+G2L["1ab"]["BorderSizePixel"] = 0;
+G2L["1ab"]["BackgroundTransparency"] = 1;
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["1a6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1a6"]["Image"] = [[rbxassetid://11295273292]];
-G2L["1a6"]["Size"] = UDim2.new(0, 20, 0, 20);
-G2L["1a6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1a6"]["Position"] = UDim2.new(0.06757, 0, 0.2, 0);
+G2L["1ab"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1ab"]["Image"] = [[rbxassetid://11295273292]];
+G2L["1ab"]["Size"] = UDim2.new(0, 20, 0, 20);
+G2L["1ab"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1ab"]["Position"] = UDim2.new(0.06757, 0, 0.2, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.Frame.ImageButton.LocalScript
-G2L["1a7"] = Instance.new("LocalScript", G2L["1a6"]);
+G2L["1ac"] = Instance.new("LocalScript", G2L["1ab"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.Frame.ImageButton
-G2L["1a8"] = Instance.new("ImageButton", G2L["1a2"]);
-G2L["1a8"]["BorderSizePixel"] = 0;
-G2L["1a8"]["BackgroundTransparency"] = 1;
+G2L["1ad"] = Instance.new("ImageButton", G2L["1a7"]);
+G2L["1ad"]["BorderSizePixel"] = 0;
+G2L["1ad"]["BackgroundTransparency"] = 1;
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["1a8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1a8"]["Image"] = [[rbxassetid://11422150995]];
-G2L["1a8"]["Size"] = UDim2.new(0, 20, 0, 20);
-G2L["1a8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1a8"]["Position"] = UDim2.new(0.28829, 0, 0.2, 0);
+G2L["1ad"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1ad"]["Image"] = [[rbxassetid://11422150995]];
+G2L["1ad"]["Size"] = UDim2.new(0, 20, 0, 20);
+G2L["1ad"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1ad"]["Position"] = UDim2.new(0.28829, 0, 0.2, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.Frame.ImageButton.LocalScript
-G2L["1a9"] = Instance.new("LocalScript", G2L["1a8"]);
+G2L["1ae"] = Instance.new("LocalScript", G2L["1ad"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.Frame.TextLabel
-G2L["1aa"] = Instance.new("TextLabel", G2L["1a2"]);
-G2L["1aa"]["BorderSizePixel"] = 0;
-G2L["1aa"]["TextSize"] = 20;
-G2L["1aa"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["1aa"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1aa"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1aa"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1aa"]["BackgroundTransparency"] = 1;
-G2L["1aa"]["Size"] = UDim2.new(0, 113, 0, 23);
-G2L["1aa"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1aa"]["Text"] = [[Copy Discord]];
-G2L["1aa"]["Position"] = UDim2.new(0.43243, 0, 0.14286, 0);
+G2L["1af"] = Instance.new("TextLabel", G2L["1a7"]);
+G2L["1af"]["BorderSizePixel"] = 0;
+G2L["1af"]["TextSize"] = 20;
+G2L["1af"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["1af"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1af"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1af"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1af"]["BackgroundTransparency"] = 1;
+G2L["1af"]["Size"] = UDim2.new(0, 113, 0, 23);
+G2L["1af"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1af"]["Text"] = [[Copy Discord]];
+G2L["1af"]["Position"] = UDim2.new(0.43243, 0, 0.14286, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.Frame.UIGradient
-G2L["1ab"] = Instance.new("UIGradient", G2L["1a2"]);
-G2L["1ab"]["Rotation"] = 90;
-G2L["1ab"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
+G2L["1b0"] = Instance.new("UIGradient", G2L["1a7"]);
+G2L["1b0"]["Rotation"] = 90;
+G2L["1b0"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
 
 
 -- StarterGui.zerohubsigmayes.main.HomeFrame
-G2L["1ac"] = Instance.new("Frame", G2L["1d"]);
-G2L["1ac"]["BorderSizePixel"] = 0;
-G2L["1ac"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1ac"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["1ac"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1ac"]["Name"] = [[HomeFrame]];
-G2L["1ac"]["BackgroundTransparency"] = 1;
+G2L["1b1"] = Instance.new("Frame", G2L["1d"]);
+G2L["1b1"]["Visible"] = false;
+G2L["1b1"]["BorderSizePixel"] = 0;
+G2L["1b1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1b1"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["1b1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1b1"]["Name"] = [[HomeFrame]];
+G2L["1b1"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.zerohubsigmayes.main.HomeFrame.Frame
-G2L["1ad"] = Instance.new("Frame", G2L["1ac"]);
-G2L["1ad"]["BorderSizePixel"] = 0;
-G2L["1ad"]["BackgroundColor3"] = Color3.fromRGB(2, 48, 73);
-G2L["1ad"]["Size"] = UDim2.new(0, 223, 0, 168);
-G2L["1ad"]["Position"] = UDim2.new(0.6272, 0, 0.49425, 0);
-G2L["1ad"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1ad"]["BackgroundTransparency"] = 0.45;
+G2L["1b2"] = Instance.new("Frame", G2L["1b1"]);
+G2L["1b2"]["BorderSizePixel"] = 0;
+G2L["1b2"]["BackgroundColor3"] = Color3.fromRGB(2, 48, 73);
+G2L["1b2"]["Size"] = UDim2.new(0, 223, 0, 168);
+G2L["1b2"]["Position"] = UDim2.new(0.6272, 0, 0.49425, 0);
+G2L["1b2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1b2"]["BackgroundTransparency"] = 0.45;
 
 
 -- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.UICorner
-G2L["1ae"] = Instance.new("UICorner", G2L["1ad"]);
-G2L["1ae"]["CornerRadius"] = UDim.new(0, 20);
+G2L["1b3"] = Instance.new("UICorner", G2L["1b2"]);
+G2L["1b3"]["CornerRadius"] = UDim.new(0, 20);
 
 
 -- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.UIStroke
-G2L["1af"] = Instance.new("UIStroke", G2L["1ad"]);
-G2L["1af"]["Transparency"] = 0.5;
-G2L["1af"]["Color"] = Color3.fromRGB(76, 76, 76);
+G2L["1b4"] = Instance.new("UIStroke", G2L["1b2"]);
+G2L["1b4"]["Transparency"] = 0.5;
+G2L["1b4"]["Color"] = Color3.fromRGB(76, 76, 76);
 
 
 -- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.ImageLabel
-G2L["1b0"] = Instance.new("ImageLabel", G2L["1ad"]);
-G2L["1b0"]["BorderSizePixel"] = 0;
-G2L["1b0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1b5"] = Instance.new("ImageLabel", G2L["1b2"]);
+G2L["1b5"]["BorderSizePixel"] = 0;
+G2L["1b5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["1b0"]["Image"] = [[rbxassetid://14187764914]];
-G2L["1b0"]["Size"] = UDim2.new(0, 25, 0, 25);
-G2L["1b0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1b0"]["BackgroundTransparency"] = 1;
-G2L["1b0"]["Position"] = UDim2.new(0.06726, 0, 0.06548, 0);
+G2L["1b5"]["Image"] = [[rbxassetid://14187764914]];
+G2L["1b5"]["Size"] = UDim2.new(0, 25, 0, 25);
+G2L["1b5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1b5"]["BackgroundTransparency"] = 1;
+G2L["1b5"]["Position"] = UDim2.new(0.06726, 0, 0.06548, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.TextLabel
-G2L["1b1"] = Instance.new("TextLabel", G2L["1ad"]);
-G2L["1b1"]["BorderSizePixel"] = 0;
-G2L["1b1"]["TextSize"] = 20;
-G2L["1b1"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["1b1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1b1"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["1b1"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1b1"]["BackgroundTransparency"] = 1;
-G2L["1b1"]["Size"] = UDim2.new(0, 146, 0, 30);
-G2L["1b1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1b1"]["Text"] = [[Trending]];
-G2L["1b1"]["Position"] = UDim2.new(0.225, 0, 0.04762, 0);
-
-
--- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.Frame
-G2L["1b2"] = Instance.new("Frame", G2L["1ad"]);
-G2L["1b2"]["BorderSizePixel"] = 0;
-G2L["1b2"]["BackgroundColor3"] = Color3.fromRGB(151, 151, 151);
-G2L["1b2"]["Size"] = UDim2.new(0, 195, 0, 1);
-G2L["1b2"]["Position"] = UDim2.new(0.05966, 0, 0.26786, 0);
-G2L["1b2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1b2"]["BackgroundTransparency"] = 0.5;
-
-
--- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.ImageLabel
-G2L["1b3"] = Instance.new("ImageLabel", G2L["1ad"]);
-G2L["1b3"]["BorderSizePixel"] = 0;
-G2L["1b3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
--- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["1b3"]["Image"] = [[rbxassetid://73038196935430]];
-G2L["1b3"]["Size"] = UDim2.new(0, 70, 0, 70);
-G2L["1b3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1b3"]["Position"] = UDim2.new(0.0583, 0, 0.32143, 0);
-
-
--- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.ImageLabel.UICorner
-G2L["1b4"] = Instance.new("UICorner", G2L["1b3"]);
-G2L["1b4"]["CornerRadius"] = UDim.new(0, 10);
-
-
--- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.ImageLabel.UIStroke
-G2L["1b5"] = Instance.new("UIStroke", G2L["1b3"]);
-G2L["1b5"]["Transparency"] = 0.1;
-G2L["1b5"]["Color"] = Color3.fromRGB(151, 151, 151);
-
-
--- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.TextLabel
-G2L["1b6"] = Instance.new("TextLabel", G2L["1ad"]);
+G2L["1b6"] = Instance.new("TextLabel", G2L["1b2"]);
 G2L["1b6"]["BorderSizePixel"] = 0;
 G2L["1b6"]["TextSize"] = 20;
 G2L["1b6"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["1b6"]["TextYAlignment"] = Enum.TextYAlignment.Top;
 G2L["1b6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["1b6"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 G2L["1b6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["1b6"]["BackgroundTransparency"] = 1;
-G2L["1b6"]["Size"] = UDim2.new(0, 116, 0, 24);
+G2L["1b6"]["Size"] = UDim2.new(0, 146, 0, 30);
 G2L["1b6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1b6"]["Text"] = [[Infinite Yield]];
-G2L["1b6"]["Position"] = UDim2.new(0.41256, 0, 0.32143, 0);
-
-
--- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.TextLabel
-G2L["1b7"] = Instance.new("TextLabel", G2L["1ad"]);
-G2L["1b7"]["TextWrapped"] = true;
-G2L["1b7"]["BorderSizePixel"] = 0;
-G2L["1b7"]["TextSize"] = 16;
-G2L["1b7"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["1b7"]["TextYAlignment"] = Enum.TextYAlignment.Top;
-G2L["1b7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1b7"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1b7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1b7"]["BackgroundTransparency"] = 1;
-G2L["1b7"]["Size"] = UDim2.new(0, 116, 0, 52);
-G2L["1b7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1b7"]["Text"] = [[The best admin script with tons of commands.]];
-G2L["1b7"]["Position"] = UDim2.new(0.41256, 0, 0.46429, 0);
-
-
--- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.TextButton
-G2L["1b8"] = Instance.new("TextButton", G2L["1ad"]);
-G2L["1b8"]["BorderSizePixel"] = 0;
-G2L["1b8"]["TextSize"] = 14;
-G2L["1b8"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1b8"]["BackgroundColor3"] = Color3.fromRGB(86, 171, 0);
-G2L["1b8"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1b8"]["Size"] = UDim2.new(0, 200, 0, 25);
-G2L["1b8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1b8"]["Text"] = [[]];
-G2L["1b8"]["Position"] = UDim2.new(0.0583, 0, 0.77976, 0);
-
-
--- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.TextButton.UICorner
-G2L["1b9"] = Instance.new("UICorner", G2L["1b8"]);
-G2L["1b9"]["CornerRadius"] = UDim.new(1, 0);
-
-
--- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.TextButton.ImageLabel
-G2L["1ba"] = Instance.new("ImageLabel", G2L["1b8"]);
-G2L["1ba"]["BorderSizePixel"] = 0;
-G2L["1ba"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
--- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["1ba"]["Image"] = [[rbxassetid://11423157473]];
-G2L["1ba"]["Size"] = UDim2.new(0, 17, 0, 17);
-G2L["1ba"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1ba"]["BackgroundTransparency"] = 1;
-G2L["1ba"]["Position"] = UDim2.new(0.46154, 0, 0.16, 0);
-
-
--- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.TextButton.LocalScript
-G2L["1bb"] = Instance.new("LocalScript", G2L["1b8"]);
-
-
-
--- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.UIGradient
-G2L["1bc"] = Instance.new("UIGradient", G2L["1ad"]);
-G2L["1bc"]["Rotation"] = 90;
-G2L["1bc"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
-
-
--- StarterGui.zerohubsigmayes.main.HomeFrame.Frame
-G2L["1bd"] = Instance.new("Frame", G2L["1ac"]);
-G2L["1bd"]["BorderSizePixel"] = 0;
-G2L["1bd"]["BackgroundColor3"] = Color3.fromRGB(2, 48, 73);
-G2L["1bd"]["Size"] = UDim2.new(0, 303, 0, 168);
-G2L["1bd"]["Position"] = UDim2.new(0.12, 0, 0.49425, 0);
-G2L["1bd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1bd"]["BackgroundTransparency"] = 0.45;
-
-
--- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.UICorner
-G2L["1be"] = Instance.new("UICorner", G2L["1bd"]);
-G2L["1be"]["CornerRadius"] = UDim.new(0, 20);
-
-
--- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.UIStroke
-G2L["1bf"] = Instance.new("UIStroke", G2L["1bd"]);
-G2L["1bf"]["Transparency"] = 0.5;
-G2L["1bf"]["Color"] = Color3.fromRGB(76, 76, 76);
-
-
--- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.ImageLabel
-G2L["1c0"] = Instance.new("ImageLabel", G2L["1bd"]);
-G2L["1c0"]["BorderSizePixel"] = 0;
-G2L["1c0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
--- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["1c0"]["Image"] = [[rbxassetid://12966403319]];
-G2L["1c0"]["Size"] = UDim2.new(0, 25, 0, 25);
-G2L["1c0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1c0"]["BackgroundTransparency"] = 1;
-G2L["1c0"]["Position"] = UDim2.new(0.0462, 0, 0.06548, 0);
-
-
--- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.TextLabel
-G2L["1c1"] = Instance.new("TextLabel", G2L["1bd"]);
-G2L["1c1"]["BorderSizePixel"] = 0;
-G2L["1c1"]["TextSize"] = 20;
-G2L["1c1"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["1c1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1c1"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["1c1"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1c1"]["BackgroundTransparency"] = 1;
-G2L["1c1"]["Size"] = UDim2.new(0, 240, 0, 30);
-G2L["1c1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1c1"]["Text"] = [[Announcements & Updates]];
-G2L["1c1"]["Position"] = UDim2.new(0.16832, 0, 0.05357, 0);
+G2L["1b6"]["Text"] = [[Trending]];
+G2L["1b6"]["Position"] = UDim2.new(0.225, 0, 0.04762, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.Frame
-G2L["1c2"] = Instance.new("Frame", G2L["1bd"]);
-G2L["1c2"]["BorderSizePixel"] = 0;
-G2L["1c2"]["BackgroundColor3"] = Color3.fromRGB(151, 151, 151);
-G2L["1c2"]["Size"] = UDim2.new(0, 275, 0, 1);
-G2L["1c2"]["Position"] = UDim2.new(0.0462, 0, 0.26786, 0);
-G2L["1c2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1c2"]["BackgroundTransparency"] = 0.5;
+G2L["1b7"] = Instance.new("Frame", G2L["1b2"]);
+G2L["1b7"]["BorderSizePixel"] = 0;
+G2L["1b7"]["BackgroundColor3"] = Color3.fromRGB(151, 151, 151);
+G2L["1b7"]["Size"] = UDim2.new(0, 195, 0, 1);
+G2L["1b7"]["Position"] = UDim2.new(0.05966, 0, 0.26786, 0);
+G2L["1b7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1b7"]["BackgroundTransparency"] = 0.5;
 
 
--- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.ScrollingFrame
-G2L["1c3"] = Instance.new("ScrollingFrame", G2L["1bd"]);
-G2L["1c3"]["Active"] = true;
-G2L["1c3"]["BorderSizePixel"] = 0;
-G2L["1c3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1c3"]["ScrollBarImageTransparency"] = 0.5;
-G2L["1c3"]["Size"] = UDim2.new(0, 275, 0, 105);
-G2L["1c3"]["ScrollBarImageColor3"] = Color3.fromRGB(151, 151, 151);
-G2L["1c3"]["Position"] = UDim2.new(0.0462, 0, 0.32143, 0);
-G2L["1c3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1c3"]["ScrollBarThickness"] = 5;
-G2L["1c3"]["BackgroundTransparency"] = 1;
+-- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.ImageLabel
+G2L["1b8"] = Instance.new("ImageLabel", G2L["1b2"]);
+G2L["1b8"]["BorderSizePixel"] = 0;
+G2L["1b8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["1b8"]["Image"] = [[rbxassetid://73038196935430]];
+G2L["1b8"]["Size"] = UDim2.new(0, 70, 0, 70);
+G2L["1b8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1b8"]["Position"] = UDim2.new(0.0583, 0, 0.32143, 0);
 
 
--- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.ScrollingFrame.TextLabel
-G2L["1c4"] = Instance.new("TextLabel", G2L["1c3"]);
-G2L["1c4"]["TextWrapped"] = true;
-G2L["1c4"]["BorderSizePixel"] = 0;
-G2L["1c4"]["TextSize"] = 18;
-G2L["1c4"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["1c4"]["TextYAlignment"] = Enum.TextYAlignment.Top;
-G2L["1c4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1c4"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1c4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1c4"]["BackgroundTransparency"] = 1;
-G2L["1c4"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["1c4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1c4"]["Text"] = [[⚠️ Sorry, an error occoured. This might be because of your executor or on your firewall or even your connection. Please try again later, and, if this issue persists, contact us.]];
+-- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.ImageLabel.UICorner
+G2L["1b9"] = Instance.new("UICorner", G2L["1b8"]);
+G2L["1b9"]["CornerRadius"] = UDim.new(0, 10);
 
 
--- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.ScrollingFrame.TextLabel.LocalScript
-G2L["1c5"] = Instance.new("LocalScript", G2L["1c4"]);
+-- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.ImageLabel.UIStroke
+G2L["1ba"] = Instance.new("UIStroke", G2L["1b8"]);
+G2L["1ba"]["Transparency"] = 0.1;
+G2L["1ba"]["Color"] = Color3.fromRGB(151, 151, 151);
+
+
+-- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.TextLabel
+G2L["1bb"] = Instance.new("TextLabel", G2L["1b2"]);
+G2L["1bb"]["BorderSizePixel"] = 0;
+G2L["1bb"]["TextSize"] = 20;
+G2L["1bb"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["1bb"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["1bb"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1bb"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["1bb"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1bb"]["BackgroundTransparency"] = 1;
+G2L["1bb"]["Size"] = UDim2.new(0, 116, 0, 24);
+G2L["1bb"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1bb"]["Text"] = [[Infinite Yield]];
+G2L["1bb"]["Position"] = UDim2.new(0.41256, 0, 0.32143, 0);
+
+
+-- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.TextLabel
+G2L["1bc"] = Instance.new("TextLabel", G2L["1b2"]);
+G2L["1bc"]["TextWrapped"] = true;
+G2L["1bc"]["BorderSizePixel"] = 0;
+G2L["1bc"]["TextSize"] = 16;
+G2L["1bc"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["1bc"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["1bc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1bc"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1bc"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1bc"]["BackgroundTransparency"] = 1;
+G2L["1bc"]["Size"] = UDim2.new(0, 116, 0, 52);
+G2L["1bc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1bc"]["Text"] = [[The best admin script with tons of commands.]];
+G2L["1bc"]["Position"] = UDim2.new(0.41256, 0, 0.46429, 0);
+
+
+-- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.TextButton
+G2L["1bd"] = Instance.new("TextButton", G2L["1b2"]);
+G2L["1bd"]["BorderSizePixel"] = 0;
+G2L["1bd"]["TextSize"] = 14;
+G2L["1bd"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1bd"]["BackgroundColor3"] = Color3.fromRGB(86, 171, 0);
+G2L["1bd"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1bd"]["Size"] = UDim2.new(0, 200, 0, 25);
+G2L["1bd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1bd"]["Text"] = [[]];
+G2L["1bd"]["Position"] = UDim2.new(0.0583, 0, 0.77976, 0);
+
+
+-- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.TextButton.UICorner
+G2L["1be"] = Instance.new("UICorner", G2L["1bd"]);
+G2L["1be"]["CornerRadius"] = UDim.new(1, 0);
+
+
+-- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.TextButton.ImageLabel
+G2L["1bf"] = Instance.new("ImageLabel", G2L["1bd"]);
+G2L["1bf"]["BorderSizePixel"] = 0;
+G2L["1bf"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["1bf"]["Image"] = [[rbxassetid://11423157473]];
+G2L["1bf"]["Size"] = UDim2.new(0, 17, 0, 17);
+G2L["1bf"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1bf"]["BackgroundTransparency"] = 1;
+G2L["1bf"]["Position"] = UDim2.new(0.46154, 0, 0.16, 0);
+
+
+-- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.TextButton.LocalScript
+G2L["1c0"] = Instance.new("LocalScript", G2L["1bd"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.UIGradient
-G2L["1c6"] = Instance.new("UIGradient", G2L["1bd"]);
-G2L["1c6"]["Rotation"] = 90;
-G2L["1c6"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
+G2L["1c1"] = Instance.new("UIGradient", G2L["1b2"]);
+G2L["1c1"]["Rotation"] = 90;
+G2L["1c1"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
+
+
+-- StarterGui.zerohubsigmayes.main.HomeFrame.Frame
+G2L["1c2"] = Instance.new("Frame", G2L["1b1"]);
+G2L["1c2"]["BorderSizePixel"] = 0;
+G2L["1c2"]["BackgroundColor3"] = Color3.fromRGB(2, 48, 73);
+G2L["1c2"]["Size"] = UDim2.new(0, 303, 0, 168);
+G2L["1c2"]["Position"] = UDim2.new(0.12, 0, 0.49425, 0);
+G2L["1c2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1c2"]["BackgroundTransparency"] = 0.45;
+
+
+-- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.UICorner
+G2L["1c3"] = Instance.new("UICorner", G2L["1c2"]);
+G2L["1c3"]["CornerRadius"] = UDim.new(0, 20);
+
+
+-- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.UIStroke
+G2L["1c4"] = Instance.new("UIStroke", G2L["1c2"]);
+G2L["1c4"]["Transparency"] = 0.5;
+G2L["1c4"]["Color"] = Color3.fromRGB(76, 76, 76);
+
+
+-- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.ImageLabel
+G2L["1c5"] = Instance.new("ImageLabel", G2L["1c2"]);
+G2L["1c5"]["BorderSizePixel"] = 0;
+G2L["1c5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["1c5"]["Image"] = [[rbxassetid://12966403319]];
+G2L["1c5"]["Size"] = UDim2.new(0, 25, 0, 25);
+G2L["1c5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1c5"]["BackgroundTransparency"] = 1;
+G2L["1c5"]["Position"] = UDim2.new(0.0462, 0, 0.06548, 0);
+
+
+-- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.TextLabel
+G2L["1c6"] = Instance.new("TextLabel", G2L["1c2"]);
+G2L["1c6"]["BorderSizePixel"] = 0;
+G2L["1c6"]["TextSize"] = 20;
+G2L["1c6"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["1c6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1c6"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["1c6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1c6"]["BackgroundTransparency"] = 1;
+G2L["1c6"]["Size"] = UDim2.new(0, 240, 0, 30);
+G2L["1c6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1c6"]["Text"] = [[Announcements & Updates]];
+G2L["1c6"]["Position"] = UDim2.new(0.16832, 0, 0.05357, 0);
+
+
+-- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.Frame
+G2L["1c7"] = Instance.new("Frame", G2L["1c2"]);
+G2L["1c7"]["BorderSizePixel"] = 0;
+G2L["1c7"]["BackgroundColor3"] = Color3.fromRGB(151, 151, 151);
+G2L["1c7"]["Size"] = UDim2.new(0, 275, 0, 1);
+G2L["1c7"]["Position"] = UDim2.new(0.0462, 0, 0.26786, 0);
+G2L["1c7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1c7"]["BackgroundTransparency"] = 0.5;
+
+
+-- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.ScrollingFrame
+G2L["1c8"] = Instance.new("ScrollingFrame", G2L["1c2"]);
+G2L["1c8"]["Active"] = true;
+G2L["1c8"]["BorderSizePixel"] = 0;
+G2L["1c8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1c8"]["ScrollBarImageTransparency"] = 0.5;
+G2L["1c8"]["Size"] = UDim2.new(0, 275, 0, 105);
+G2L["1c8"]["ScrollBarImageColor3"] = Color3.fromRGB(151, 151, 151);
+G2L["1c8"]["Position"] = UDim2.new(0.0462, 0, 0.32143, 0);
+G2L["1c8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1c8"]["ScrollBarThickness"] = 5;
+G2L["1c8"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.ScrollingFrame.TextLabel
+G2L["1c9"] = Instance.new("TextLabel", G2L["1c8"]);
+G2L["1c9"]["TextWrapped"] = true;
+G2L["1c9"]["BorderSizePixel"] = 0;
+G2L["1c9"]["TextSize"] = 18;
+G2L["1c9"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["1c9"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["1c9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1c9"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1c9"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1c9"]["BackgroundTransparency"] = 1;
+G2L["1c9"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["1c9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1c9"]["Text"] = [[⚠️ Sorry, an error occoured. This might be because of your executor or on your firewall or even your connection. Please try again later, and, if this issue persists, contact us.]];
+
+
+-- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.ScrollingFrame.TextLabel.LocalScript
+G2L["1ca"] = Instance.new("LocalScript", G2L["1c9"]);
+
+
+
+-- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.UIGradient
+G2L["1cb"] = Instance.new("UIGradient", G2L["1c2"]);
+G2L["1cb"]["Rotation"] = 90;
+G2L["1cb"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
 
 
 -- StarterGui.zerohubsigmayes.main.HomeFrame.ProfileAvatarContainer
-G2L["1c7"] = Instance.new("Frame", G2L["1ac"]);
-G2L["1c7"]["BorderSizePixel"] = 0;
-G2L["1c7"]["BackgroundColor3"] = Color3.fromRGB(2, 48, 73);
-G2L["1c7"]["Size"] = UDim2.new(0, 540, 0, 108);
-G2L["1c7"]["Position"] = UDim2.new(0.12, 0, 0.16092, 0);
-G2L["1c7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1c7"]["Name"] = [[ProfileAvatarContainer]];
-G2L["1c7"]["BackgroundTransparency"] = 0.45;
+G2L["1cc"] = Instance.new("Frame", G2L["1b1"]);
+G2L["1cc"]["BorderSizePixel"] = 0;
+G2L["1cc"]["BackgroundColor3"] = Color3.fromRGB(2, 48, 73);
+G2L["1cc"]["Size"] = UDim2.new(0, 540, 0, 108);
+G2L["1cc"]["Position"] = UDim2.new(0.12, 0, 0.16092, 0);
+G2L["1cc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1cc"]["Name"] = [[ProfileAvatarContainer]];
+G2L["1cc"]["BackgroundTransparency"] = 0.45;
 
 
 -- StarterGui.zerohubsigmayes.main.HomeFrame.ProfileAvatarContainer.UICorner
-G2L["1c8"] = Instance.new("UICorner", G2L["1c7"]);
-G2L["1c8"]["CornerRadius"] = UDim.new(0, 35);
+G2L["1cd"] = Instance.new("UICorner", G2L["1cc"]);
+G2L["1cd"]["CornerRadius"] = UDim.new(0, 35);
 
 
 -- StarterGui.zerohubsigmayes.main.HomeFrame.ProfileAvatarContainer.UIStroke
-G2L["1c9"] = Instance.new("UIStroke", G2L["1c7"]);
-G2L["1c9"]["Transparency"] = 0.5;
-G2L["1c9"]["Color"] = Color3.fromRGB(76, 76, 76);
+G2L["1ce"] = Instance.new("UIStroke", G2L["1cc"]);
+G2L["1ce"]["Transparency"] = 0.5;
+G2L["1ce"]["Color"] = Color3.fromRGB(76, 76, 76);
 
 
 -- StarterGui.zerohubsigmayes.main.HomeFrame.ProfileAvatarContainer.PlayerImage
-G2L["1ca"] = Instance.new("ImageLabel", G2L["1c7"]);
-G2L["1ca"]["BorderSizePixel"] = 0;
-G2L["1ca"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1cf"] = Instance.new("ImageLabel", G2L["1cc"]);
+G2L["1cf"]["BorderSizePixel"] = 0;
+G2L["1cf"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["1ca"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
-G2L["1ca"]["Size"] = UDim2.new(0, 75, 0, 75);
-G2L["1ca"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1ca"]["BackgroundTransparency"] = 1;
-G2L["1ca"]["Name"] = [[PlayerImage]];
-G2L["1ca"]["Position"] = UDim2.new(0.04444, 0, 0.14815, 0);
+G2L["1cf"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
+G2L["1cf"]["Size"] = UDim2.new(0, 75, 0, 75);
+G2L["1cf"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1cf"]["BackgroundTransparency"] = 1;
+G2L["1cf"]["Name"] = [[PlayerImage]];
+G2L["1cf"]["Position"] = UDim2.new(0.04444, 0, 0.14815, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.HomeFrame.ProfileAvatarContainer.PlayerImage.UICorner
-G2L["1cb"] = Instance.new("UICorner", G2L["1ca"]);
-G2L["1cb"]["CornerRadius"] = UDim.new(1, 0);
+G2L["1d0"] = Instance.new("UICorner", G2L["1cf"]);
+G2L["1d0"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.HomeFrame.ProfileAvatarContainer.PlayerImage.UIStroke
-G2L["1cc"] = Instance.new("UIStroke", G2L["1ca"]);
-G2L["1cc"]["Color"] = Color3.fromRGB(255, 255, 255);
+G2L["1d1"] = Instance.new("UIStroke", G2L["1cf"]);
+G2L["1d1"]["Color"] = Color3.fromRGB(255, 255, 255);
 
 
 -- StarterGui.zerohubsigmayes.main.HomeFrame.ProfileAvatarContainer.PlayerImage.UIStroke.UIGradient
-G2L["1cd"] = Instance.new("UIGradient", G2L["1cc"]);
-G2L["1cd"]["Rotation"] = 90;
-G2L["1cd"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(9, 190, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 133, 255))};
+G2L["1d2"] = Instance.new("UIGradient", G2L["1d1"]);
+G2L["1d2"]["Rotation"] = 90;
+G2L["1d2"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(9, 190, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 133, 255))};
 
 
 -- StarterGui.zerohubsigmayes.main.HomeFrame.ProfileAvatarContainer.PlayerImage.LocalScript
-G2L["1ce"] = Instance.new("LocalScript", G2L["1ca"]);
+G2L["1d3"] = Instance.new("LocalScript", G2L["1cf"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.HomeFrame.ProfileAvatarContainer.PlayerName
-G2L["1cf"] = Instance.new("TextLabel", G2L["1c7"]);
-G2L["1cf"]["BorderSizePixel"] = 0;
-G2L["1cf"]["TextSize"] = 33;
-G2L["1cf"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["1cf"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1cf"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["1cf"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1cf"]["BackgroundTransparency"] = 1;
-G2L["1cf"]["Size"] = UDim2.new(0, 400, 0, 57);
-G2L["1cf"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1cf"]["Name"] = [[PlayerName]];
-G2L["1cf"]["Position"] = UDim2.new(0.21481, 0, 0.14815, 0);
+G2L["1d4"] = Instance.new("TextLabel", G2L["1cc"]);
+G2L["1d4"]["BorderSizePixel"] = 0;
+G2L["1d4"]["TextSize"] = 33;
+G2L["1d4"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["1d4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1d4"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["1d4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1d4"]["BackgroundTransparency"] = 1;
+G2L["1d4"]["Size"] = UDim2.new(0, 400, 0, 57);
+G2L["1d4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1d4"]["Name"] = [[PlayerName]];
+G2L["1d4"]["Position"] = UDim2.new(0.21481, 0, 0.14815, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.HomeFrame.ProfileAvatarContainer.PlayerName.LocalScript
-G2L["1d0"] = Instance.new("LocalScript", G2L["1cf"]);
+G2L["1d5"] = Instance.new("LocalScript", G2L["1d4"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.HomeFrame.ProfileAvatarContainer.lel
-G2L["1d1"] = Instance.new("TextLabel", G2L["1c7"]);
-G2L["1d1"]["BorderSizePixel"] = 0;
-G2L["1d1"]["TextSize"] = 22;
-G2L["1d1"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["1d1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1d1"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1d1"]["TextColor3"] = Color3.fromRGB(201, 201, 201);
-G2L["1d1"]["BackgroundTransparency"] = 1;
-G2L["1d1"]["Size"] = UDim2.new(0, 400, 0, 39);
-G2L["1d1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1d1"]["Name"] = [[lel]];
-G2L["1d1"]["Position"] = UDim2.new(0.21481, 0, 0.48148, 0);
+G2L["1d6"] = Instance.new("TextLabel", G2L["1cc"]);
+G2L["1d6"]["BorderSizePixel"] = 0;
+G2L["1d6"]["TextSize"] = 22;
+G2L["1d6"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["1d6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1d6"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1d6"]["TextColor3"] = Color3.fromRGB(201, 201, 201);
+G2L["1d6"]["BackgroundTransparency"] = 1;
+G2L["1d6"]["Size"] = UDim2.new(0, 400, 0, 39);
+G2L["1d6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1d6"]["Name"] = [[lel]];
+G2L["1d6"]["Position"] = UDim2.new(0.21481, 0, 0.48148, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.HomeFrame.ProfileAvatarContainer.lel.LocalScript
-G2L["1d2"] = Instance.new("LocalScript", G2L["1d1"]);
+G2L["1d7"] = Instance.new("LocalScript", G2L["1d6"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.HomeFrame.ProfileAvatarContainer.UIGradient
-G2L["1d3"] = Instance.new("UIGradient", G2L["1c7"]);
-G2L["1d3"]["Rotation"] = 90;
-G2L["1d3"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
+G2L["1d8"] = Instance.new("UIGradient", G2L["1cc"]);
+G2L["1d8"]["Rotation"] = 90;
+G2L["1d8"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
 
 
 -- StarterGui.zerohubsigmayes.main.UIStroke
-G2L["1d4"] = Instance.new("UIStroke", G2L["1d"]);
-G2L["1d4"]["Transparency"] = 0.3;
-G2L["1d4"]["Color"] = Color3.fromRGB(76, 76, 76);
+G2L["1d9"] = Instance.new("UIStroke", G2L["1d"]);
+G2L["1d9"]["Transparency"] = 0.3;
+G2L["1d9"]["Color"] = Color3.fromRGB(76, 76, 76);
 
 
 -- StarterGui.zerohubsigmayes.main.ImageButton
-G2L["1d5"] = Instance.new("ImageButton", G2L["1d"]);
-G2L["1d5"]["BorderSizePixel"] = 0;
-G2L["1d5"]["BackgroundTransparency"] = 1;
+G2L["1da"] = Instance.new("ImageButton", G2L["1d"]);
+G2L["1da"]["BorderSizePixel"] = 0;
+G2L["1da"]["BackgroundTransparency"] = 1;
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["1d5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1d5"]["Image"] = [[rbxassetid://11293981586]];
-G2L["1d5"]["Size"] = UDim2.new(0, 20, 0, 20);
-G2L["1d5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1d5"]["Position"] = UDim2.new(0.936, 0, 0.04598, 0);
+G2L["1da"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1da"]["Image"] = [[rbxassetid://11293981586]];
+G2L["1da"]["Size"] = UDim2.new(0, 20, 0, 20);
+G2L["1da"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1da"]["Position"] = UDim2.new(0.936, 0, 0.04598, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.ImageButton.LocalScript
-G2L["1d6"] = Instance.new("LocalScript", G2L["1d5"]);
+G2L["1db"] = Instance.new("LocalScript", G2L["1da"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.ImageButton
-G2L["1d7"] = Instance.new("ImageButton", G2L["1d"]);
-G2L["1d7"]["BorderSizePixel"] = 0;
-G2L["1d7"]["BackgroundTransparency"] = 1;
+G2L["1dc"] = Instance.new("ImageButton", G2L["1d"]);
+G2L["1dc"]["BorderSizePixel"] = 0;
+G2L["1dc"]["BackgroundTransparency"] = 1;
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["1d7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1d7"]["Image"] = [[rbxassetid://11293980042]];
-G2L["1d7"]["Size"] = UDim2.new(0, 20, 0, 20);
-G2L["1d7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1d7"]["Position"] = UDim2.new(0.88, 0, 0.04598, 0);
+G2L["1dc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1dc"]["Image"] = [[rbxassetid://11293980042]];
+G2L["1dc"]["Size"] = UDim2.new(0, 20, 0, 20);
+G2L["1dc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1dc"]["Position"] = UDim2.new(0.88, 0, 0.04598, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.ImageButton.LocalScript
-G2L["1d8"] = Instance.new("LocalScript", G2L["1d7"]);
+G2L["1dd"] = Instance.new("LocalScript", G2L["1dc"]);
 
 
 
 -- StarterGui.zerohubsigmayes.main.Pattern
-G2L["1d9"] = Instance.new("ImageLabel", G2L["1d"]);
-G2L["1d9"]["ZIndex"] = 0;
-G2L["1d9"]["SliceCenter"] = Rect.new(0, 256, 0, 256);
-G2L["1d9"]["ScaleType"] = Enum.ScaleType.Tile;
-G2L["1d9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1d9"]["ImageTransparency"] = 0.8;
+G2L["1de"] = Instance.new("ImageLabel", G2L["1d"]);
+G2L["1de"]["ZIndex"] = 0;
+G2L["1de"]["SliceCenter"] = Rect.new(0, 256, 0, 256);
+G2L["1de"]["ScaleType"] = Enum.ScaleType.Tile;
+G2L["1de"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1de"]["ImageTransparency"] = 0.8;
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["1d9"]["Image"] = [[rbxassetid://2151741365]];
-G2L["1d9"]["TileSize"] = UDim2.new(0, 250, 0, 250);
-G2L["1d9"]["Size"] = UDim2.new(0, 623, 0, 348);
-G2L["1d9"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
-G2L["1d9"]["BackgroundTransparency"] = 1;
-G2L["1d9"]["Name"] = [[Pattern]];
-G2L["1d9"]["Position"] = UDim2.new(0.0024, 0, 0, 0);
+G2L["1de"]["Image"] = [[rbxassetid://2151741365]];
+G2L["1de"]["TileSize"] = UDim2.new(0, 250, 0, 250);
+G2L["1de"]["Size"] = UDim2.new(0, 623, 0, 348);
+G2L["1de"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
+G2L["1de"]["BackgroundTransparency"] = 1;
+G2L["1de"]["Name"] = [[Pattern]];
+G2L["1de"]["Position"] = UDim2.new(0.0024, 0, 0, 0);
 
 
 -- StarterGui.zerohubsigmayes.main.Pattern.UICorner
-G2L["1da"] = Instance.new("UICorner", G2L["1d9"]);
-G2L["1da"]["CornerRadius"] = UDim.new(0, 20);
+G2L["1df"] = Instance.new("UICorner", G2L["1de"]);
+G2L["1df"]["CornerRadius"] = UDim.new(0, 20);
 
 
 -- StarterGui.zerohubsigmayes.main.UIGradient
-G2L["1db"] = Instance.new("UIGradient", G2L["1d"]);
-G2L["1db"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(58, 105, 253)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(52, 69, 176))};
+G2L["1e0"] = Instance.new("UIGradient", G2L["1d"]);
+G2L["1e0"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(58, 105, 253)),ColorSequenceKeypoint.new(0.492, Color3.fromRGB(3, 0, 135)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(52, 69, 176))};
 
 
 -- StarterGui.zerohubsigmayes.main.LocalScript
-G2L["1dc"] = Instance.new("LocalScript", G2L["1d"]);
+G2L["1e1"] = Instance.new("LocalScript", G2L["1d"]);
 
 
 
 -- StarterGui.zerohubsigmayes.LocalScript
-G2L["1dd"] = Instance.new("LocalScript", G2L["1"]);
+G2L["1e2"] = Instance.new("LocalScript", G2L["1"]);
 
 
 
 -- StarterGui.zerohubsigmayes.LocalScript
-G2L["1de"] = Instance.new("LocalScript", G2L["1"]);
+G2L["1e3"] = Instance.new("LocalScript", G2L["1"]);
 
 
 
 -- StarterGui.zerohubsigmayes.LocalScript
-G2L["1df"] = Instance.new("LocalScript", G2L["1"]);
+G2L["1e4"] = Instance.new("LocalScript", G2L["1"]);
 
 
 
 -- StarterGui.zerohubsigmayes.ImageButton
-G2L["1e0"] = Instance.new("ImageButton", G2L["1"]);
-G2L["1e0"]["BorderSizePixel"] = 0;
-G2L["1e0"]["Visible"] = false;
-G2L["1e0"]["BackgroundTransparency"] = 0.5;
+G2L["1e5"] = Instance.new("ImageButton", G2L["1"]);
+G2L["1e5"]["BorderSizePixel"] = 0;
+G2L["1e5"]["Visible"] = false;
+G2L["1e5"]["BackgroundTransparency"] = 0.5;
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["1e0"]["BackgroundColor3"] = Color3.fromRGB(14, 14, 14);
-G2L["1e0"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["1e0"]["Image"] = [[rbxassetid://90559987716199]];
-G2L["1e0"]["Size"] = UDim2.new(0, 50, 0, 50);
-G2L["1e0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1e0"]["Position"] = UDim2.new(0.5, 0, 0.1, 0);
+G2L["1e5"]["BackgroundColor3"] = Color3.fromRGB(14, 14, 14);
+G2L["1e5"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["1e5"]["Image"] = [[rbxassetid://90559987716199]];
+G2L["1e5"]["Size"] = UDim2.new(0, 50, 0, 50);
+G2L["1e5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1e5"]["Position"] = UDim2.new(0.5, 0, 0.1, 0);
 
 
 -- StarterGui.zerohubsigmayes.ImageButton.UICorner
-G2L["1e1"] = Instance.new("UICorner", G2L["1e0"]);
-G2L["1e1"]["CornerRadius"] = UDim.new(0, 15);
+G2L["1e6"] = Instance.new("UICorner", G2L["1e5"]);
+G2L["1e6"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.zerohubsigmayes.ImageButton.LocalScript
-G2L["1e2"] = Instance.new("LocalScript", G2L["1e0"]);
+G2L["1e7"] = Instance.new("LocalScript", G2L["1e5"]);
 
 
 
 -- StarterGui.zerohubsigmayes.performancestats
-G2L["1e3"] = Instance.new("TextLabel", G2L["1"]);
-G2L["1e3"]["TextStrokeTransparency"] = 0.8;
-G2L["1e3"]["BorderSizePixel"] = 0;
-G2L["1e3"]["TextSize"] = 16;
-G2L["1e3"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["1e3"]["TextYAlignment"] = Enum.TextYAlignment.Bottom;
-G2L["1e3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1e3"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1e3"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1e3"]["BackgroundTransparency"] = 1;
-G2L["1e3"]["AnchorPoint"] = Vector2.new(0, 1);
-G2L["1e3"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["1e3"]["Visible"] = false;
-G2L["1e3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1e3"]["Name"] = [[performancestats]];
-G2L["1e3"]["Position"] = UDim2.new(0, 0, 1, 0);
+G2L["1e8"] = Instance.new("TextLabel", G2L["1"]);
+G2L["1e8"]["TextStrokeTransparency"] = 0.8;
+G2L["1e8"]["BorderSizePixel"] = 0;
+G2L["1e8"]["TextSize"] = 16;
+G2L["1e8"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["1e8"]["TextYAlignment"] = Enum.TextYAlignment.Bottom;
+G2L["1e8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1e8"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1e8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1e8"]["BackgroundTransparency"] = 1;
+G2L["1e8"]["AnchorPoint"] = Vector2.new(0, 1);
+G2L["1e8"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["1e8"]["Visible"] = false;
+G2L["1e8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1e8"]["Name"] = [[performancestats]];
+G2L["1e8"]["Position"] = UDim2.new(0, 0, 1, 0);
 
 
 -- StarterGui.zerohubsigmayes.performancestats.LocalScript
-G2L["1e4"] = Instance.new("LocalScript", G2L["1e3"]);
+G2L["1e9"] = Instance.new("LocalScript", G2L["1e8"]);
 
 
 
@@ -4917,8 +4948,8 @@ local script = G2L["33"];
 end;
 task.spawn(C_33);
 -- StarterGui.zerohubsigmayes.main.AiFrame.ImageButton.LocalScript
-local function C_3a()
-local script = G2L["3a"];
+local function C_3b()
+local script = G2L["3b"];
 	local HttpService = game:GetService("HttpService")
 	local Players = game:GetService("Players")
 	local LocalPlayer = Players.LocalPlayer
@@ -5033,10 +5064,10 @@ local script = G2L["3a"];
 	
 	print("AI GUI script completamente inizializzato.")
 end;
-task.spawn(C_3a);
+task.spawn(C_3b);
 -- StarterGui.zerohubsigmayes.main.AiFrame.ScrollingFrame.LocalScript
-local function C_45()
-local script = G2L["45"];
+local function C_46()
+local script = G2L["46"];
 	local lua_keywords = {"and", "break", "do", "else", "elseif", "end", "false", "for", "function", "goto", "if", "in", "local", "nil", "not", "or", "repeat", "return", "then", "true", "until", "while"}
 	local global_env = {"getrawmetatable", "game", "workspace", "script", "math", "string", "table", "print", "wait", "BrickColor", "Color3", "next", "pairs", "ipairs", "select", "unpack", "Instance", "Vector2", "Vector3", "CFrame", "Ray", "UDim2", "Enum", "assert", "error", "warn", "tick", "loadstring", "_G", "shared", "getfenv", "setfenv", "newproxy", "setmetatable", "getmetatable", "os", "debug", "pcall", "ypcall", "xpcall", "rawequal", "rawset", "rawget", "tonumber", "tostring", "type", "typeof", "_VERSION", "coroutine", "delay", "require", "spawn", "LoadLibrary", "settings", "stats", "time", "UserSettings", "version", "Axes", "ColorSequence", "Faces", "ColorSequenceKeypoint", "NumberRange", "NumberSequence", "NumberSequenceKeypoint", "gcinfo", "elapsedTime", "collectgarbage", "PhysicalProperties", "Rect", "Region3", "Region3int16", "UDim", "Vector2int16", "Vector3int16"}
 	
@@ -5217,328 +5248,132 @@ local script = G2L["45"];
 	
 	
 end;
-task.spawn(C_45);
+task.spawn(C_46);
 -- StarterGui.zerohubsigmayes.main.AiFrame.Frame.ImageButton.LocalScript
-local function C_4a()
-local script = G2L["4a"];
+local function C_4b()
+local script = G2L["4b"];
 	script.Parent.MouseButton1Click:Connect(function()
 		setclipboard(script.Parent.Parent.Parent.ScrollingFrame.ResponseLabel.Text)
 	end)
 end;
-task.spawn(C_4a);
+task.spawn(C_4b);
 -- StarterGui.zerohubsigmayes.main.AiFrame.Frame.ImageButton.LocalScript
-local function C_50()
-local script = G2L["50"];
+local function C_52()
+local script = G2L["52"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(script.Parent.Parent.Parent.ScrollingFrame.ResponseLabel.Text)()
 	end)
 end;
-task.spawn(C_50);
+task.spawn(C_52);
 -- StarterGui.zerohubsigmayes.main.AiFrame.LocalScript
-local function C_52()
-local script = G2L["52"];
+local function C_55()
+local script = G2L["55"];
 	--[[
+	    zeroGPT - The "It Just Works" Script (vFINAL)
+	    By: Aurora AI & Dnezero
 	
-	    zeroGPT - Integrated UI Logic v3.2 (No Horizontal Rule)
-	
-	    Based on the stable v3 script.
-	
-	
-	
-	    CHANGES:
-	
-	    - REMOVED the horizontal rule (---) feature.
-	
-	    - Code blocks are triggered by ```Code ... ```.
-	
-	    - <font face> remains removed.
-	
+	    This script is built on the confirmation that your executor uses 'request'.
+	    It removes all confusing checks and directly calls the function.
 	--]]
 	
-	
-	
 	--// Services
-	
 	local HttpService = game:GetService("HttpService")
 	
-	local RunService = game:GetService("RunService")
-	
-	
-	
 	--// Configuration
-	
-	-- WARNING: This API key is public. Please delete it and generate a new, secure key.
-	
+	-- WARNING: This API key is public. Please delete it from your Google Dashboard and generate a new one.
 	local GEMINI_API_KEY = "AIzaSyCqS3btZWOK26eeDMKD-eVUg9Sy5p4Ph8s"
-	
-	local SYSTEM_PROMPT = "You are zeroGPT, a roblox scripting assistant, only answer to script related questions, and generate scripts for roblox executors (LuaU). U dont explain them just send them the code, also dont generate it in this format ```Code``` just Generate it like Code, when the user says Hi say, What can i help you with? And once again do not add the ``` to code, just type the raw code! And never, ever, add comments. Make sure the scripts work only on the clientside!"
-	
-	local GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
-	
-	
+	local SYSTEM_PROMPT = "You are zeroGPT, a roblox scripting assistant, only answer to script related questions, and generate scripts for roblox executors (LuaU). U dont explain them just send them the code. Do not add comments."
+	local GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent"
 	
 	--// UI Mapping
-	
 	local mainFrame = script.Parent 
-	
 	local scrollingFrame = mainFrame:WaitForChild("ScrollingFrame")
-	
 	local responseLabel = scrollingFrame:WaitForChild("ResponseLabel")
-	
 	local inputBox = mainFrame:WaitForChild("TextBox")
-	
 	local sendButton = mainFrame:WaitForChild("ImageButton")
 	
-	
-	
 	--// Conversation History
-	
 	local chatHistory = {}
-	
 	local debounce = false
 	
-	
-	
-	--============================================================================--
-	
-	--  SYNTAX HIGHLIGHTER (No Font Face)
-	
-	--============================================================================--
-	
-	
-	
-	local SyntaxHighlighter = {
-	
-		Colors = {
-	
-			Keyword = "#C586C0", String = "#CE9178", Number = "#B5CEA8",
-	
-			Comment = "#6A9955", Global = "#4FC1FF"
-	
-		},
-	
-		LuaKeywords = {"and", "break", "do", "else", "elseif", "end", "false", "for", "function", "if", "in", "local", "nil", "not", "or", "repeat", "return", "then", "true", "until", "while"}
-	
-	}
-	
-	
-	
-	function SyntaxHighlighter.highlight(code)
-	
-		code = code:gsub("(%-%-.*)", `<font color="{SyntaxHighlighter.Colors.Comment}">%1</font>`)
-	
-		code = code:gsub("('.-')", `<font color="{SyntaxHighlighter.Colors.String}">%1</font>`)
-	
-		code = code:gsub('(".-")', `<font color="{SyntaxHighlighter.Colors.String}">%1</font>`)
-	
-		code = code:gsub("(%d+%.?%d*)", `<font color="{SyntaxHighlighter.Colors.Number}">%1</font>`)
-	
-		for _, keyword in ipairs(SyntaxHighlighter.LuaKeywords) do
-	
-			code = code:gsub(`(^|%W)({keyword})(%W|$)`, `%1<font color="{SyntaxHighlighter.Colors.Keyword}">%2</font>%3`)
-	
-		end
-	
-		local globals = {"game", "workspace", "script", "print", "wait", "pcall", "Instance", "Vector3", "CFrame"}
-	
-		for _, g in ipairs(globals) do
-	
-			code = code:gsub(`(^|%W)({g})(%W|$)`, `%1<font color="{SyntaxHighlighter.Colors.Global}">%2</font>%3`)
-	
-		end
-	
-		return code
-	
-	end
-	
-	
-	
-	--============================================================================--
-	
-	--  ADVANCED MARKDOWN PARSER (Refined)
-	
-	--============================================================================--
-	
-	
-	
+	--// Helper Function to prevent UI breaking
 	local function escapeXml(text)
-	
-		return text:gsub("&", "&amp;"):gsub("<", "&lt;"):gsub(">", "&gt;"):gsub("'", "&apos;"):gsub('"', "&quot;")
-	
+		if type(text) ~= "string" then return "" end
+		return text:gsub("&", "&amp;"):gsub("<", "&lt;"):gsub(">", "&gt;")
 	end
 	
-	
-	
-	local function convertMarkdownToRichText(text)
-	
-		-- First, isolate and highlight the code blocks using the new syntax
-	
-		text = text:gsub("```Code(.-)```", function(codeBlock)
-	
-			local escapedCode = escapeXml(codeBlock)
-	
-			local highlightedCode = SyntaxHighlighter.highlight(escapedCode)
-	
-			return highlightedCode
-	
-		end)
-	
-	
-	
-		-- Now process the rest of the markdown on the remaining text
-	
-		-- The line for the horizontal rule (---) has been deleted from here.
-	
-		text = text:gsub("\n### (.-)\n", function(c) return `\n<b><font size="18">{escapeXml(c)}</font></b>\n` end)
-	
-		text = text:gsub("\n## (.-)\n", function(c) return `\n<b><font size="22">{escapeXml(c)}</font></b>\n` end)
-	
-		text = text:gsub("\n# (.-)\n", function(c) return `\n<b><font size="26">{escapeXml(c)}</font></b>\n` end)
-	
-		text = text:gsub("%*%*(.-)%*%*", function(c) return "<b>" .. escapeXml(c) .. "</b>" end)
-	
-		text = text:gsub("%*(.-)%*", function(c) return "<i>" .. escapeXml(c) .. "</i>" end)
-	
-	
-	
-		return text
-	
-	end
-	
-	
-	
-	--============================================================================--
-	
-	--  UI & CORE LOGIC (From the stable v3)
-	
-	--============================================================================--
-	
-	
-	
-	local clearButton = Instance.new("TextButton")
-	
-	clearButton.Name = "ClearMemoryButton"; clearButton.Size = UDim2.new(1)
-	
-	clearButton.Position = UDim2.new(1, -55, 0, 60); clearButton.BackgroundColor3 = Color3.fromRGB(80, 40, 40)
-	
-	clearButton.TextColor3 = Color3.fromRGB(255, 255, 255); clearButton.Font = Enum.Font.SourceSans
-	
-	clearButton.TextSize = 12; clearButton.Text = ""; clearButton.Parent = mainFrame
-	
-	Instance.new("UICorner", clearButton).CornerRadius = UDim.new(0, 4)
-	
-	
-	
-	clearButton.MouseButton1Click:Connect(function()
-	
-		chatHistory = {}; responseLabel.Text = "Memory cleared. Ask me something new!"
-	
-	end)
-	
-	
+	--// UI & CORE LOGIC
+	local clearButton = Instance.new("TextButton"); clearButton.Name = "ClearMemoryButton"; clearButton.Size = UDim2.new(0, 50, 0, 20); clearButton.Position = UDim2.new(1, -55, 0, 5); clearButton.BackgroundColor3 = Color3.fromRGB(80, 40, 40); clearButton.TextColor3 = Color3.fromRGB(255, 255, 255); clearButton.Font = Enum.Font.SourceSans; clearButton.TextSize = 12; clearButton.Text = "Clear"; clearButton.Parent = mainFrame; Instance.new("UICorner", clearButton).CornerRadius = UDim.new(0, 4)
+	clearButton.MouseButton1Click:Connect(function() chatHistory = {}; responseLabel.Text = "Memory cleared." end)
 	
 	local function processRequest()
-	
 		if debounce then return end
-	
 		local prompt = inputBox.Text
-	
 		if not prompt or prompt:gsub("%s", "") == "" then return end
 	
-	
-	
 		inputBox.Text = ""; debounce = true; responseLabel.Text = "Thinking..."
-	
 		sendButton.Interactable = false; clearButton.Interactable = false
-	
-	
 	
 		table.insert(chatHistory, {role = "user", parts = {{text = prompt}}})
 	
+		-- We spawn a new thread to prevent the network request from freezing the game.
+		task.spawn(function()
+			local requestBody = {contents = chatHistory, system_instruction = {parts = {{text = SYSTEM_PROMPT}}}}
 	
-	
-		if request then
-	
-			task.spawn(function()
-	
-				local requestBody = {contents = chatHistory, system_instruction = {parts = {{text = SYSTEM_PROMPT}}}}
-	
-				local success, response = pcall(function()
-	
-					return request({ Url = GEMINI_API_URL .. "?key=" .. GEMINI_API_KEY, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = HttpService:JSONEncode(requestBody) })
-	
-				end)
-	
-	
-	
-				if success and response and response.Success then
-	
-					local successDecode, data = pcall(function() return HttpService:JSONDecode(response.Body) end)
-	
-					if successDecode and data.candidates and data.candidates[1] then
-	
-						local rawText = data.candidates[1].content.parts[1].text
-	
-						table.insert(chatHistory, {role = "model", parts = {{text = rawText}}})
-	
-						responseLabel.Text = convertMarkdownToRichText(rawText)
-	
-					else
-	
-						responseLabel.Text = "<b>Error:</b> Received a malformed response from Gemini."
-	
-						table.remove(chatHistory)
-	
-					end
-	
-				else
-	
-					responseLabel.Text = "<b>Error:</b> The request to Gemini failed. Check your API key or network.\nStatus: " .. (response and response.StatusCode or "Unknown")
-	
-					table.remove(chatHistory)
-	
-				end
-	
-	
-	
-				debounce = false; sendButton.Interactable = true; clearButton.Interactable = true
-	
+			-- We directly call 'request' inside a protected call for safety.
+			local success, responseData = pcall(function()
+				-- This is the direct call. No more 'if' checks.
+				return request({
+					Url = GEMINI_API_URL .. "?key=" .. GEMINI_API_KEY,
+					Method = "POST",
+					Headers = {["Content-Type"] = "application/json"},
+					Body = HttpService:JSONEncode(requestBody)
+				})
 			end)
 	
-		else
+			if not success then
+				-- This will catch if 'request' is nil or errors out for any reason.
+				responseLabel.Text = "<b>Execution Error:</b> The 'request' function failed. Error: " .. tostring(responseData)
+			elseif responseData and responseData.Success then
+				-- The network request was successful (e.g., Status 200 OK)
+				local successDecode, data = pcall(function() return HttpService:JSONDecode(responseData.Body) end)
+				if successDecode and data.candidates and data.candidates[1] then
+					local rawText = data.candidates[1].content.parts[1].text
+					table.insert(chatHistory, {role = "model", parts = {{text = rawText}}})
+					responseLabel.Text = escapeXml(rawText)
+				else
+					responseLabel.Text = "<b>Error:</b> Could not decode the server's response."
+					table.remove(chatHistory)
+				end
+			else
+				-- The network request failed (e.g., Status 400 or 500)
+				local status = responseData and responseData.StatusCode or "Unknown"
+				responseLabel.Text = "<b>Error:</b> Request to Gemini failed. Status: " .. tostring(status)
+				table.remove(chatHistory)
+			end
 	
-			task.wait(1.5)
-	
-			local simulatedText = "### Studio Mode\nThis is a **simulated** response.\n```Code\n-- This is a test\nlocal x = 10\nprint('Hello, Studio!')\n```\n--- (this line will be ignored)"
-	
-			responseLabel.Text = convertMarkdownToRichText(simulatedText)
-	
-			debounce = false; sendButton.Interactable = true; clearButton.Interactable = true
-	
-		end
-	
+			-- This part is guaranteed to run, so your UI will never get stuck.
+			debounce = false
+			sendButton.Interactable = true
+			clearButton.Interactable = true
+		end)
 	end
 	
-	
-	
 	sendButton.MouseButton1Click:Connect(processRequest)
-	
 	inputBox.FocusLost:Connect(function(enterPressed) if enterPressed then processRequest() end end)
-	
-	
 end;
-task.spawn(C_52);
+task.spawn(C_55);
 -- StarterGui.zerohubsigmayes.main.AiFrame.Frame.TextButton.LocalScript
-local function C_5b()
-local script = G2L["5b"];
+local function C_5e()
+local script = G2L["5e"];
 	script.Parent.MouseButton1Click:Connect(function()
 		setclipboard("https://discord.gg/xdnZtBypey")
 	end)
 end;
-task.spawn(C_5b);
+task.spawn(C_5e);
 -- StarterGui.zerohubsigmayes.main.AiFrame.Frame.LocalScript
-local function C_5c()
-local script = G2L["5c"];
+local function C_5f()
+local script = G2L["5f"];
 	local Players = game:GetService("Players")
 	local localPlayerName = Players.LocalPlayer.Name
 	
@@ -5557,10 +5392,10 @@ local script = G2L["5c"];
 	-- Hide or show the UI based on premium status
 	script.Parent.Visible = not isPremium
 end;
-task.spawn(C_5c);
+task.spawn(C_5f);
 -- StarterGui.zerohubsigmayes.main.ExecutorFrame.ScrollingFrame.LocalScript
-local function C_68()
-local script = G2L["68"];
+local function C_6b()
+local script = G2L["6b"];
 	local lua_keywords = {"and", "break", "do", "else", "elseif", "end", "false", "for", "function", "goto", "if", "in", "local", "nil", "not", "or", "repeat", "return", "then", "true", "until", "while"}
 	local global_env = {"getrawmetatable", "game", "workspace", "script", "math", "string", "table", "print", "wait", "BrickColor", "Color3", "next", "pairs", "ipairs", "select", "unpack", "Instance", "Vector2", "Vector3", "CFrame", "Ray", "UDim2", "Enum", "assert", "error", "warn", "tick", "loadstring", "_G", "shared", "getfenv", "setfenv", "newproxy", "setmetatable", "getmetatable", "os", "debug", "pcall", "ypcall", "xpcall", "rawequal", "rawset", "rawget", "tonumber", "tostring", "type", "typeof", "_VERSION", "coroutine", "delay", "require", "spawn", "LoadLibrary", "settings", "stats", "time", "UserSettings", "version", "Axes", "ColorSequence", "Faces", "ColorSequenceKeypoint", "NumberRange", "NumberSequence", "NumberSequenceKeypoint", "gcinfo", "elapsedTime", "collectgarbage", "PhysicalProperties", "Rect", "Region3", "Region3int16", "UDim", "Vector2int16", "Vector3int16"}
 	
@@ -5741,26 +5576,26 @@ local script = G2L["68"];
 	
 	
 end;
-task.spawn(C_68);
+task.spawn(C_6b);
 -- StarterGui.zerohubsigmayes.main.ExecutorFrame.Frame.ImageButton.LocalScript
-local function C_6d()
-local script = G2L["6d"];
+local function C_70()
+local script = G2L["70"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(script.Parent.Parent.Parent.ScrollingFrame.Source.Text)()
 	end)
 end;
-task.spawn(C_6d);
+task.spawn(C_70);
 -- StarterGui.zerohubsigmayes.main.ExecutorFrame.Frame.LocalScript.LocalScript
-local function C_6f()
-local script = G2L["6f"];
+local function C_72()
+local script = G2L["72"];
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.ScrollingFrame.Source.Text = ""
 	end)
 end;
-task.spawn(C_6f);
+task.spawn(C_72);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.Frame.TextBox.LocalScript
-local function C_76()
-local script = G2L["76"];
+local function C_7a()
+local script = G2L["7a"];
 	local focused = false
 	local uis = game:GetService("UserInputService")
 	
@@ -5799,34 +5634,34 @@ local script = G2L["76"];
 	
 	script.Parent.Changed:Connect(Update)
 end;
-task.spawn(C_76);
+task.spawn(C_7a);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_7b()
-local script = G2L["7b"];
+local function C_80()
+local script = G2L["80"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/v-oidd/chat-tracker/main/chat-tracker.lua"))()
 	end)
 end;
-task.spawn(C_7b);
+task.spawn(C_80);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_7e()
-local script = G2L["7e"];
+local function C_83()
+local script = G2L["83"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://scriptblox.com/script/Universal-Script-Zarar-ultimate-control-panel-use-in-any-game-for-advantage-37834"))()
 	end)
 end;
-task.spawn(C_7e);
+task.spawn(C_83);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_81()
-local script = G2L["81"];
+local function C_86()
+local script = G2L["86"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 	end)
 end;
-task.spawn(C_81);
+task.spawn(C_86);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_84()
-local script = G2L["84"];
+local function C_89()
+local script = G2L["89"];
 	script.Parent.MouseButton1Click:Connect(function()
 		--[[
 		WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
@@ -5835,131 +5670,131 @@ local script = G2L["84"];
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/samuraa1/Solara-Hub/refs/heads/main/Solara%20Hub.lua"))()
 	end)
 end;
-task.spawn(C_84);
+task.spawn(C_89);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_87()
-local script = G2L["87"];
+local function C_8c()
+local script = G2L["8c"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://scriptblox.com/script/Universal-Script-HD-Admin-Panel-34209"))()
 	end)
 end;
-task.spawn(C_87);
+task.spawn(C_8c);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_8a()
-local script = G2L["8a"];
+local function C_8f()
+local script = G2L["8f"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/BongCloudMaster/meetthegrahams/refs/heads/main/Aimbot.lua"))()
 	end)
 end;
-task.spawn(C_8a);
+task.spawn(C_8f);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_8d()
-local script = G2L["8d"];
+local function C_92()
+local script = G2L["92"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/HexFG/duckhub/refs/heads/main/loader.lua'))()
 	end)
 end;
-task.spawn(C_8d);
+task.spawn(C_92);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_90()
-local script = G2L["90"];
+local function C_95()
+local script = G2L["95"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
 	end)
 end;
-task.spawn(C_90);
+task.spawn(C_95);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_93()
-local script = G2L["93"];
+local function C_98()
+local script = G2L["98"];
 	script.Parent.MouseButton1Click:Connect(function()
 		getgenv().lastPos = true -- false/true
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/refs/heads/main/ChangeRigType"))()
 	end)
 end;
-task.spawn(C_93);
+task.spawn(C_98);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_96()
-local script = G2L["96"];
+local function C_9b()
+local script = G2L["9b"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/Nameless-Admin-No-Byfron-Kick/refs/heads/main/Source"))()
 	end)
 end;
-task.spawn(C_96);
+task.spawn(C_9b);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_99()
-local script = G2L["99"];
+local function C_9e()
+local script = G2L["9e"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/Nh7n0hdX"))()
 	end)
 end;
-task.spawn(C_99);
+task.spawn(C_9e);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_9c()
-local script = G2L["9c"];
+local function C_a1()
+local script = G2L["a1"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Cubbbe/CMD-Thingy/refs/heads/main/Quirky%20CMD"))()
 	end)
 end;
-task.spawn(C_9c);
+task.spawn(C_a1);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_9f()
-local script = G2L["9f"];
+local function C_a4()
+local script = G2L["a4"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()
 	end)
 end;
-task.spawn(C_9f);
+task.spawn(C_a4);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_a2()
-local script = G2L["a2"];
+local function C_a7()
+local script = G2L["a7"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/SimpleSpyV3/main.lua"))()
 	end)
 end;
-task.spawn(C_a2);
+task.spawn(C_a7);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_a5()
-local script = G2L["a5"];
+local function C_aa()
+local script = G2L["aa"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/infyiff/backup/main/audiologger.lua'),true))()
 	end)
 end;
-task.spawn(C_a5);
+task.spawn(C_aa);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_a8()
-local script = G2L["a8"];
+local function C_ad()
+local script = G2L["ad"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/kigredns/SanderXV4.2.2/refs/heads/main/New.lua'))()
 	end)
 end;
-task.spawn(C_a8);
+task.spawn(C_ad);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_ab()
-local script = G2L["ab"];
+local function C_b0()
+local script = G2L["b0"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/kigredns/testUIDK/refs/heads/main/panel.lua"))()
 	end)
 end;
-task.spawn(C_ab);
+task.spawn(C_b0);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_ae()
-local script = G2L["ae"];
+local function C_b3()
+local script = G2L["b3"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/kigredns/NeonDuplicator/refs/heads/main/Script.lua"))()
 	end)
 end;
-task.spawn(C_ae);
+task.spawn(C_b3);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_b1()
-local script = G2L["b1"];
+local function C_b6()
+local script = G2L["b6"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/wBsi24w3'))()
 	end)
 end;
-task.spawn(C_b1);
+task.spawn(C_b6);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_b4()
-local script = G2L["b4"];
+local function C_b9()
+local script = G2L["b9"];
 	script.Parent.MouseButton1Click:Connect(function()
 		--[[
 		WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
@@ -5969,26 +5804,26 @@ local script = G2L["b4"];
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Emircxy/Lear/refs/heads/main/Lear%20Hub"))()
 	end)
 end;
-task.spawn(C_b4);
+task.spawn(C_b9);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_b7()
-local script = G2L["b7"];
+local function C_bc()
+local script = G2L["bc"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeyocutgHAH12/FEEGGEG/refs/heads/main/%5BFE%5D%20Energize%20Animation%20Gui.txt"))()
 	end)
 end;
-task.spawn(C_b7);
+task.spawn(C_bc);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_ba()
-local script = G2L["ba"];
+local function C_bf()
+local script = G2L["bf"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/KmnvvyC9"))()
 	end)
 end;
-task.spawn(C_ba);
+task.spawn(C_bf);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_bd()
-local script = G2L["bd"];
+local function C_c2()
+local script = G2L["c2"];
 	script.Parent.MouseButton1Click:Connect(function()
 		for i,v in pairs(game.Players.LocalPlayer:FindFirstChildOfClass("Backpack"):GetChildren()) do
 			if v:IsA("Tool") or v:IsA("HopperBin") then
@@ -5997,50 +5832,50 @@ local script = G2L["bd"];
 		end
 	end)
 end;
-task.spawn(C_bd);
+task.spawn(C_c2);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_c0()
-local script = G2L["c0"];
+local function C_c5()
+local script = G2L["c5"];
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid'):UnequipTools()
 	end)
 end;
-task.spawn(C_c0);
+task.spawn(C_c5);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_c3()
-local script = G2L["c3"];
+local function C_c8()
+local script = G2L["c8"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/refs/heads/main/Brookhaven%20R4D%20Script"))()
 	end)
 end;
-task.spawn(C_c3);
+task.spawn(C_c8);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_c6()
-local script = G2L["c6"];
+local function C_cb()
+local script = G2L["cb"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/dnezero/projectdnezquickpanel1/refs/heads/main/main.lua"))()
 	end)
 end;
-task.spawn(C_c6);
+task.spawn(C_cb);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_c9()
-local script = G2L["c9"];
+local function C_ce()
+local script = G2L["ce"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))()
 	end)
 end;
-task.spawn(C_c9);
+task.spawn(C_ce);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_cc()
-local script = G2L["cc"];
+local function C_d1()
+local script = G2L["d1"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
 	end)
 end;
-task.spawn(C_cc);
+task.spawn(C_d1);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_cf()
-local script = G2L["cf"];
+local function C_d4()
+local script = G2L["d4"];
 	script.Parent.MouseButton1Click:Connect(function()
 		--[[
 		WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
@@ -6058,75 +5893,75 @@ local script = G2L["cf"];
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ocfi/Choose-ARt-able-remove/main/wassdaadwasda"))()
 	end)
 end;
-task.spawn(C_cf);
+task.spawn(C_d4);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_d2()
-local script = G2L["d2"];
+local function C_d7()
+local script = G2L["d7"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/AZVi2tuK"))()
 	end)
 end;
-task.spawn(C_d2);
+task.spawn(C_d7);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_d5()
-local script = G2L["d5"];
+local function C_da()
+local script = G2L["da"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/AZVi2tuK"))()
 	end)
 end;
-task.spawn(C_d5);
+task.spawn(C_da);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_d8()
-local script = G2L["d8"];
+local function C_dd()
+local script = G2L["dd"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Click%20Teleport.txt"))()
 	end)
 end;
-task.spawn(C_d8);
+task.spawn(C_dd);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_db()
-local script = G2L["db"];
+local function C_e0()
+local script = G2L["e0"];
 	script.Parent.MouseButton1Click:Connect(function()
 		pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/projecter94/ECP/refs/heads/main/Everage%20Control%20Panel"))() 
 		end)
 	end)
 end;
-task.spawn(C_db);
+task.spawn(C_e0);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_de()
-local script = G2L["de"];
+local function C_e3()
+local script = G2L["e3"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()
 	end)
 end;
-task.spawn(C_de);
+task.spawn(C_e3);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_e1()
-local script = G2L["e1"];
+local function C_e6()
+local script = G2L["e6"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Guerric9018/chatbothub/refs/heads/main/ChatbotHub.lua",true))()
 	end)
 end;
-task.spawn(C_e1);
+task.spawn(C_e6);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_e4()
-local script = G2L["e4"];
+local function C_e9()
+local script = G2L["e9"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Artss1/Flades_Hub/refs/heads/main/We%20Are%20Arts.lua"))()
 	end)
 end;
-task.spawn(C_e4);
+task.spawn(C_e9);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_e7()
-local script = G2L["e7"];
+local function C_ec()
+local script = G2L["ec"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/deadrailsui.github.io/refs/heads/main/RINGTA.LUA"))()
 	end)
 end;
-task.spawn(C_e7);
+task.spawn(C_ec);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_ea()
-local script = G2L["ea"];
+local function C_ef()
+local script = G2L["ef"];
 	script.Parent.MouseButton1Click:Connect(function()
 		getgenv().sUNCDebug = {
 			["printcheckpoints"] = false,
@@ -6136,284 +5971,284 @@ local script = G2L["ea"];
 		loadstring(game:HttpGet("https://script.sunc.su/"))()
 	end)
 end;
-task.spawn(C_ea);
+task.spawn(C_ef);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_ed()
-local script = G2L["ed"];
+local function C_f2()
+local script = G2L["f2"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/GrowaGarden", true))()
 	end)
 end;
-task.spawn(C_ed);
+task.spawn(C_f2);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_f0()
-local script = G2L["f0"];
+local function C_f5()
+local script = G2L["f5"];
 	script.Parent.MouseButton1Click:Connect(function()
 		getgenv().ultimate_bond = true
 		loadstring(game:HttpGet("https://get.nathub.xyz/loader"))();
 	end)
 end;
-task.spawn(C_f0);
+task.spawn(C_f5);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_f3()
-local script = G2L["f3"];
+local function C_f8()
+local script = G2L["f8"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Winnable-Hub/Loader/refs/heads/main/Loader.Lua"))()
 	end)
 end;
-task.spawn(C_f3);
+task.spawn(C_f8);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_f6()
-local script = G2L["f6"];
+local function C_fb()
+local script = G2L["fb"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/8mS6AQHx"))()
 	end)
 end;
-task.spawn(C_f6);
+task.spawn(C_fb);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_f9()
-local script = G2L["f9"];
+local function C_fe()
+local script = G2L["fe"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://gitlab.com/L1ZOT/mango-hub/-/raw/main/Mango-Bloxf-Fruits-Beta"))()
 	end)
 end;
-task.spawn(C_f9);
+task.spawn(C_fe);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_fc()
-local script = G2L["fc"];
+local function C_101()
+local script = G2L["101"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/WcWLWNXM"))()
 	end)
 end;
-task.spawn(C_fc);
+task.spawn(C_101);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_ff()
-local script = G2L["ff"];
+local function C_104()
+local script = G2L["104"];
 	script.Parent.MouseButton1Click:Connect(function()
 		-- SO OP!  USE IT WHILE IT WORKS ONLY IN BROOKHAVEN
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/kigredns/Flame-Object/refs/heads/main/script.lua"))()
 	end)
 end;
-task.spawn(C_ff);
+task.spawn(C_104);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_102()
-local script = G2L["102"];
+local function C_107()
+local script = G2L["107"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/fQ0vAQvr'))()
 	end)
 end;
-task.spawn(C_102);
+task.spawn(C_107);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_105()
-local script = G2L["105"];
+local function C_10a()
+local script = G2L["10a"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://rohub.gg/script"))()
 	end)
 end;
-task.spawn(C_105);
+task.spawn(C_10a);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_108()
-local script = G2L["108"];
+local function C_10d()
+local script = G2L["10d"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
 	end)
 end;
-task.spawn(C_108);
+task.spawn(C_10d);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_10b()
-local script = G2L["10b"];
+local function C_110()
+local script = G2L["110"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4f5c7bbe546251d81e9d3554b109008f.lua"))()
 	end)
 end;
-task.spawn(C_10b);
+task.spawn(C_110);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_10e()
-local script = G2L["10e"];
+local function C_113()
+local script = G2L["113"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
 	end)
 end;
-task.spawn(C_10e);
+task.spawn(C_113);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_111()
-local script = G2L["111"];
+local function C_116()
+local script = G2L["116"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/MiRw3b/c00lgui-v3rx/refs/heads/main/c00lguiv3rx.lua'))()
 	end)
 end;
-task.spawn(C_111);
+task.spawn(C_116);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_114()
-local script = G2L["114"];
+local function C_119()
+local script = G2L["119"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/inkdupe/hat-scripts/refs/heads/main/updatedhathub.lua"))()
 	end)
 end;
-task.spawn(C_114);
+task.spawn(C_119);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_117()
-local script = G2L["117"];
+local function C_11c()
+local script = G2L["11c"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/StealaBrainrot"))()
 	end)
 end;
-task.spawn(C_117);
+task.spawn(C_11c);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_11a()
-local script = G2L["11a"];
+local function C_11f()
+local script = G2L["11f"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/m00ndiety/Steal-a-brainrot/refs/heads/main/Steal-a-Brainrot'))()
 	end)
 end;
-task.spawn(C_11a);
+task.spawn(C_11f);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_11d()
-local script = G2L["11d"];
+local function C_122()
+local script = G2L["122"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/egor2078f/lurkhackv4/refs/heads/main/main.lua", true))()
 	end)
 end;
-task.spawn(C_11d);
+task.spawn(C_122);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_120()
-local script = G2L["120"];
+local function C_125()
+local script = G2L["125"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ayvathion/AV-On-Top/refs/heads/main/Loader.lua"))()
 	end)
 end;
-task.spawn(C_120);
+task.spawn(C_125);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_123()
-local script = G2L["123"];
+local function C_128()
+local script = G2L["128"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("pastebin.com/raw/HFx6faQY"))()
 	end)
 end;
-task.spawn(C_123);
+task.spawn(C_128);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_126()
-local script = G2L["126"];
+local function C_12b()
+local script = G2L["12b"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Qiwikox12/stubrawl/refs/heads/main/StealaBrainrot.txt"))()
 	end)
 end;
-task.spawn(C_126);
+task.spawn(C_12b);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_129()
-local script = G2L["129"];
+local function C_12e()
+local script = G2L["12e"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7d8a2a1a9a562a403b52532e58a14065.lua"))()
 	end)
 end;
-task.spawn(C_129);
+task.spawn(C_12e);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_12c()
-local script = G2L["12c"];
+local function C_131()
+local script = G2L["131"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/yue-os/script/refs/heads/main/Y-Hub"))()
 	end)
 end;
-task.spawn(C_12c);
+task.spawn(C_131);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_12f()
-local script = G2L["12f"];
+local function C_134()
+local script = G2L["134"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/ThundarZ/Welcome/refs/heads/main/Main/GaG/Main.lua'))()
 	end)
 end;
-task.spawn(C_12f);
+task.spawn(C_134);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_132()
-local script = G2L["132"];
+local function C_137()
+local script = G2L["137"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/frvaunted/Main/refs/heads/main/Alter%20Hub'))()
 	end)
 end;
-task.spawn(C_132);
+task.spawn(C_137);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_135()
-local script = G2L["135"];
+local function C_13a()
+local script = G2L["13a"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/MoziIOnTop/MoziIHub/refs/heads/main/GrowaGarden"))()
 	end)
 end;
-task.spawn(C_135);
+task.spawn(C_13a);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_138()
-local script = G2L["138"];
+local function C_13d()
+local script = G2L["13d"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://pandahub.website/scripts/loader.lua'))()
 	end)
 end;
-task.spawn(C_138);
+task.spawn(C_13d);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_13b()
-local script = G2L["13b"];
+local function C_140()
+local script = G2L["140"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/sudaisontopxd/PanScriptXSudaisScript/refs/heads/main/PhantFluxReal.lua"))()
 	end)
 end;
-task.spawn(C_13b);
+task.spawn(C_140);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_13e()
-local script = G2L["13e"];
+local function C_143()
+local script = G2L["143"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Loolybooly/TheVaultScripts/refs/heads/main/FullScript"))()
 	end)
 end;
-task.spawn(C_13e);
+task.spawn(C_143);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_141()
-local script = G2L["141"];
+local function C_146()
+local script = G2L["146"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/255ac567ced3dcb9e69aa7e44c423f19.lua"))()
 	end)
 end;
-task.spawn(C_141);
+task.spawn(C_146);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_144()
-local script = G2L["144"];
+local function C_149()
+local script = G2L["149"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/dhiosetia/kuncicoconew1/refs/heads/main/README.md"))()
 	end)
 end;
-task.spawn(C_144);
+task.spawn(C_149);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_147()
-local script = G2L["147"];
+local function C_14c()
+local script = G2L["14c"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/SlamminPig/rblxgames/main/Epic%20Minigames/EpicMinigamesGUI"))()
 	end)
 end;
-task.spawn(C_147);
+task.spawn(C_14c);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_14a()
-local script = G2L["14a"];
+local function C_14f()
+local script = G2L["14f"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua"))()
 	end)
 end;
-task.spawn(C_14a);
+task.spawn(C_14f);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_14d()
-local script = G2L["14d"];
+local function C_152()
+local script = G2L["152"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/game/refs/heads/main/TbaoHubNightintheForest"))()
 	end)
 end;
-task.spawn(C_14d);
+task.spawn(C_152);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.ScrollingFrame.TextButton.LocalScript
-local function C_150()
-local script = G2L["150"];
+local function C_155()
+local script = G2L["155"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastefy.app/OlFXP0sR/raw"))()
 	end)
 end;
-task.spawn(C_150);
+task.spawn(C_155);
 -- StarterGui.zerohubsigmayes.main.ScriptsFrame.TextLabel.LocalScript
-local function C_152()
-local script = G2L["152"];
+local function C_157()
+local script = G2L["157"];
 	local scrollingFrame = script.Parent.Parent.ScrollingFrame
 	local textLabel = script.Parent
 	
@@ -6441,10 +6276,10 @@ local script = G2L["152"];
 		end
 	end
 end;
-task.spawn(C_152);
+task.spawn(C_157);
 -- StarterGui.zerohubsigmayes.main.BugreportFrame.TextButton.LocalScript
-local function C_15f()
-local script = G2L["15f"];
+local function C_164()
+local script = G2L["164"];
 	script.Parent.MouseButton1Click:Connect(function()
 		local DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1399376271661596712/pikwwtbPCWXl38m-7jiao97URFasRy2JO9HyW0lvOJuzbLijm43l8SjRsG-H5nxLwtNK"
 	
@@ -6476,16 +6311,16 @@ local script = G2L["15f"];
 		script.Parent.Parent.desc.Text = "Thank you for reporting those issues to us. We will do our best to solve them as soon as possible to grant a better experience for everyone! 😊"
 	end)
 end;
-task.spawn(C_15f);
+task.spawn(C_164);
 -- StarterGui.zerohubsigmayes.main.BugreportFrame.TextButton.LocalScript
-local function C_160()
-local script = G2L["160"];
+local function C_165()
+local script = G2L["165"];
 	
 end;
-task.spawn(C_160);
+task.spawn(C_165);
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.Element.LocalScript
-local function C_16c()
-local script = G2L["16c"];
+local function C_171()
+local script = G2L["171"];
 	local ts,ti = game.TweenService,TweenInfo.new(.5,Enum.EasingStyle.Quint)
 	
 	local on1,on2,off1,off2 = ts:Create(script.Parent.Fill,ti,{ImageTransparency=0}), ts:Create(script.Parent.Knob,ti,{Position=UDim2.new(1,-39,.5,0)}),ts:Create(script.Parent.Fill,ti,{ImageTransparency=1}), ts:Create(script.Parent.Knob,ti,{Position=UDim2.new(0,-3,.5,0)})
@@ -6518,60 +6353,60 @@ local script = G2L["16c"];
 		end
 	end)
 end;
-task.spawn(C_16c);
+task.spawn(C_171);
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.Frame.Frame.TextButton.LocalScript
-local function C_179()
-local script = G2L["179"];
+local function C_17e()
+local script = G2L["17e"];
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Transparency = 0
 		script.Parent.Parent.Parent.Parent.Text = "0%"
 		script.Parent.Parent.Parent.Visible = false
 	end)
 end;
-task.spawn(C_179);
+task.spawn(C_17e);
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.Frame.Frame.TextButton.LocalScript
-local function C_17b()
-local script = G2L["17b"];
+local function C_180()
+local script = G2L["180"];
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Transparency = 0.1
 		script.Parent.Parent.Parent.Parent.Text = "10%"
 		script.Parent.Parent.Parent.Visible = false
 	end)
 end;
-task.spawn(C_17b);
+task.spawn(C_180);
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.Frame.Frame.TextButton.LocalScript
-local function C_17d()
-local script = G2L["17d"];
+local function C_182()
+local script = G2L["182"];
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Transparency = 0.2
 		script.Parent.Parent.Parent.Parent.Text = "20%"
 		script.Parent.Parent.Parent.Visible = false
 	end)
 end;
-task.spawn(C_17d);
+task.spawn(C_182);
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.Frame.Frame.TextButton.LocalScript
-local function C_17f()
-local script = G2L["17f"];
+local function C_184()
+local script = G2L["184"];
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Transparency = 0.3
 		script.Parent.Parent.Parent.Parent.Text = "30%"
 		script.Parent.Parent.Parent.Visible = false
 	end)
 end;
-task.spawn(C_17f);
+task.spawn(C_184);
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.Frame.Frame.TextButton.LocalScript
-local function C_181()
-local script = G2L["181"];
+local function C_186()
+local script = G2L["186"];
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Transparency = 0.4
 		script.Parent.Parent.Parent.Parent.Text = "40%"
 		script.Parent.Parent.Parent.Visible = false
 	end)
 end;
-task.spawn(C_181);
+task.spawn(C_186);
 -- StarterGui.zerohubsigmayes.main.CreditsFrame.ScrollingFrame.Frame.TextButton.LocalScript
-local function C_182()
-local script = G2L["182"];
+local function C_187()
+local script = G2L["187"];
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Frame.Visible == true then
 			script.Parent.Frame.Visible = false
@@ -6580,10 +6415,10 @@ local script = G2L["182"];
 		end
 	end)
 end;
-task.spawn(C_182);
+task.spawn(C_187);
 -- StarterGui.zerohubsigmayes.main.keysystem.LocalScript
-local function C_18a()
-local script = G2L["18a"];
+local function C_18f()
+local script = G2L["18f"];
 	local function checkifpremiumyesyes()
 		local Players = game:GetService("Players")
 		local localPlayerName = Players.LocalPlayer.Name
@@ -6607,10 +6442,10 @@ local script = G2L["18a"];
 	wait(0.1)
 	checkifpremiumyesyes()
 end;
-task.spawn(C_18a);
+task.spawn(C_18f);
 -- StarterGui.zerohubsigmayes.main.keysystem.TextButton.LocalScript
-local function C_192()
-local script = G2L["192"];
+local function C_197()
+local script = G2L["197"];
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Parent.input.TextBox.Text == "zerohub-r0932ir90it90icjnwmfnc3290e2i3eig0igoksjfmdnvm,cxnv239e02ei209i" then
 			script.Parent.Parent.Visible = false
@@ -6621,48 +6456,48 @@ local script = G2L["192"];
 		end
 	end)
 end;
-task.spawn(C_192);
+task.spawn(C_197);
 -- StarterGui.zerohubsigmayes.main.keysystem.TextButton.LocalScript
-local function C_195()
-local script = G2L["195"];
+local function C_19a()
+local script = G2L["19a"];
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.PremiumFrame.Visible = true
 	end)
 end;
-task.spawn(C_195);
+task.spawn(C_19a);
 -- StarterGui.zerohubsigmayes.main.keysystem.PremiumFrame.ImageButton.LocalScript
-local function C_198()
-local script = G2L["198"];
+local function C_19d()
+local script = G2L["19d"];
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end;
-task.spawn(C_198);
+task.spawn(C_19d);
 -- StarterGui.zerohubsigmayes.main.keysystem.PremiumFrame.TextButton.LocalScript
-local function C_19d()
-local script = G2L["19d"];
+local function C_1a2()
+local script = G2L["1a2"];
 	script.Parent.MouseButton1Click:Connect(function()
 		setclipboard("https://discord.gg/xdnZtBypey")
 	end)
 end;
-task.spawn(C_19d);
+task.spawn(C_1a2);
 -- StarterGui.zerohubsigmayes.main.keysystem.TextButton.LocalScript
-local function C_1a0()
-local script = G2L["1a0"];
+local function C_1a5()
+local script = G2L["1a5"];
 	script.Parent.MouseButton1Click:Connect(function()
 		setclipboard("https://discord.gg/Ufcura4QC8")
 	end)
 end;
-task.spawn(C_1a0);
+task.spawn(C_1a5);
 -- StarterGui.zerohubsigmayes.main.keysystem.LocalScript
-local function C_1a1()
-local script = G2L["1a1"];
+local function C_1a6()
+local script = G2L["1a6"];
 	script.Parent.Visible = false
 end;
-task.spawn(C_1a1);
+task.spawn(C_1a6);
 -- StarterGui.zerohubsigmayes.main.Frame.ImageButton.LocalScript
-local function C_1a7()
-local script = G2L["1a7"];
+local function C_1ac()
+local script = G2L["1ac"];
 	script.Parent.MouseButton1Click:Connect(function()
 		local plr = game:GetService("Players").LocalPlayer
 	
@@ -7596,70 +7431,70 @@ local script = G2L["1a7"];
 		end)
 	end)
 end;
-task.spawn(C_1a7);
+task.spawn(C_1ac);
 -- StarterGui.zerohubsigmayes.main.Frame.ImageButton.LocalScript
-local function C_1a9()
-local script = G2L["1a9"];
+local function C_1ae()
+local script = G2L["1ae"];
 	script.Parent.MouseButton1Click:Connect(function()
 		setclipboard("https://discord.gg/C4dkz9NhV9")
 	end)
 end;
-task.spawn(C_1a9);
+task.spawn(C_1ae);
 -- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.TextButton.LocalScript
-local function C_1bb()
-local script = G2L["1bb"];
+local function C_1c0()
+local script = G2L["1c0"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 	end)
 end;
-task.spawn(C_1bb);
+task.spawn(C_1c0);
 -- StarterGui.zerohubsigmayes.main.HomeFrame.Frame.ScrollingFrame.TextLabel.LocalScript
-local function C_1c5()
-local script = G2L["1c5"];
+local function C_1ca()
+local script = G2L["1ca"];
 	script.Parent.Text = game:HttpGet("https://raw.githubusercontent.com/dnezero/zerohub/refs/heads/main/news.txt")
 end;
-task.spawn(C_1c5);
+task.spawn(C_1ca);
 -- StarterGui.zerohubsigmayes.main.HomeFrame.ProfileAvatarContainer.PlayerImage.LocalScript
-local function C_1ce()
-local script = G2L["1ce"];
+local function C_1d3()
+local script = G2L["1d3"];
 	local Players = game:GetService("Players")
 	local player = Players.LocalPlayer
 	local imagelabel = script.Parent
 	imagelabel.Image = Players:GetUserThumbnailAsync(player.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size420x420)
 end;
-task.spawn(C_1ce);
+task.spawn(C_1d3);
 -- StarterGui.zerohubsigmayes.main.HomeFrame.ProfileAvatarContainer.PlayerName.LocalScript
-local function C_1d0()
-local script = G2L["1d0"];
+local function C_1d5()
+local script = G2L["1d5"];
 	script.Parent.Text = game.Players.LocalPlayer.DisplayName
 end;
-task.spawn(C_1d0);
+task.spawn(C_1d5);
 -- StarterGui.zerohubsigmayes.main.HomeFrame.ProfileAvatarContainer.lel.LocalScript
-local function C_1d2()
-local script = G2L["1d2"];
+local function C_1d7()
+local script = G2L["1d7"];
 	script.Parent.Text = "@" .. game.Players.LocalPlayer.Name
 end;
-task.spawn(C_1d2);
+task.spawn(C_1d7);
 -- StarterGui.zerohubsigmayes.main.ImageButton.LocalScript
-local function C_1d6()
-local script = G2L["1d6"];
+local function C_1db()
+local script = G2L["1db"];
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end;
-task.spawn(C_1d6);
+task.spawn(C_1db);
 -- StarterGui.zerohubsigmayes.main.ImageButton.LocalScript
-local function C_1d8()
-local script = G2L["1d8"];
+local function C_1dd()
+local script = G2L["1dd"];
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 		script.Parent.Parent.Parent.ImageButton.Visible = true
 	end)
 end;
-task.spawn(C_1d8);
+task.spawn(C_1dd);
 -- StarterGui.zerohubsigmayes.main.LocalScript
-local function C_1dc()
-local script = G2L["1dc"];
+local function C_1e1()
+local script = G2L["1e1"];
 	--!strict
 	
 	local frame = script.Parent :: Frame -- The frame this script is inside
@@ -7739,10 +7574,10 @@ local script = G2L["1dc"];
 	-- You'll need to create or find a blurred image of your game world/background
 	-- and upload it to Roblox, then paste its asset ID here.
 end;
-task.spawn(C_1dc);
+task.spawn(C_1e1);
 -- StarterGui.zerohubsigmayes.LocalScript
-local function C_1dd()
-local script = G2L["1dd"];
+local function C_1e2()
+local script = G2L["1e2"];
 	--[[
 	    zeroGPT - The "Back to Basics" Bulletproof Script
 	    By: Aurora AI & Dnezero
@@ -7844,16 +7679,16 @@ local script = G2L["1dd"];
 	sendButton.MouseButton1Click:Connect(processRequest)
 	inputBox.FocusLost:Connect(function(enterPressed) if enterPressed then processRequest() end end)
 end;
-task.spawn(C_1dd);
+task.spawn(C_1e2);
 -- StarterGui.zerohubsigmayes.LocalScript
-local function C_1de()
-local script = G2L["1de"];
+local function C_1e3()
+local script = G2L["1e3"];
 	script.Parent.DisplayOrder = 1000000
 end;
-task.spawn(C_1de);
+task.spawn(C_1e3);
 -- StarterGui.zerohubsigmayes.LocalScript
-local function C_1df()
-local script = G2L["1df"];
+local function C_1e4()
+local script = G2L["1e4"];
 	local raw = game:HttpGet("https://raw.githubusercontent.com/dnezero/zerohub/main/blacklisted.txt")
 	
 	-- Clean string and turn it into a proper Lua table
@@ -7869,19 +7704,19 @@ local script = G2L["1df"];
 	end
 	
 end;
-task.spawn(C_1df);
+task.spawn(C_1e4);
 -- StarterGui.zerohubsigmayes.ImageButton.LocalScript
-local function C_1e2()
-local script = G2L["1e2"];
+local function C_1e7()
+local script = G2L["1e7"];
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.main.Visible = true
 		script.Parent.Visible = false
 	end)
 end;
-task.spawn(C_1e2);
+task.spawn(C_1e7);
 -- StarterGui.zerohubsigmayes.performancestats.LocalScript
-local function C_1e4()
-local script = G2L["1e4"];
+local function C_1e9()
+local script = G2L["1e9"];
 	--!strict
 	
 	-- Ottiene un riferimento all'etichetta di testo (TextLabel) che questo script è figlio di.
@@ -8060,6 +7895,6 @@ local script = G2L["1e4"];
 	end
 	
 end;
-task.spawn(C_1e4);
+task.spawn(C_1e9);
 
 return G2L["1"], require;
